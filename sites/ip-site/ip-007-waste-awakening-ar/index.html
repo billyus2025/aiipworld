@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ar] 废物少爷觉醒至尊血脉 | Official Universe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Orbitron', 'sans-serif'],
+                    },
+                    colors: {
+                        cyber: {
+                            cyan: '#00f3ff',
+                            pink: '#ff00ff',
+                            purple: '#bc13fe',
+                            dark: '#050505',
+                            glass: 'rgba(255, 255, 255, 0.05)'
+                        }
+                    },
+                    boxShadow: {
+                        'neon-cyan': '0 0 10px #00f3ff, 0 0 20px #00f3ff',
+                        'neon-pink': '0 0 10px #ff00ff, 0 0 20px #ff00ff',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-panel {
+            background: rgba(10, 10, 10, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .text-glow {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .clip-corner {
+            clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%);
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #000;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+    </style>
+</head>
+
+<body class="bg-cyber-dark text-white overflow-x-hidden selection:bg-cyber-cyan selection:text-black">
+
+    <!-- HERO SECTION -->
+    <section class="relative h-screen w-full overflow-hidden flex items-center justify-center">
+        <!-- Video Background -->
+        <div class="absolute inset-0 z-0">
+            <div class="absolute inset-0 bg-gradient-to-t from-cyber-dark via-cyber-dark/60 to-transparent z-10"></div>
+            <div class="absolute inset-0 bg-black/30 z-10"></div>
+            <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-60"><source src="https://assets.mixkit.co/videos/preview/mixkit-futuristic-city-traffic-at-night-34565-large.mp4" type="video/mp4"></video>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="relative z-20 text-center px-6 max-w-6xl mx-auto space-y-8">
+            <div
+                class="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-cyber-cyan/30 bg-cyber-cyan/10 backdrop-blur-md animate-pulse">
+                <span class="w-2 h-2 rounded-full bg-cyber-cyan shadow-neon-cyan"></span>
+                <span class="text-cyber-cyan text-xs font-display tracking-widest uppercase">Official Universe
+                    V2.0</span>
+            </div>
+
+            <h1
+                class="text-7xl md:text-9xl font-display font-black tracking-tighter text-transparent bg-clip-text bg-gradient-to-b from-white to-gray-400 text-glow leading-none">
+                [ar] 废物少爷觉醒至尊血脉
+            </h1>
+
+            <p
+                class="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed tracking-wide border-l-2 border-cyber-pink pl-6 text-left md:text-center md:border-l-0 md:pl-0">
+                [ar] 家族弃子觉醒上古至尊血脉，三十年河东三十年河西，莫欺少年穷！
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-6 justify-center items-center pt-10">
+                <a href="#pillars"
+                    class="group relative px-10 py-4 bg-cyber-pink hover:bg-fuchsia-600 text-white font-display font-bold text-lg clip-corner transition-all duration-300 shadow-neon-pink hover:scale-105">
+                    START THE JOURNEY
+                </a>
+                <a href="#universe"
+                    class="group relative px-10 py-4 bg-transparent border border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan/10 font-display font-bold text-lg clip-corner transition-all duration-300 hover:shadow-neon-cyan">
+                    EXPLORE UNIVERSE
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div
+            class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-50 animate-bounce">
+            <span class="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
+            <div class="w-[1px] h-12 bg-gradient-to-b from-white to-transparent"></div>
+        </div>
+    </section>
+
+    <!-- IP STATS -->
+    <section class="relative z-30 -mt-24 px-4 max-w-7xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <!-- Stat 1 -->
+            <div class="glass-panel p-6 rounded-xl hover:border-cyber-cyan/50 transition duration-500 group">
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-cyan transition mb-1">
+                    10
+                </div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Global Languages</div>
+            </div>
+            <!-- Stat 2 -->
+            <div class="glass-panel p-6 rounded-xl hover:border-cyber-pink/50 transition duration-500 group">
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-pink transition mb-1">
+                    1M+
+                </div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Active Readers</div>
+            </div>
+            <!-- Stat 3 -->
+            <div class="glass-panel p-6 rounded-xl hover:border-cyber-purple/50 transition duration-500 group">
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-purple transition mb-1">
+                    3
+                </div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Media Adaptations</div>
+            </div>
+            <!-- Stat 4 -->
+            <div class="glass-panel p-6 rounded-xl hover:border-white/50 transition duration-500 group">
+                <div class="text-4xl font-display font-bold text-white group-hover:text-gray-200 transition mb-1">4.9/5
+                </div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Fan Rating</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOUR PILLARS -->
+    <section id="pillars" class="py-32 px-4 relative overflow-hidden">
+        <!-- Background Elements -->
+        <div class="absolute top-1/4 left-0 w-96 h-96 bg-cyber-purple/20 rounded-full blur-[120px] -z-10"></div>
+        <div class="absolute bottom-1/4 right-0 w-96 h-96 bg-cyber-cyan/20 rounded-full blur-[120px] -z-10"></div>
+
+        <div class="max-w-7xl mx-auto space-y-40">
+
+            <!-- 1. NOVEL -->
+            <div class="flex flex-col lg:flex-row items-center gap-20 group">
+                <div class="w-full lg:w-1/2 relative perspective-1000">
+                    <div
+                        class="absolute -inset-4 bg-gradient-to-r from-cyber-cyan to-blue-600 rounded-xl blur-xl opacity-30 group-hover:opacity-60 transition duration-700">
+                    </div>
+                    <div
+                        class="relative transform group-hover:rotate-y-6 transition duration-700 ease-out shadow-2xl rounded-lg overflow-hidden border border-white/10">
+                        <img src="https://via.placeholder.com/600x900/111/333?text=Novel+Cover" class="w-full h-full object-cover" alt="Novel Cover">
+                    </div>
+                    <!-- Decorative elements -->
+                    <div
+                        class="absolute -bottom-6 -right-6 w-24 h-24 border-b-2 border-r-2 border-cyber-cyan/50 rounded-br-xl">
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-8">
+                    <div class="flex items-center gap-4">
+                        <span class="text-6xl text-white/10 font-display font-bold">01</span>
+                        <div class="h-[1px] flex-1 bg-gradient-to-r from-cyber-cyan/50 to-transparent"></div>
+                    </div>
+                    <h2 class="text-5xl font-display font-bold text-white">The Original <span
+                            class="text-cyber-cyan text-glow">Novel</span></h2>
+                    <p class="text-gray-400 text-lg leading-relaxed font-light">
+                        Immerse yourself in the text that started it all. Experience the depth of the world building and
+                        the internal monologues of the characters in a format that transcends time.
+                    </p>
+                    <a href="/novel-site-ar/ip-007-waste-awakening-novel-ar/index.html"
+                        class="inline-flex items-center gap-3 text-cyber-cyan hover:text-white transition group/link">
+                        <span class="uppercase tracking-widest font-bold text-sm">Read Now</span>
+                        <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 2. COMIC -->
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-20 group">
+                <div class="w-full lg:w-1/2 relative">
+                    <div
+                        class="absolute -inset-4 bg-gradient-to-r from-cyber-pink to-purple-600 rounded-xl blur-xl opacity-30 group-hover:opacity-60 transition duration-700">
+                    </div>
+                    <div class="relative glass-panel p-2 rounded-xl border border-white/10">
+                        <div class="flex space-x-4 overflow-x-auto pb-4 hide-scrollbar snap-x">
+                            <div
+    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
+    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+1" class="w-full h-full object-cover" alt="Panel 1">
+</div><div
+    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
+    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+2" class="w-full h-full object-cover" alt="Panel 2">
+</div><div
+    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
+    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+3" class="w-full h-full object-cover" alt="Panel 3">
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-8 text-right lg:text-left">
+                    <!-- Text alignment adjusted for reverse layout on desktop? Actually keep left align for text usually looks better, but let's follow the alternating pattern visually -->
+                    <div class="flex items-center gap-4 lg:flex-row-reverse">
+                        <span class="text-6xl text-white/10 font-display font-bold">02</span>
+                        <div
+                            class="h-[1px] flex-1 bg-gradient-to-l lg:bg-gradient-to-r from-cyber-pink/50 to-transparent">
+                        </div>
+                    </div>
+                    <h2 class="text-5xl font-display font-bold text-white lg:text-right">Visual <span
+                            class="text-cyber-pink text-glow">Comic</span> Adaptation</h2>
+                    <p class="text-gray-400 text-lg leading-relaxed font-light lg:text-right">
+                        See the world come to life in stunning full-color panels. Action, emotion, and spectacle in
+                        every scroll.
+                    </p>
+                    <div class="flex lg:justify-end">
+                        <a href="/comic-site-ar/ip-007-waste-awakening-comic-ar/index.html"
+                            class="inline-flex items-center gap-3 text-cyber-pink hover:text-white transition group/link">
+                            <span class="uppercase tracking-widest font-bold text-sm">Start Reading</span>
+                            <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3. DRAMA -->
+            <div class="flex flex-col lg:flex-row items-center gap-20 group">
+                <div class="w-full lg:w-1/2 relative">
+                    <div
+                        class="absolute -inset-4 bg-gradient-to-r from-red-500 to-orange-600 rounded-xl blur-xl opacity-20 group-hover:opacity-50 transition duration-700">
+                    </div>
+                    <div class="relative glass-panel rounded-xl overflow-hidden border border-white/10">
+                        <div class="max-h-[400px] overflow-y-auto custom-scrollbar">
+                            <div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+    <div
+        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
+        ▶</div>
+    <div class="ml-4">
+        <div class="text-white font-bold group-hover:text-red-400">Episode 1: The Beginning</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+    <div
+        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
+        ▶</div>
+    <div class="ml-4">
+        <div class="text-white font-bold group-hover:text-red-400">Episode 2: The Conflict</div>
+        <div class="text-xs text-gray-500">22 min</div>
+    </div>
+</div><div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+    <div
+        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
+        ▶</div>
+    <div class="ml-4">
+        <div class="text-white font-bold group-hover:text-red-400">Episode 3: The Climax</div>
+        <div class="text-xs text-gray-500">25 min</div>
+    </div>
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-8">
+                    <div class="flex items-center gap-4">
+                        <span class="text-6xl text-white/10 font-display font-bold">03</span>
+                        <div class="h-[1px] flex-1 bg-gradient-to-r from-red-500/50 to-transparent"></div>
+                    </div>
+                    <h2 class="text-5xl font-display font-bold text-white">Live Action <span
+                            class="text-red-500 text-glow">Drama</span></h2>
+                    <p class="text-gray-400 text-lg leading-relaxed font-light">
+                        Experience the emotional journey with our award-winning cast. High production value meets
+                        gripping storytelling.
+                    </p>
+                    <a href="/drama-site-ar/ip-007-waste-awakening-drama-ar/index.html"
+                        class="inline-flex items-center gap-3 text-red-500 hover:text-white transition group/link">
+                        <span class="uppercase tracking-widest font-bold text-sm">Watch Series</span>
+                        <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
+                            stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 4. GAME -->
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-20 group">
+                <div class="w-full lg:w-1/2 relative">
+                    <div
+                        class="absolute -inset-4 bg-gradient-to-r from-yellow-400 to-amber-600 rounded-xl blur-xl opacity-20 group-hover:opacity-50 transition duration-700">
+                    </div>
+                    <div
+                        class="relative aspect-video w-full bg-black rounded-xl border border-white/10 overflow-hidden shadow-2xl">
+                        <div class="absolute inset-0 flex items-center justify-center"><span class="text-gray-600 uppercase tracking-widest text-sm">Game Preview Loading...</span></div>
+                        <div
+                            class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none">
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full lg:w-1/2 space-y-8 text-right lg:text-left">
+                    <div class="flex items-center gap-4 lg:flex-row-reverse">
+                        <span class="text-6xl text-white/10 font-display font-bold">04</span>
+                        <div
+                            class="h-[1px] flex-1 bg-gradient-to-l lg:bg-gradient-to-r from-yellow-500/50 to-transparent">
+                        </div>
+                    </div>
+                    <h2 class="text-5xl font-display font-bold text-white lg:text-right">Interactive <span
+                            class="text-yellow-500 text-glow">Game</span></h2>
+                    <p class="text-gray-400 text-lg leading-relaxed font-light lg:text-right">
+                        Make your own choices. Shape the destiny of the characters in our interactive fiction and visual
+                        novel adaptations.
+                    </p>
+                    <div class="flex lg:justify-end">
+                        <a href="/game-site/ip-007-waste-awakening-ar-if-ar/index.html"
+                            class="inline-flex items-center gap-3 text-yellow-500 hover:text-white transition group/link">
+                            <span class="uppercase tracking-widest font-bold text-sm">Play Now</span>
+                            <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SUBSCRIPTION -->
+    <section class="py-32 px-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-b from-cyber-dark via-cyber-purple/10 to-cyber-dark z-0"></div>
+
+        <div class="relative z-10 max-w-4xl mx-auto text-center space-y-12">
+            <h2 class="text-5xl md:text-7xl font-display font-black text-white tracking-tighter">UNLOCK THE <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-cyber-cyan to-cyber-pink">UNIVERSE</span>
+            </h2>
+
+            <div
+                class="glass-panel p-12 rounded-2xl border-t border-cyber-pink/50 shadow-[0_0_50px_rgba(188,19,254,0.15)] relative overflow-hidden group hover:shadow-[0_0_80px_rgba(188,19,254,0.3)] transition duration-500">
+                <div
+                    class="absolute top-0 right-0 bg-gradient-to-bl from-cyber-pink to-purple-600 text-white text-xs font-bold px-4 py-2 uppercase tracking-widest clip-corner">
+                    Best Value</div>
+
+                <div class="text-gray-400 uppercase tracking-[0.2em] text-sm mb-6 font-display">All-Access Pass</div>
+                <div class="flex justify-center items-baseline gap-2 mb-2">
+                    <div class="text-7xl font-display font-bold text-white">$9.99</div>
+                    <div class="text-xl text-gray-500">/ month</div>
+                </div>
+
+                <div class="w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent my-8"></div>
+
+                <ul class="space-y-4 text-left max-w-md mx-auto mb-12 text-gray-300 font-light">
+                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> Unlimited Novel Chapters
+                    </li>
+                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> All Comic Episodes</li>
+                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> Ad-Free Drama Streaming
+                    </li>
+                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> VIP Game Access & Items
+                    </li>
+                </ul>
+
+                <a href="#"
+                    class="block w-full py-5 bg-white text-black hover:bg-cyber-cyan hover:text-black font-display font-bold text-xl clip-corner transition-all duration-300 shadow-lg hover:shadow-neon-cyan">
+                    SUBSCRIBE NOW
+                </a>
+            </div>
+
+            <div class="pt-8">
+                <a href="#"
+                    class="text-gray-500 hover:text-white text-xs uppercase tracking-[0.2em] transition border-b border-transparent hover:border-white pb-1">Business
+                    Inquiry / Licensing</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-12 border-t border-white/5 bg-black text-center relative">
+        <div
+            class="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-[1px] bg-gradient-to-r from-transparent via-cyber-cyan/50 to-transparent">
+        </div>
+        <div class="text-gray-600 text-xs uppercase tracking-[0.3em] font-display">Powered by IP Mother Factory</div>
+        <div class="text-gray-800 text-[10px] mt-4 font-mono">© 2025 All Rights Reserved.</div>
+    </footer>
+
+</body>
+
+</html>

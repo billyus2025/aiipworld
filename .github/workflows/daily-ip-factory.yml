@@ -1,0 +1,52 @@
+name: 每日自动生产 IP（IP Mother Factory）
+
+on:
+  schedule:
+    # 每天 UTC 0 点运行
+    # 北京时间早上 8 点 / 美东前一天晚上 7 点
+    - cron: '0 0 * * *'
+
+  # 手动执行按钮
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 下载仓库代码
+      - name: 下载代码
+        uses: actions/checkout@v4
+
+      # 2. 安装 Node.js
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # 3. 兼容安装依赖（如果没有 package.json 自动跳过）
+      - name: 安装依赖
+        run: |
+          if [ -f package.json ]; then
+            npm install
+          else
+            echo "未检测到 package.json，跳过 npm install"
+          fi
+
+      # 4. 运行 IP 母工厂构建脚本（核心步骤）
+      - name: 运行 IP 母工厂生产线
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          echo "开始运行 IP Mother Factory..."
+          node frontend/build.js
+          echo "IP 构建完成！"
+
+      # 5. 提交并推送到 GitHub（Cloudflare Pages 自动部署）
+      - name: 提交更新到 GitHub
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "每日自动生产 IP 更新 [skip ci]" || echo "无文件更新，跳过提交"
+          git push
