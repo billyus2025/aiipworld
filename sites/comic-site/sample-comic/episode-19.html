@@ -31,47 +31,39 @@
             </a>
             <span class="font-semibold truncate max-w-[200px] text-white">Episode 19</span>
             <div class="flex gap-2">
-                
-                
+                {{#prevEpisode}}
+                <a href="episode-.html"
+                    class="text-sm bg-gray-800 hover:bg-gray-700 px-3 py-1 rounded transition-colors">Prev</a>
+                {{/prevEpisode}}
+                {{#nextEpisode}}
+                <a href="episode-.html"
+                    class="text-sm bg-purple-600 hover:bg-purple-500 text-white px-3 py-1 rounded transition-colors">Next</a>
+                {{/nextEpisode}}
             </div>
         </div>
     </nav>
 
     <main class="flex-grow bg-black pb-20">
         <div class="comic-strip w-full">
-            
-            <img src="images/ep19-panel1.png" alt="Panel 1" loading="lazy">
-            
-            <img src="images/ep19-panel2.png" alt="Panel 2" loading="lazy">
-            
-            <img src="images/ep19-panel3.png" alt="Panel 3" loading="lazy">
-            
-            <img src="images/ep19-panel4.png" alt="Panel 4" loading="lazy">
-            
-            <img src="images/ep19-panel5.png" alt="Panel 5" loading="lazy">
-            
-            <img src="images/ep19-panel6.png" alt="Panel 6" loading="lazy">
-            
-            <img src="images/ep19-panel7.png" alt="Panel 7" loading="lazy">
-            
-            <img src="images/ep19-panel8.png" alt="Panel 8" loading="lazy">
-            
-            <img src="images/ep19-panel9.png" alt="Panel 9" loading="lazy">
-            
-            <img src="images/ep19-panel10.png" alt="Panel 10" loading="lazy">
-            
-            <img src="images/ep19-panel11.png" alt="Panel 11" loading="lazy">
-            
-            <img src="images/ep19-panel12.png" alt="Panel 12" loading="lazy">
-            
+            {{#images}}
+            <img src="" alt="Panel 19" loading="lazy">
+            {{/images}}
         </div>
 
         <div class="container mx-auto max-w-2xl mt-12 px-4 text-center">
             <h3 class="text-xl font-bold mb-6 text-gray-500">End of Episode</h3>
             <div class="flex justify-center gap-4">
-                
+                {{#prevEpisode}}
+                <a href="episode-.html"
+                    class="px-6 py-3 bg-gray-800 border border-gray-700 rounded hover:bg-gray-700 transition text-white font-medium">Previous
+                    Episode</a>
+                {{/prevEpisode}}
 
-                
+                {{#nextEpisode}}
+                <a href="episode-.html"
+                    class="px-6 py-3 bg-purple-600 text-white rounded hover:bg-purple-500 transition shadow-lg font-medium shadow-purple-900/20">Next
+                    Episode</a>
+                {{/nextEpisode}}
             </div>
         </div>
     </main>

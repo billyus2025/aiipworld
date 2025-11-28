@@ -24,20 +24,27 @@
                 This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. This is the content for episode 34. It is a short drama episode with about 200 words. 
             </div>
 
-            
+            {{#twist}}
+            <div class="mt-8 p-4 bg-yellow-900/30 border-l-4 border-yellow-500 rounded-r">
+                <h3 class="text-yellow-500 font-bold mb-1">⚡ Plot Twist!</h3>
+                <p class="text-yellow-100 italic">null</p>
+            </div>
+            {{/twist}}
         </article>
 
         <div class="mt-12 flex justify-between items-center">
-            
-            <a href="episode-33.html" class="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600 transition">←
+            {{#prevEpisode}}
+            <a href="episode-.html" class="px-4 py-2 bg-gray-700 rounded hover:bg-gray-600 transition">←
                 Previous</a>
-            
-            
+            {{/prevEpisode}}
+            {{^prevEpisode}}
+            <span></span>
+            {{/prevEpisode}}
 
-            
-            <a href="episode-35.html"
+            {{#nextEpisode}}
+            <a href="episode-.html"
                 class="px-4 py-2 bg-purple-600 rounded hover:bg-purple-500 transition font-bold">Next Episode →</a>
-            
+            {{/nextEpisode}}
         </div>
     </main>
 

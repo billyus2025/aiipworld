@@ -46,7 +46,7 @@
                 <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
                     <h3 class="text-gray-400 text-sm uppercase">Actual ROAS (Sim)</h3>
                     <div
-                        class="text-3xl font-bold text-green-500">
+                        class="text-3xl font-bold {{#highRoas}}text-green-500{{/highRoas}}{{^highRoas}}text-yellow-500{{/highRoas}}">
                         2.07x</div>
                 </div>
                 <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
@@ -87,7 +87,28 @@
             </div>
 
             <!-- Decisions -->
-            
+            {{#decisions}}
+            <div class="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                <div class="p-6 border-b border-gray-700 flex justify-between items-center">
+                    <h3 class="text-xl font-bold text-yellow-500">Scale Decisions</h3>
+                    <span class="text-xs text-gray-500">Scale Mode Active</span>
+                </div>
+                <div class="p-6 space-y-4">
+                    {{#actions}}
+                    <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                        <div>
+                            <span
+                                class="font-bold {{#isScaleUp}}text-green-500{{/isScaleUp}}{{^isScaleUp}}text-red-500{{/isScaleUp}} uppercase text-sm"></span>
+                            <span class="ml-2 text-gray-400"> / </span>
+                        </div>
+                        <div class="text-sm text-gray-300">
+                            Reason:  → New Budget: $
+                        </div>
+                    </div>
+                    {{/actions}}
+                </div>
+            </div>
+            {{/decisions}}
         </main>
     </div>
 </body>
