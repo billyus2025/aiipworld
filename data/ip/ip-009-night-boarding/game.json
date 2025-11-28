@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-009-night-boarding-vn-zh",
+      "ipId": "ip-009-night-boarding",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "借住在神秘的古堡，英俊的房东似乎隐藏着惊天的秘密。",
+      "genre": "suspense_romance",
+      "language": "zh",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:16.825Z"
+    },
+    {
+      "gameId": "ip-009-night-boarding-if-zh",
+      "ipId": "ip-009-night-boarding",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "借住在神秘的古堡，英俊的房东似乎隐藏着惊天的秘密。",
+      "genre": "suspense_romance",
+      "language": "zh",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:16.825Z"
+    }
+  ]
+}

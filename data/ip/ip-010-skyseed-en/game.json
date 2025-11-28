@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-010-skyseed-en-vn-en",
+      "ipId": "ip-010-skyseed-en",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "当AI拥有了自我意识，人类是创造者还是毁灭者？",
+      "genre": "sci-fi_ai",
+      "language": "en",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:23.360Z"
+    },
+    {
+      "gameId": "ip-010-skyseed-en-if-en",
+      "ipId": "ip-010-skyseed-en",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "当AI拥有了自我意识，人类是创造者还是毁灭者？",
+      "genre": "sci-fi_ai",
+      "language": "en",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:23.360Z"
+    }
+  ]
+}

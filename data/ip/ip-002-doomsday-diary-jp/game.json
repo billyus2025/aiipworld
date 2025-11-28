@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-002-doomsday-diary-jp-vn-jp",
+      "ipId": "ip-002-doomsday-diary-jp",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[jp] 重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+      "genre": "[jp] sci-fi_doomsday",
+      "language": "jp",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:55.819Z"
+    },
+    {
+      "gameId": "ip-002-doomsday-diary-jp-if-jp",
+      "ipId": "ip-002-doomsday-diary-jp",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[jp] 重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+      "genre": "[jp] sci-fi_doomsday",
+      "language": "jp",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:55.819Z"
+    }
+  ]
+}

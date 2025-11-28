@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-002-doomsday-diary-fr-vn-fr",
+      "ipId": "ip-002-doomsday-diary-fr",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[fr] 重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+      "genre": "[fr] sci-fi_doomsday",
+      "language": "fr",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:55.098Z"
+    },
+    {
+      "gameId": "ip-002-doomsday-diary-fr-if-fr",
+      "ipId": "ip-002-doomsday-diary-fr",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[fr] 重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+      "genre": "[fr] sci-fi_doomsday",
+      "language": "fr",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:55.098Z"
+    }
+  ]
+}

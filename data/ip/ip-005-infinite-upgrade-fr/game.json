@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-005-infinite-upgrade-fr-vn-fr",
+      "ipId": "ip-005-infinite-upgrade-fr",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[fr] 穿越异界获得无限升级系统，杀怪升级，装备全靠爆，从此横推无敌。",
+      "genre": "[fr] fantasy_system",
+      "language": "fr",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:04.388Z"
+    },
+    {
+      "gameId": "ip-005-infinite-upgrade-fr-if-fr",
+      "ipId": "ip-005-infinite-upgrade-fr",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[fr] 穿越异界获得无限升级系统，杀怪升级，装备全靠爆，从此横推无敌。",
+      "genre": "[fr] fantasy_system",
+      "language": "fr",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:04.389Z"
+    }
+  ]
+}

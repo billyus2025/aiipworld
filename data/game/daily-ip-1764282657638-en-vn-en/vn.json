@@ -1,0 +1,151 @@
+{
+  "gameId": "daily-ip-1764282657638-en-vn-en",
+  "mode": "vn",
+  "language": "en",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "background": "bg_location_1",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Scene 1 begins. We are in the romance_revenge world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[en] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "background": "bg_location_2",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Scene 2 begins. We are in the romance_revenge world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[en] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "background": "bg_location_3",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Scene 3 begins. We are in the romance_revenge world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[en] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "background": "bg_location_4",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Scene 4 begins. We are in the romance_revenge world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[en] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "background": "bg_location_5",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Scene 5 begins. We are in the romance_revenge world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[en] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[en] Let's move on."
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "backgrounds": {
+      "bg_location_1": {
+        "prompt": "Anime style background, bg_location_1, romance_revenge",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_2": {
+        "prompt": "Anime style background, bg_location_2, romance_revenge",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_3": {
+        "prompt": "Anime style background, bg_location_3, romance_revenge",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_4": {
+        "prompt": "Anime style background, bg_location_4, romance_revenge",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_5": {
+        "prompt": "Anime style background, bg_location_5, romance_revenge",
+        "src": "placeholder_bg.jpg"
+      }
+    },
+    "characters": {
+      "Protagonist": {
+        "prompt": "Anime character, Protagonist, romance_revenge",
+        "src": "placeholder_char.png"
+      },
+      "Rival": {
+        "prompt": "Anime character, Rival, romance_revenge",
+        "src": "placeholder_char.png"
+      }
+    }
+  }
+}

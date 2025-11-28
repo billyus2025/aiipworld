@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "daily-ip-1764284411865-de-vn-de",
+      "ipId": "daily-ip-1764284411865-de",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[de] A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+      "genre": "[de] romance_revenge",
+      "language": "de",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:48.391Z"
+    },
+    {
+      "gameId": "daily-ip-1764284411865-de-if-de",
+      "ipId": "daily-ip-1764284411865-de",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[de] A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+      "genre": "[de] romance_revenge",
+      "language": "de",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:48.391Z"
+    }
+  ]
+}

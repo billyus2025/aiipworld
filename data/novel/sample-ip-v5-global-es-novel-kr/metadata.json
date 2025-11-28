@@ -1,0 +1,21 @@
+{
+  "id": "sample-ip-v5-global-es-novel",
+  "title": "소설a: A story about a glob...",
+  "author": "[kr] AI Factory",
+  "genre": "[kr] [es] romance_revenge",
+  "tags": [
+    "[kr] [es] Cultivation",
+    "[kr] [es] Immortality",
+    "[kr] [es] System",
+    "[kr] [es] romance_revenge"
+  ],
+  "description": "[kr] [es] A story about a global trade empire connecting cultures.",
+  "characters": [
+    "[kr] Li Wei",
+    "[kr] Fairy Chen",
+    "[kr] Elder Zhang"
+  ],
+  "createdAt": "2025-11-28T02:34:32.662Z",
+  "status": "[kr] completed",
+  "language": "kr"
+}

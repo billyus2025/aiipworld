@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "sample-ip-v4-global-vn-zh",
+      "ipId": "sample-ip-v4-global",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "A futuristic global empire story.",
+      "genre": "romance_revenge",
+      "language": "zh",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:28.884Z"
+    },
+    {
+      "gameId": "sample-ip-v4-global-if-zh",
+      "ipId": "sample-ip-v4-global",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "A futuristic global empire story.",
+      "genre": "romance_revenge",
+      "language": "zh",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:28.884Z"
+    }
+  ]
+}

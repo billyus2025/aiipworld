@@ -11,15 +11,11 @@
   ],
   "description": "[ar] 秦云本是秦家少主，却因无法修炼被视为废物，受尽屈辱，最终被逐出家族。生死存亡之际，他觉醒了体内的至尊龙血。从此，修炼速度一日千里，炼丹炼器无所不通。昔日羞辱他的人，终将匍匐在他脚下。",
   "characters": [
-    "[ar] 秦云",
-    "[ar] 苏灵儿"
+    "[ar] Li Wei",
+    "[ar] Fairy Chen",
+    "[ar] Elder Zhang"
   ],
-  "createdAt": "2025-11-28T01:52:06.621Z",
+  "createdAt": "2025-11-28T02:34:10.605Z",
   "status": "[ar] completed",
-  "language": "ar",
-  "world_setting": "[ar] 东方玄幻世界，万族林立",
-  "core_theme": "[ar] 逆境崛起，强者之心",
-  "short_drama_style": "[ar] 热血逆袭，极致爽感，特效拉满",
-  "comic_style": "[ar] 硬朗霸气，港漫风格",
-  "game_mode": "[ar] rpg"
+  "language": "ar"
 }

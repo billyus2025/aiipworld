@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-003-revenge-queen-hi-vn-hi",
+      "ipId": "ip-003-revenge-queen-hi",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[hi] 前世被渣男恶女害死，重生归来，我要让他们血债血偿。",
+      "genre": "[hi] romance_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:58.298Z"
+    },
+    {
+      "gameId": "ip-003-revenge-queen-hi-if-hi",
+      "ipId": "ip-003-revenge-queen-hi",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[hi] 前世被渣男恶女害死，重生归来，我要让他们血债血偿。",
+      "genre": "[hi] romance_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:58.299Z"
+    }
+  ]
+}

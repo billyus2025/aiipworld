@@ -1,0 +1,13 @@
+{
+  "gameId": "sample-ip-v5-global-en-vn-en",
+  "ipId": "sample-ip-v5-global-en",
+  "mode": "vn",
+  "title": "undefined - VN Game",
+  "logline": "A story about a global trade empire connecting cultures.",
+  "genre": "romance_revenge",
+  "language": "en",
+  "estimated_playtime_minutes": 30,
+  "subscription_required": true,
+  "vip_only": true,
+  "createdAt": "2025-11-28T02:34:32.661Z"
+}

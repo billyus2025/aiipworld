@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>드라마: 소설: A global sci-fi epic... - Drama Index</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased">
+    <div class="container mx-auto px-4 py-8">
+        <header class="mb-8 text-center">
+            <h1 class="text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">드라마: 소설: A global sci-fi epic...</h1>
+            <p class="text-gray-400">[kr] Adapted from novel: [kr] A global sci-fi epic about a unified earth.</p>
+            <div class="mt-4 flex justify-center gap-2">
+                {{#tags}}
+                <span class="px-3 py-1 bg-gray-800 rounded-full text-xs text-gray-300">{{.}}</span>
+                {{/tags}}
+            </div>
+        </header>
+
+        <main>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {{#episodes}}
+                <a href="episode-sample-ip-global-kr-drama.html" class="block p-6 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors border border-gray-700 hover:border-purple-500">
+                    <h3 class="text-xl font-semibold mb-2">드라마: 소설: A global sci-fi epic...</h3>
+                    <p class="text-gray-400 text-sm line-clamp-3"></p>
+                    {{#twist}}
+                    <div class="mt-2 text-xs text-yellow-500 font-bold">⚡ Twist Inside!</div>
+                    {{/twist}}
+                </a>
+                {{/episodes}}
+            </div>
+        </main>
+
+        <footer class="mt-12 text-center text-gray-500 text-sm">
+            <p>&copy; 2025 IP Mother Factory. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

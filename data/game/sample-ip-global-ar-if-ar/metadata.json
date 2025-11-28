@@ -1,0 +1,13 @@
+{
+  "gameId": "sample-ip-global-ar-if-ar",
+  "ipId": "sample-ip-global-ar",
+  "mode": "if",
+  "title": "undefined - IF Game",
+  "logline": "[ar] A global sci-fi epic about a unified earth.",
+  "genre": "[ar] romance_revenge",
+  "language": "ar",
+  "estimated_playtime_minutes": 60,
+  "subscription_required": true,
+  "vip_only": true,
+  "createdAt": "2025-11-28T02:34:26.133Z"
+}

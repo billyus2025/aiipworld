@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-006-sweet-marriage-kr-vn-kr",
+      "ipId": "ip-006-sweet-marriage-kr",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[kr] 相亲闪婚嫁给普通职员，没想到老公竟然是全球首富。",
+      "genre": "[kr] romance_sweet",
+      "language": "kr",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:10.604Z"
+    },
+    {
+      "gameId": "ip-006-sweet-marriage-kr-if-kr",
+      "ipId": "ip-006-sweet-marriage-kr",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[kr] 相亲闪婚嫁给普通职员，没想到老公竟然是全球首富。",
+      "genre": "[kr] romance_sweet",
+      "language": "kr",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:10.604Z"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "daily-ip-1764283492495-de-comic",
+    "title": "Comic: Roman: A new daily IP conce...",
+    "author": "AI Artist",
+    "genre": "[de] romance_revenge",
+    "description": "Adapted from novel: [de] A new daily IP concept generated at 2025-11-27T22:44:52.495Z",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:33:38.940Z",
+    "sourceNovelId": "daily-ip-1764283492495-de-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

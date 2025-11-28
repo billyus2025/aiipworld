@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-005-infinite-upgrade-kr-vn-kr",
+      "ipId": "ip-005-infinite-upgrade-kr",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[kr] 穿越异界获得无限升级系统，杀怪升级，装备全靠爆，从此横推无敌。",
+      "genre": "[kr] fantasy_system",
+      "language": "kr",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:05.609Z"
+    },
+    {
+      "gameId": "ip-005-infinite-upgrade-kr-if-kr",
+      "ipId": "ip-005-infinite-upgrade-kr",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[kr] 穿越异界获得无限升级系统，杀怪升级，装备全靠爆，从此横推无敌。",
+      "genre": "[kr] fantasy_system",
+      "language": "kr",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:05.609Z"
+    }
+  ]
+}

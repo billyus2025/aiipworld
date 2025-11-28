@@ -1,0 +1,13 @@
+{
+  "gameId": "sample-ip-v4-global-ar-if-ar",
+  "ipId": "sample-ip-v4-global-ar",
+  "mode": "if",
+  "title": "undefined - IF Game",
+  "logline": "[ar] A futuristic global empire story.",
+  "genre": "[ar] romance_revenge",
+  "language": "ar",
+  "estimated_playtime_minutes": 60,
+  "subscription_required": true,
+  "vip_only": true,
+  "createdAt": "2025-11-28T02:34:29.118Z"
+}

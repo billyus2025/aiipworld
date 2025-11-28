@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "sample-ip-v5-global-es-comic",
+    "title": "Comic: Novela: A story about a glob...",
+    "author": "AI Artist",
+    "genre": "[es] romance_revenge",
+    "description": "Adapted from novel: [es] A story about a global trade empire connecting cultures.",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:34:32.785Z",
+    "sourceNovelId": "sample-ip-v5-global-es-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

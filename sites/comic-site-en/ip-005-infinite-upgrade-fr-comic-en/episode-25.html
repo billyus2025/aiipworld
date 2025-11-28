@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode 25 - Comic: [fr] 无限升级系统：开局无敌</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Webtoon style: no gap between images */
+        .comic-strip img {
+            display: block;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body class="bg-black text-gray-300 min-h-screen flex flex-col">
+    <nav class="bg-gray-900 p-4 sticky top-0 z-50 shadow-lg border-b border-gray-800">
+        <div class="container mx-auto max-w-4xl flex justify-between items-center">
+            <a href="/comic-site-en/ip-005-infinite-upgrade-fr-comic-en/index.html"
+                class="text-gray-400 hover:text-white font-bold flex items-center gap-2 transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.707 16.707a1 1 0 01-1.414 0l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l4.293 4.293a1 1 0 010 1.414z"
+                        clip-rule="evenodd" />
+                </svg>
+                Back
+            </a>
+            <span class="font-semibold truncate max-w-[200px] text-white">Episode 25</span>
+            <div class="flex gap-2">
+                {{#prevEpisode}}
+                <a href="episode-.html"
+                    class="text-sm bg-gray-800 hover:bg-gray-700 px-3 py-1 rounded transition-colors">Prev</a>
+                {{/prevEpisode}}
+                {{#nextEpisode}}
+                <a href="episode-.html"
+                    class="text-sm bg-purple-600 hover:bg-purple-500 text-white px-3 py-1 rounded transition-colors">Next</a>
+                {{/nextEpisode}}
+            </div>
+        </div>
+    </nav>
+
+    <main class="flex-grow bg-black pb-20">
+        <div class="comic-strip w-full">
+            {{#images}}
+            <img src="" alt="Panel 25" loading="lazy">
+            {{/images}}
+        </div>
+
+        <div class="container mx-auto max-w-2xl mt-12 px-4 text-center">
+            <h3 class="text-xl font-bold mb-6 text-gray-500">End of Episode</h3>
+            <div class="flex justify-center gap-4">
+                {{#prevEpisode}}
+                <a href="episode-.html"
+                    class="px-6 py-3 bg-gray-800 border border-gray-700 rounded hover:bg-gray-700 transition text-white font-medium">Previous
+                    Episode</a>
+                {{/prevEpisode}}
+
+                {{#nextEpisode}}
+                <a href="episode-.html"
+                    class="px-6 py-3 bg-purple-600 text-white rounded hover:bg-purple-500 transition shadow-lg font-medium shadow-purple-900/20">Next
+                    Episode</a>
+                {{/nextEpisode}}
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

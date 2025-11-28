@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "sample-ip-v5-global-hi-vn-hi",
+      "ipId": "sample-ip-v5-global-hi",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[hi] A story about a global trade empire connecting cultures.",
+      "genre": "[hi] romance_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:33.444Z"
+    },
+    {
+      "gameId": "sample-ip-v5-global-hi-if-hi",
+      "ipId": "sample-ip-v5-global-hi",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[hi] A story about a global trade empire connecting cultures.",
+      "genre": "[hi] romance_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:33.445Z"
+    }
+  ]
+}

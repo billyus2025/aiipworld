@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "daily-ip-1764282657638-kr-comic",
+    "title": "Comic: 소설: A new daily IP conce...",
+    "author": "AI Artist",
+    "genre": "[kr] romance_revenge",
+    "description": "Adapted from novel: [kr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:33:38.021Z",
+    "sourceNovelId": "daily-ip-1764282657638-kr-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "sample-ip-global-en-vn-en",
+      "ipId": "sample-ip-global-en",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "A global sci-fi epic about a unified earth.",
+      "genre": "romance_revenge",
+      "language": "en",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:26.627Z"
+    },
+    {
+      "gameId": "sample-ip-global-en-if-en",
+      "ipId": "sample-ip-global-en",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "A global sci-fi epic about a unified earth.",
+      "genre": "romance_revenge",
+      "language": "en",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:26.628Z"
+    }
+  ]
+}

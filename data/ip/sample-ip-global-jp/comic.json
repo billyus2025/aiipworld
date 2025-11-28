@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "sample-ip-global-jp-comic",
+    "title": "Comic: 小説: A global sci-fi epic...",
+    "author": "AI Artist",
+    "genre": "[jp] romance_revenge",
+    "description": "Adapted from novel: [jp] A global sci-fi epic about a unified earth.",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:34:28.055Z",
+    "sourceNovelId": "sample-ip-global-jp-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

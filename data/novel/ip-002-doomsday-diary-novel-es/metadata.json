@@ -11,15 +11,11 @@
   ],
   "description": "[es] 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
   "characters": [
-    "[es] 陈峰",
-    "[es] 林晓雪"
+    "[es] Li Wei",
+    "[es] Fairy Chen",
+    "[es] Elder Zhang"
   ],
-  "createdAt": "2025-11-28T01:52:04.490Z",
+  "createdAt": "2025-11-28T02:33:53.425Z",
   "status": "[es] completed",
-  "language": "es",
-  "world_setting": "[es] 丧尸病毒爆发的现代世界，秩序崩塌",
-  "core_theme": "[es] 生存与人性的考验",
-  "short_drama_style": "[es] 紧张刺激，爽感十足，特效逼真",
-  "comic_style": "[es] 暗黑写实，美漫风格",
-  "game_mode": "[es] rpg"
+  "language": "es"
 }

@@ -1,0 +1,13 @@
+{
+  "gameId": "sample-ip-global-de-vn-de",
+  "ipId": "sample-ip-global-de",
+  "mode": "vn",
+  "title": "undefined - VN Game",
+  "logline": "[de] A global sci-fi epic about a unified earth.",
+  "genre": "[de] romance_revenge",
+  "language": "de",
+  "estimated_playtime_minutes": 30,
+  "subscription_required": true,
+  "vip_only": true,
+  "createdAt": "2025-11-28T02:34:26.372Z"
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "ip-002-doomsday-diary-ar-comic",
+    "title": "Comic: [ar] 末日百日计划：人类最后的生存日志",
+    "author": "AI Artist",
+    "genre": "[ar] sci-fi_doomsday",
+    "description": "Adapted from novel: [ar] 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:33:53.832Z",
+    "sourceNovelId": "ip-002-doomsday-diary-ar-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

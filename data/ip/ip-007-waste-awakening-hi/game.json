@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-007-waste-awakening-hi-vn-hi",
+      "ipId": "ip-007-waste-awakening-hi",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[hi] 家族弃子觉醒上古至尊血脉，三十年河东三十年河西，莫欺少年穷！",
+      "genre": "[hi] fantasy_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:12.866Z"
+    },
+    {
+      "gameId": "ip-007-waste-awakening-hi-if-hi",
+      "ipId": "ip-007-waste-awakening-hi",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[hi] 家族弃子觉醒上古至尊血脉，三十年河东三十年河西，莫欺少年穷！",
+      "genre": "[hi] fantasy_revenge",
+      "language": "hi",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:12.867Z"
+    }
+  ]
+}

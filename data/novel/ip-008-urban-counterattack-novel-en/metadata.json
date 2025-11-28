@@ -11,15 +11,11 @@
   ],
   "description": "张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
   "characters": [
-    "张伟",
-    "李梦瑶"
+    "Li Wei",
+    "Fairy Chen",
+    "Elder Zhang"
   ],
-  "createdAt": "2025-11-28T01:52:06.865Z",
+  "createdAt": "2025-11-28T02:34:13.685Z",
   "status": "completed",
-  "language": "en",
-  "world_setting": "平行世界的现代都市",
-  "core_theme": "屌丝逆袭，改变命运",
-  "short_drama_style": "都市爽剧，豪车美女，装逼打脸",
-  "comic_style": "现代写实，都市风格",
-  "game_mode": "if"
+  "language": "en"
 }

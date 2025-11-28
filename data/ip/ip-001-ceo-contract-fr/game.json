@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-001-ceo-contract-fr-vn-fr",
+      "ipId": "ip-001-ceo-contract-fr",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[fr] 为了支付母亲的医药费，她被迫嫁给传说中冷酷无情的亿万总裁，却意外收获了真爱。",
+      "genre": "[fr] romance_ceo",
+      "language": "fr",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:52.239Z"
+    },
+    {
+      "gameId": "ip-001-ceo-contract-fr-if-fr",
+      "ipId": "ip-001-ceo-contract-fr",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[fr] 为了支付母亲的医药费，她被迫嫁给传说中冷酷无情的亿万总裁，却意外收获了真爱。",
+      "genre": "[fr] romance_ceo",
+      "language": "fr",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:52.240Z"
+    }
+  ]
+}

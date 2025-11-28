@@ -1,0 +1,13 @@
+{
+  "gameId": "sample-ip-v4-global-it-vn-it",
+  "ipId": "sample-ip-v4-global-it",
+  "mode": "vn",
+  "title": "undefined - VN Game",
+  "logline": "[it] A futuristic global empire story.",
+  "genre": "[it] romance_revenge",
+  "language": "it",
+  "estimated_playtime_minutes": 30,
+  "subscription_required": true,
+  "vip_only": true,
+  "createdAt": "2025-11-28T02:34:30.840Z"
+}

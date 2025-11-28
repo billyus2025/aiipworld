@@ -16,7 +16,7 @@ function readFile(p) {
     try {
         return fs.readFileSync(p, 'utf8');
     } catch (e) {
-        console.warn(`Warning: File not found: ${p}`);
+        // console.warn(`Warning: File not found: ${p}`);
         return null;
     }
 }
@@ -25,7 +25,7 @@ function writeFile(p, content) {
     const dir = path.dirname(p);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(p, content);
-    console.log(`Built: ${p}`);
+    console.log(`[BUILD] Generated → ${p}`);
 }
 
 function readJson(p) {
@@ -33,7 +33,7 @@ function readJson(p) {
     return content ? JSON.parse(content) : null;
 }
 
-// Mustache-style renderer
+// Mustache-style renderer (for Standard Sites)
 function render(template, data) {
     if (!template) return '';
     let output = template;
@@ -60,12 +60,11 @@ function render(template, data) {
     return output;
 }
 
-// Comment-style injector for Landing Page
-function inject(template, replacements) {
+// Comment-style injector (for Commercial Landing Page)
+function injectData(template, replacements) {
     let output = template;
     Object.keys(replacements).forEach(key => {
         // Use a function replacement to avoid issues with special characters in replacement string
-        // Escape special regex characters in key if necessary (not needed for simple alphanumeric keys)
         const regex = new RegExp(`<!-- DATA:${key} -->`, 'g');
         output = output.replace(regex, () => replacements[key]);
     });
@@ -75,7 +74,7 @@ function inject(template, replacements) {
 // --- Builders ---
 
 async function buildIpSites() {
-    console.log('Building IP Landing Pages...');
+    console.log('=== Building IP Landing Pages (V3) ===');
     const ipDir = path.join(CONFIG.paths.data, 'ip');
     if (!fs.existsSync(ipDir)) {
         console.log('No IP data found.');
@@ -86,8 +85,9 @@ async function buildIpSites() {
     if (!template) return;
 
     // Load Partials
-    const comicThumbTemplate = readFile(path.join(CONFIG.paths.templates, 'partials/landing-comic-thumb.html'));
-    const dramaEpTemplate = readFile(path.join(CONFIG.paths.templates, 'partials/landing-drama-episode.html'));
+    const chapterItemTpl = readFile(path.join(CONFIG.paths.templates, 'partials/landing-chapter-item.html'));
+    const comicItemTpl = readFile(path.join(CONFIG.paths.templates, 'partials/landing-comic-item.html'));
+    const dramaItemTpl = readFile(path.join(CONFIG.paths.templates, 'partials/landing-drama-item.html'));
 
     const ips = fs.readdirSync(ipDir).filter(f => fs.statSync(path.join(ipDir, f)).isDirectory());
 
@@ -95,69 +95,102 @@ async function buildIpSites() {
     const generatedIps = [];
 
     for (const ipId of ips) {
-        const ipDataPath = path.join(ipDir, ipId, 'ip.json');
-        const ipData = readJson(ipDataPath);
-        if (!ipData) continue;
+        const ipPath = path.join(ipDir, ipId);
 
-        console.log(`Processing IP: ${ipId}`);
+        // Read V3 Data Files
+        const meta = readJson(path.join(ipPath, 'meta.json'));
+        const novel = readJson(path.join(ipPath, 'novel.json'));
+        const comic = readJson(path.join(ipPath, 'comic.json'));
+        const drama = readJson(path.join(ipPath, 'drama.json'));
+        const game = readJson(path.join(ipPath, 'game.json'));
+
+        if (!meta) {
+            console.warn(`Skipping ${ipId}: Missing meta.json`);
+            continue;
+        }
+
+        console.log(`Processing IP: ${meta.title} (${ipId})`);
 
         // Determine language suffix for links
-        const lang = ipData.language || 'en'; // Default to en if missing, though init script sets it
+        const lang = meta.language || 'en';
         const suffix = lang === CONFIG.lang.default ? '' : `-${lang}`;
 
-        // Generate Dynamic Content
-        const comicHtml = [1, 2, 3].map(i => render(comicThumbTemplate, {
-            id: i,
-            src: `https://via.placeholder.com/400x600/222/444?text=Panel+${i}`
-        })).join('');
-
-        const dramaHtml = [
-            { title: "Episode 1: The Beginning", duration: "24 min" },
-            { title: "Episode 2: The Conflict", duration: "22 min" },
-            { title: "Episode 3: The Climax", duration: "25 min" }
-        ].map(ep => render(dramaEpTemplate, ep)).join('');
-
-        // Construct Links (Absolute Paths)
-        const novelUrl = ipData.novelId ? `/novel-site${suffix}/${ipData.novelId}/index.html` : '#';
-        const comicUrl = ipData.comicId ? `/comic-site${suffix}/${ipData.comicId}/index.html` : '#';
-        const dramaUrl = ipData.dramaId ? `/drama-site${suffix}/${ipData.dramaId}/index.html` : '#';
-        // Game link: pick the first game if available, or generic game site
-        let gameUrl = '#';
-        if (ipData.games && ipData.games.length > 0) {
-            const g = ipData.games[0];
-            // Game site structure: sites/game-site/{gameId}/index.html
-            gameUrl = `/game-site/${g.gameId}/index.html`;
+        // 1. Generate Novel Chapters List
+        let chaptersHtml = '';
+        if (novel && novel.chapters && chapterItemTpl) {
+            chaptersHtml = novel.chapters.map(ch => render(chapterItemTpl, {
+                id: ch.id,
+                date: new Date().toLocaleDateString(),
+                excerpt: ch.excerpt || "Click to read...",
+                url: `/novel-site${suffix}/${ipId}-novel/chapter-${ch.id}.html` // Assuming standard site structure
+            })).join('');
         }
+
+        // 2. Generate Comic Thumbnails
+        let comicHtml = '';
+        if (comic && comic.thumbnails && comicItemTpl) {
+            comicHtml = comic.thumbnails.map(t => render(comicItemTpl, {
+                id: t.id,
+                src: t.src
+            })).join('');
+        }
+
+        // 3. Generate Drama Episodes
+        let dramaHtml = '';
+        if (drama && drama.episodes && dramaItemTpl) {
+            dramaHtml = drama.episodes.map(ep => render(dramaItemTpl, {
+                title: ep.title,
+                duration: ep.duration || "24 min"
+            })).join('');
+        }
+
+        // 4. Game Iframe
+        // Pick first game
+        let gameIframe = '<div class="absolute inset-0 flex items-center justify-center text-gray-500">Coming Soon</div>';
+        let gameUrl = '#';
+        if (game && game.games && game.games.length > 0) {
+            const g = game.games[0];
+            gameUrl = `/game-site/${g.gameId}/index.html`;
+            gameIframe = `<iframe src="${gameUrl}" class="w-full h-full border-0" loading="lazy"></iframe>`;
+        }
+
+        // Links
+        const novelUrl = `/novel-site${suffix}/${ipId}-novel/index.html`;
+        const comicUrl = `/comic-site${suffix}/${ipId}-comic/index.html`;
+        const dramaUrl = `/drama-site${suffix}/${ipId}-drama/index.html`;
 
         // Replacements
         const replacements = {
-            'ip.title': ipData.novelMetadata?.title || ipData.idea || "Untitled IP",
-            'ip.logline': ipData.idea || "A story about a global trade empire connecting cultures.",
+            'ip.title': meta.title,
+            'ip.logline': meta.logline,
+            'ip.synopsis': meta.synopsis,
             'ip.heroVideo': `<video autoplay loop muted playsinline class="w-full h-full object-cover opacity-60"><source src="https://assets.mixkit.co/videos/preview/mixkit-futuristic-city-traffic-at-night-34565-large.mp4" type="video/mp4"></video>`,
-            'ip.stats.languages': "10",
-            'ip.stats.readers': "1M+",
-            'ip.stats.adaptations': "3",
-            'novel.cover': `<img src="https://via.placeholder.com/600x900/111/333?text=Novel+Cover" class="w-full h-full object-cover" alt="Novel Cover">`,
-            'comic.thumbnails': comicHtml,
-            'drama.episodes': dramaHtml,
-            'game.iframe': `<div class="absolute inset-0 flex items-center justify-center"><span class="text-gray-600 uppercase tracking-widest text-sm">Game Preview Loading...</span></div>`,
-            'subscription.price': '$9.99',
+
+            'novel.cover': `<img src="https://via.placeholder.com/600x900/111/333?text=${encodeURIComponent(meta.title)}" class="w-full h-full object-cover" alt="Novel Cover">`,
+            'novel.chapters': chaptersHtml || '<div class="text-gray-500">Coming Soon</div>',
             'novel.url': novelUrl,
+
+            'comic.thumbnails': comicHtml || '<div class="text-gray-500">Coming Soon</div>',
             'comic.url': comicUrl,
+
+            'drama.episodes': dramaHtml || '<div class="text-gray-500">Coming Soon</div>',
             'drama.url': dramaUrl,
-            'game.url': gameUrl
+
+            'game.iframe': gameIframe,
+            'game.url': gameUrl,
+
+            'subscription.price': '$9.99'
         };
 
-        const html = inject(template, replacements);
+        const html = injectData(template, replacements);
 
         // Write to sites/ip-site/{ipId}/index.html
         writeFile(path.join(CONFIG.paths.sites, 'ip-site', ipId, 'index.html'), html);
 
-        generatedIps.push({ id: ipId, title: replacements['ip.title'], lang });
+        generatedIps.push({ id: ipId, title: meta.title, lang });
     }
 
     // Build Main Index (sites/index.html)
-    // Simple list of all IPs
     const mainIndexContent = `
 <!DOCTYPE html>
 <html lang="en">
@@ -186,7 +219,7 @@ async function buildIpSites() {
 }
 
 async function buildStandardSites() {
-    console.log('Building Standard Sites...');
+    console.log('=== Building Standard Sites ===');
 
     for (const lang of CONFIG.lang.languages) {
         const suffix = lang === CONFIG.lang.default ? '' : `-${lang}`;
@@ -298,7 +331,7 @@ async function buildStandardSites() {
 }
 
 async function buildGameSite() {
-    console.log('Building Game Site...');
+    console.log('=== Building Game Site ===');
     const gameDir = path.join(CONFIG.paths.data, 'game');
     if (!fs.existsSync(gameDir)) return;
 
@@ -334,7 +367,7 @@ async function buildGameSite() {
 }
 
 async function buildAdmin() {
-    console.log('Building Admin...');
+    console.log('=== Building Admin ===');
     const adminDir = path.join(CONFIG.paths.sites, 'admin');
 
     // Ads Dashboard
@@ -384,7 +417,7 @@ async function build() {
     await buildStandardSites();
     await buildGameSite();
     await buildAdmin();
-    console.log('Build Complete.');
+    console.log('=== Build Complete ===');
 }
 
 build();

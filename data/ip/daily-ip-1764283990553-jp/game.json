@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "daily-ip-1764283990553-jp-vn-jp",
+      "ipId": "daily-ip-1764283990553-jp",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[jp] A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+      "genre": "[jp] romance_revenge",
+      "language": "jp",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:43.710Z"
+    },
+    {
+      "gameId": "daily-ip-1764283990553-jp-if-jp",
+      "ipId": "daily-ip-1764283990553-jp",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[jp] A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+      "genre": "[jp] romance_revenge",
+      "language": "jp",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:33:43.710Z"
+    }
+  ]
+}

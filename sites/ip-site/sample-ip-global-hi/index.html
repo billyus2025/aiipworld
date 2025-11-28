@@ -49,7 +49,6 @@
             clip-path: polygon(0 0, 100% 0, 100% 85%, 95% 100%, 0 100%);
         }
 
-        /* Custom scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
@@ -73,20 +72,18 @@
 
     <!-- HERO SECTION -->
     <section class="relative h-screen w-full overflow-hidden flex items-center justify-center">
-        <!-- Video Background -->
         <div class="absolute inset-0 z-0">
             <div class="absolute inset-0 bg-gradient-to-t from-cyber-dark via-cyber-dark/60 to-transparent z-10"></div>
             <div class="absolute inset-0 bg-black/30 z-10"></div>
             <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-60"><source src="https://assets.mixkit.co/videos/preview/mixkit-futuristic-city-traffic-at-night-34565-large.mp4" type="video/mp4"></video>
         </div>
 
-        <!-- Hero Content -->
         <div class="relative z-20 text-center px-6 max-w-6xl mx-auto space-y-8">
             <div
                 class="inline-flex items-center gap-2 px-4 py-1 rounded-full border border-cyber-cyan/30 bg-cyber-cyan/10 backdrop-blur-md animate-pulse">
                 <span class="w-2 h-2 rounded-full bg-cyber-cyan shadow-neon-cyan"></span>
                 <span class="text-cyber-cyan text-xs font-display tracking-widest uppercase">Official Universe
-                    V2.0</span>
+                    V3.0</span>
             </div>
 
             <h1
@@ -100,9 +97,9 @@
             </p>
 
             <div class="flex flex-col md:flex-row gap-6 justify-center items-center pt-10">
-                <a href="#pillars"
+                <a href="#novel"
                     class="group relative px-10 py-4 bg-cyber-pink hover:bg-fuchsia-600 text-white font-display font-bold text-lg clip-corner transition-all duration-300 shadow-neon-pink hover:scale-105">
-                    START THE JOURNEY
+                    START READING
                 </a>
                 <a href="#universe"
                     class="group relative px-10 py-4 bg-transparent border border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan/10 font-display font-bold text-lg clip-corner transition-all duration-300 hover:shadow-neon-cyan">
@@ -110,300 +107,1423 @@
                 </a>
             </div>
         </div>
-
-        <!-- Scroll Indicator -->
-        <div
-            class="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-50 animate-bounce">
-            <span class="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
-            <div class="w-[1px] h-12 bg-gradient-to-b from-white to-transparent"></div>
-        </div>
     </section>
 
     <!-- IP STATS -->
     <section class="relative z-30 -mt-24 px-4 max-w-7xl mx-auto">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <!-- Stat 1 -->
             <div class="glass-panel p-6 rounded-xl hover:border-cyber-cyan/50 transition duration-500 group">
-                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-cyan transition mb-1">
-                    10
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-cyan transition mb-1">10+
                 </div>
-                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Global Languages</div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Languages</div>
             </div>
-            <!-- Stat 2 -->
             <div class="glass-panel p-6 rounded-xl hover:border-cyber-pink/50 transition duration-500 group">
-                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-pink transition mb-1">
-                    1M+
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-pink transition mb-1">1M+
                 </div>
-                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Active Readers</div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Readers</div>
             </div>
-            <!-- Stat 3 -->
             <div class="glass-panel p-6 rounded-xl hover:border-cyber-purple/50 transition duration-500 group">
-                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-purple transition mb-1">
-                    3
+                <div class="text-4xl font-display font-bold text-white group-hover:text-cyber-purple transition mb-1">3
                 </div>
-                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Media Adaptations</div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Adaptations</div>
             </div>
-            <!-- Stat 4 -->
             <div class="glass-panel p-6 rounded-xl hover:border-white/50 transition duration-500 group">
-                <div class="text-4xl font-display font-bold text-white group-hover:text-gray-200 transition mb-1">4.9/5
+                <div class="text-4xl font-display font-bold text-white group-hover:text-gray-200 transition mb-1">4.9
                 </div>
-                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Fan Rating</div>
+                <div class="text-xs text-gray-400 uppercase tracking-widest font-display">Rating</div>
             </div>
         </div>
     </section>
 
-    <!-- FOUR PILLARS -->
-    <section id="pillars" class="py-32 px-4 relative overflow-hidden">
-        <!-- Background Elements -->
-        <div class="absolute top-1/4 left-0 w-96 h-96 bg-cyber-purple/20 rounded-full blur-[120px] -z-10"></div>
-        <div class="absolute bottom-1/4 right-0 w-96 h-96 bg-cyber-cyan/20 rounded-full blur-[120px] -z-10"></div>
+    <!-- SYNOPSIS -->
+    <section id="universe" class="py-20 px-4 max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-display font-bold mb-8 text-cyber-cyan">THE STORY</h2>
+        <p class="text-lg text-gray-300 leading-relaxed">
+            [hi] A global sci-fi epic about a unified earth.
+        </p>
+    </section>
 
-        <div class="max-w-7xl mx-auto space-y-40">
-
-            <!-- 1. NOVEL -->
-            <div class="flex flex-col lg:flex-row items-center gap-20 group">
-                <div class="w-full lg:w-1/2 relative perspective-1000">
-                    <div
-                        class="absolute -inset-4 bg-gradient-to-r from-cyber-cyan to-blue-600 rounded-xl blur-xl opacity-30 group-hover:opacity-60 transition duration-700">
-                    </div>
-                    <div
-                        class="relative transform group-hover:rotate-y-6 transition duration-700 ease-out shadow-2xl rounded-lg overflow-hidden border border-white/10">
-                        <img src="https://via.placeholder.com/600x900/111/333?text=Novel+Cover" class="w-full h-full object-cover" alt="Novel Cover">
-                    </div>
-                    <!-- Decorative elements -->
-                    <div
-                        class="absolute -bottom-6 -right-6 w-24 h-24 border-b-2 border-r-2 border-cyber-cyan/50 rounded-br-xl">
-                    </div>
-                </div>
-                <div class="w-full lg:w-1/2 space-y-8">
-                    <div class="flex items-center gap-4">
-                        <span class="text-6xl text-white/10 font-display font-bold">01</span>
-                        <div class="h-[1px] flex-1 bg-gradient-to-r from-cyber-cyan/50 to-transparent"></div>
-                    </div>
-                    <h2 class="text-5xl font-display font-bold text-white">The Original <span
-                            class="text-cyber-cyan text-glow">Novel</span></h2>
-                    <p class="text-gray-400 text-lg leading-relaxed font-light">
-                        Immerse yourself in the text that started it all. Experience the depth of the world building and
-                        the internal monologues of the characters in a format that transcends time.
-                    </p>
-                    <a href="/novel-site-hi/sample-ip-global-novel-hi/index.html"
-                        class="inline-flex items-center gap-3 text-cyber-cyan hover:text-white transition group/link">
-                        <span class="uppercase tracking-widest font-bold text-sm">Read Now</span>
-                        <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
+    <!-- 1. NOVEL -->
+    <section id="novel" class="py-20 px-4 relative border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+            <div class="w-full lg:w-1/3">
+                <div class="relative rounded-xl overflow-hidden shadow-2xl border border-white/10 group">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10"></div>
+                    <img src="https://via.placeholder.com/600x900/111/333?text=%E0%A4%89%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%AF%E0%A4%BE%E0%A4%B8%3A%20A%20global%20sci-fi%20epic..." class="w-full h-full object-cover" alt="Novel Cover">
                 </div>
             </div>
-
-            <!-- 2. COMIC -->
-            <div class="flex flex-col lg:flex-row-reverse items-center gap-20 group">
-                <div class="w-full lg:w-1/2 relative">
-                    <div
-                        class="absolute -inset-4 bg-gradient-to-r from-cyber-pink to-purple-600 rounded-xl blur-xl opacity-30 group-hover:opacity-60 transition duration-700">
-                    </div>
-                    <div class="relative glass-panel p-2 rounded-xl border border-white/10">
-                        <div class="flex space-x-4 overflow-x-auto pb-4 hide-scrollbar snap-x">
-                            <div
-    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
-    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+1" class="w-full h-full object-cover" alt="Panel 1">
-</div><div
-    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
-    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+2" class="w-full h-full object-cover" alt="Panel 2">
-</div><div
-    class="flex-none w-64 aspect-[2/3] bg-gray-800 rounded-lg overflow-hidden snap-center border border-gray-700 hover:border-fuchsia-500 transition">
-    <img src="https://via.placeholder.com/400x600/222/444?text=Panel+3" class="w-full h-full object-cover" alt="Panel 3">
-</div>
-                        </div>
+            <div class="w-full lg:w-2/3 space-y-8">
+                <h2 class="text-5xl font-display font-bold text-white">The <span class="text-cyber-cyan">Novel</span>
+                </h2>
+                <div class="glass-panel p-6 rounded-xl">
+                    <h3 class="text-xl font-bold mb-4 text-gray-400">Latest Chapters</h3>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        <!-- Chapter Item -->
+<a href="/novel-site-hi/sample-ip-global-hi-novel/chapter-1.html"
+    class="block p-4 bg-white/5 rounded-lg hover:bg-white/10 transition border border-white/5 hover:border-cyber-cyan group">
+    <div class="flex justify-between items-baseline mb-2">
+        <span class="font-bold text-white group-hover:text-cyber-cyan transition">Chapter 1</span>
+        <span class="text-xs text-gray-500">11/27/2025</span>
+    </div>
+    <div class="text-sm text-gray-400 line-clamp-2">This is the content for chapter 1. It is a long form novel chapter with about 800 words. This is the content for chapter 1. It is a long form novel chapter with about 800 words. This is the content fo...</div>
+</a><!-- Chapter Item -->
+<a href="/novel-site-hi/sample-ip-global-hi-novel/chapter-2.html"
+    class="block p-4 bg-white/5 rounded-lg hover:bg-white/10 transition border border-white/5 hover:border-cyber-cyan group">
+    <div class="flex justify-between items-baseline mb-2">
+        <span class="font-bold text-white group-hover:text-cyber-cyan transition">Chapter 2</span>
+        <span class="text-xs text-gray-500">11/27/2025</span>
+    </div>
+    <div class="text-sm text-gray-400 line-clamp-2">This is the content for chapter 2. It is a long form novel chapter with about 800 words. This is the content for chapter 2. It is a long form novel chapter with about 800 words. This is the content fo...</div>
+</a><!-- Chapter Item -->
+<a href="/novel-site-hi/sample-ip-global-hi-novel/chapter-3.html"
+    class="block p-4 bg-white/5 rounded-lg hover:bg-white/10 transition border border-white/5 hover:border-cyber-cyan group">
+    <div class="flex justify-between items-baseline mb-2">
+        <span class="font-bold text-white group-hover:text-cyber-cyan transition">Chapter 3</span>
+        <span class="text-xs text-gray-500">11/27/2025</span>
+    </div>
+    <div class="text-sm text-gray-400 line-clamp-2">This is the content for chapter 3. It is a long form novel chapter with about 800 words. This is the content for chapter 3. It is a long form novel chapter with about 800 words. This is the content fo...</div>
+</a><!-- Chapter Item -->
+<a href="/novel-site-hi/sample-ip-global-hi-novel/chapter-4.html"
+    class="block p-4 bg-white/5 rounded-lg hover:bg-white/10 transition border border-white/5 hover:border-cyber-cyan group">
+    <div class="flex justify-between items-baseline mb-2">
+        <span class="font-bold text-white group-hover:text-cyber-cyan transition">Chapter 4</span>
+        <span class="text-xs text-gray-500">11/27/2025</span>
+    </div>
+    <div class="text-sm text-gray-400 line-clamp-2">This is the content for chapter 4. It is a long form novel chapter with about 800 words. This is the content for chapter 4. It is a long form novel chapter with about 800 words. This is the content fo...</div>
+</a><!-- Chapter Item -->
+<a href="/novel-site-hi/sample-ip-global-hi-novel/chapter-5.html"
+    class="block p-4 bg-white/5 rounded-lg hover:bg-white/10 transition border border-white/5 hover:border-cyber-cyan group">
+    <div class="flex justify-between items-baseline mb-2">
+        <span class="font-bold text-white group-hover:text-cyber-cyan transition">Chapter 5</span>
+        <span class="text-xs text-gray-500">11/27/2025</span>
+    </div>
+    <div class="text-sm text-gray-400 line-clamp-2">This is the content for chapter 5. It is a long form novel chapter with about 800 words. This is the content for chapter 5. It is a long form novel chapter with about 800 words. This is the content fo...</div>
+</a>
                     </div>
                 </div>
-                <div class="w-full lg:w-1/2 space-y-8 text-right lg:text-left">
-                    <!-- Text alignment adjusted for reverse layout on desktop? Actually keep left align for text usually looks better, but let's follow the alternating pattern visually -->
-                    <div class="flex items-center gap-4 lg:flex-row-reverse">
-                        <span class="text-6xl text-white/10 font-display font-bold">02</span>
-                        <div
-                            class="h-[1px] flex-1 bg-gradient-to-l lg:bg-gradient-to-r from-cyber-pink/50 to-transparent">
-                        </div>
-                    </div>
-                    <h2 class="text-5xl font-display font-bold text-white lg:text-right">Visual <span
-                            class="text-cyber-pink text-glow">Comic</span> Adaptation</h2>
-                    <p class="text-gray-400 text-lg leading-relaxed font-light lg:text-right">
-                        See the world come to life in stunning full-color panels. Action, emotion, and spectacle in
-                        every scroll.
-                    </p>
-                    <div class="flex lg:justify-end">
-                        <a href="/comic-site-hi/sample-ip-global-comic-hi/index.html"
-                            class="inline-flex items-center gap-3 text-cyber-pink hover:text-white transition group/link">
-                            <span class="uppercase tracking-widest font-bold text-sm">Start Reading</span>
-                            <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <a href="/novel-site-hi/sample-ip-global-hi-novel/index.html"
+                    class="inline-block px-8 py-3 bg-cyber-cyan text-black font-bold clip-corner hover:bg-white transition">READ
+                    FULL NOVEL</a>
             </div>
+        </div>
+    </section>
 
-            <!-- 3. DRAMA -->
-            <div class="flex flex-col lg:flex-row items-center gap-20 group">
-                <div class="w-full lg:w-1/2 relative">
-                    <div
-                        class="absolute -inset-4 bg-gradient-to-r from-red-500 to-orange-600 rounded-xl blur-xl opacity-20 group-hover:opacity-50 transition duration-700">
-                    </div>
-                    <div class="relative glass-panel rounded-xl overflow-hidden border border-white/10">
-                        <div class="max-h-[400px] overflow-y-auto custom-scrollbar">
-                            <div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+    <!-- 2. COMIC -->
+    <section id="comic" class="py-20 px-4 relative bg-white/5">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-end mb-12">
+                <h2 class="text-5xl font-display font-bold text-white">Visual <span class="text-cyber-pink">Comic</span>
+                </h2>
+                <a href="/comic-site-hi/sample-ip-global-hi-comic/index.html" class="text-cyber-pink hover:text-white transition">View All
+                    &rarr;</a>
+            </div>
+            <div class="flex space-x-6 overflow-x-auto pb-8 hide-scrollbar">
+                <div class="flex-none w-48 group cursor-pointer">
     <div
-        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
-        ▶</div>
-    <div class="ml-4">
-        <div class="text-white font-bold group-hover:text-red-400">Episode 1: The Beginning</div>
+        class="aspect-[2/3] rounded-lg overflow-hidden border border-white/10 group-hover:border-cyber-pink transition relative">
+        <img src="https://via.placeholder.com/300x450?text=Comic+Panel+1" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+            alt="Panel 1">
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition">
+            <div class="absolute bottom-2 left-2 text-xs font-bold text-white">Ep 1</div>
+        </div>
+    </div>
+</div><div class="flex-none w-48 group cursor-pointer">
+    <div
+        class="aspect-[2/3] rounded-lg overflow-hidden border border-white/10 group-hover:border-cyber-pink transition relative">
+        <img src="https://via.placeholder.com/300x450?text=Comic+Panel+2" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+            alt="Panel 2">
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition">
+            <div class="absolute bottom-2 left-2 text-xs font-bold text-white">Ep 2</div>
+        </div>
+    </div>
+</div><div class="flex-none w-48 group cursor-pointer">
+    <div
+        class="aspect-[2/3] rounded-lg overflow-hidden border border-white/10 group-hover:border-cyber-pink transition relative">
+        <img src="https://via.placeholder.com/300x450?text=Comic+Panel+3" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+            alt="Panel 3">
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition">
+            <div class="absolute bottom-2 left-2 text-xs font-bold text-white">Ep 3</div>
+        </div>
+    </div>
+</div><div class="flex-none w-48 group cursor-pointer">
+    <div
+        class="aspect-[2/3] rounded-lg overflow-hidden border border-white/10 group-hover:border-cyber-pink transition relative">
+        <img src="https://via.placeholder.com/300x450?text=Comic+Panel+4" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+            alt="Panel 4">
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition">
+            <div class="absolute bottom-2 left-2 text-xs font-bold text-white">Ep 4</div>
+        </div>
+    </div>
+</div><div class="flex-none w-48 group cursor-pointer">
+    <div
+        class="aspect-[2/3] rounded-lg overflow-hidden border border-white/10 group-hover:border-cyber-pink transition relative">
+        <img src="https://via.placeholder.com/300x450?text=Comic+Panel+5" class="w-full h-full object-cover transform group-hover:scale-110 transition duration-500"
+            alt="Panel 5">
+        <div
+            class="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent opacity-0 group-hover:opacity-100 transition">
+            <div class="absolute bottom-2 left-2 text-xs font-bold text-white">Ep 5</div>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. DRAMA -->
+    <section id="drama" class="py-20 px-4 relative border-t border-white/5">
+        <div class="max-w-7xl mx-auto flex flex-col lg:flex-row items-center gap-16">
+            <div class="w-full lg:w-1/2 space-y-8">
+                <h2 class="text-5xl font-display font-bold text-white">Live <span class="text-red-500">Drama</span></h2>
+                <div class="space-y-4">
+                    <div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 1</div>
         <div class="text-xs text-gray-500">24 min</div>
     </div>
-</div><div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
     <div
-        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
-        ▶</div>
-    <div class="ml-4">
-        <div class="text-white font-bold group-hover:text-red-400">Episode 2: The Conflict</div>
-        <div class="text-xs text-gray-500">22 min</div>
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
     </div>
-</div><div class="flex items-center p-4 hover:bg-white/5 transition cursor-pointer group">
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 10</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
     <div
-        class="w-12 h-12 bg-gray-800 rounded flex items-center justify-center text-gray-500 group-hover:text-white group-hover:bg-red-600 transition">
-        ▶</div>
-    <div class="ml-4">
-        <div class="text-white font-bold group-hover:text-red-400">Episode 3: The Climax</div>
-        <div class="text-xs text-gray-500">25 min</div>
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 100</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 101</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 102</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 103</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 104</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 105</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 106</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 107</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 108</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 109</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 11</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 110</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 111</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 112</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 113</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 114</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 115</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 116</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 117</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 118</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 119</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 12</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 120</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 13</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 14</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 15</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 16</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 17</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 18</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 19</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 2</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 20</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 21</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 22</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 23</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 24</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 25</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 26</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 27</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 28</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 29</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 3</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 30</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 31</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 32</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 33</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 34</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 35</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 36</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 37</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 38</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 39</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 4</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 40</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 41</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 42</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 43</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 44</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 45</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 46</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 47</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 48</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 49</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 5</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 50</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 51</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 52</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 53</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 54</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 55</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 56</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 57</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 58</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 59</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 6</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 60</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 61</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 62</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 63</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 64</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 65</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 66</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 67</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 68</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 69</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 7</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 70</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 71</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 72</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 73</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 74</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 75</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 76</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 77</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 78</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 79</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 8</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 80</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 81</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 82</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 83</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 84</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 85</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 86</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 87</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 88</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 89</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 9</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 90</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 91</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 92</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 93</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 94</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 95</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 96</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 97</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 98</div>
+        <div class="text-xs text-gray-500">24 min</div>
+    </div>
+</div><div
+    class="flex items-center gap-4 p-4 bg-white/5 rounded-lg hover:bg-red-900/20 transition border border-white/5 hover:border-red-500/30 cursor-pointer group">
+    <div
+        class="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold group-hover:scale-110 transition">
+        ▶
+    </div>
+    <div>
+        <div class="font-bold text-white group-hover:text-red-400 transition">Episode 99</div>
+        <div class="text-xs text-gray-500">24 min</div>
     </div>
 </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="w-full lg:w-1/2 space-y-8">
-                    <div class="flex items-center gap-4">
-                        <span class="text-6xl text-white/10 font-display font-bold">03</span>
-                        <div class="h-[1px] flex-1 bg-gradient-to-r from-red-500/50 to-transparent"></div>
-                    </div>
-                    <h2 class="text-5xl font-display font-bold text-white">Live Action <span
-                            class="text-red-500 text-glow">Drama</span></h2>
-                    <p class="text-gray-400 text-lg leading-relaxed font-light">
-                        Experience the emotional journey with our award-winning cast. High production value meets
-                        gripping storytelling.
-                    </p>
-                    <a href="/drama-site-hi/sample-ip-global-drama-hi/index.html"
-                        class="inline-flex items-center gap-3 text-red-500 hover:text-white transition group/link">
-                        <span class="uppercase tracking-widest font-bold text-sm">Watch Series</span>
-                        <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
-                            stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
+                <a href="/drama-site-hi/sample-ip-global-hi-drama/index.html"
+                    class="inline-block px-8 py-3 bg-red-600 text-white font-bold clip-corner hover:bg-red-500 transition">WATCH
+                    SERIES</a>
+            </div>
+            <div class="w-full lg:w-1/2">
+                <div
+                    class="aspect-video bg-black rounded-xl border border-white/10 flex items-center justify-center relative overflow-hidden">
+                    <div class="absolute inset-0 bg-red-900/20 animate-pulse"></div>
+                    <span class="relative z-10 font-display text-2xl">TRAILER PREVIEW</span>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- 4. GAME -->
-            <div class="flex flex-col lg:flex-row-reverse items-center gap-20 group">
-                <div class="w-full lg:w-1/2 relative">
-                    <div
-                        class="absolute -inset-4 bg-gradient-to-r from-yellow-400 to-amber-600 rounded-xl blur-xl opacity-20 group-hover:opacity-50 transition duration-700">
-                    </div>
-                    <div
-                        class="relative aspect-video w-full bg-black rounded-xl border border-white/10 overflow-hidden shadow-2xl">
-                        <div class="absolute inset-0 flex items-center justify-center"><span class="text-gray-600 uppercase tracking-widest text-sm">Game Preview Loading...</span></div>
-                        <div
-                            class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent pointer-events-none">
-                        </div>
-                    </div>
-                </div>
-                <div class="w-full lg:w-1/2 space-y-8 text-right lg:text-left">
-                    <div class="flex items-center gap-4 lg:flex-row-reverse">
-                        <span class="text-6xl text-white/10 font-display font-bold">04</span>
-                        <div
-                            class="h-[1px] flex-1 bg-gradient-to-l lg:bg-gradient-to-r from-yellow-500/50 to-transparent">
-                        </div>
-                    </div>
-                    <h2 class="text-5xl font-display font-bold text-white lg:text-right">Interactive <span
-                            class="text-yellow-500 text-glow">Game</span></h2>
-                    <p class="text-gray-400 text-lg leading-relaxed font-light lg:text-right">
-                        Make your own choices. Shape the destiny of the characters in our interactive fiction and visual
-                        novel adaptations.
-                    </p>
-                    <div class="flex lg:justify-end">
-                        <a href="#"
-                            class="inline-flex items-center gap-3 text-yellow-500 hover:text-white transition group/link">
-                            <span class="uppercase tracking-widest font-bold text-sm">Play Now</span>
-                            <svg class="w-5 h-5 transform group-hover/link:translate-x-2 transition" fill="none"
-                                stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+    <!-- 4. GAME -->
+    <section id="game" class="py-20 px-4 relative bg-black">
+        <div class="max-w-7xl mx-auto text-center space-y-12">
+            <h2 class="text-5xl font-display font-bold text-white">Interactive <span class="text-yellow-500">Game</span>
+            </h2>
+            <div
+                class="relative aspect-video w-full max-w-4xl mx-auto bg-gray-900 rounded-xl border border-yellow-500/30 overflow-hidden shadow-[0_0_50px_rgba(234,179,8,0.2)]">
+                <iframe src="/game-site/sample-ip-global-hi-vn-hi/index.html" class="w-full h-full border-0" loading="lazy"></iframe>
             </div>
-
+            <a href="/game-site/sample-ip-global-hi-vn-hi/index.html"
+                class="inline-block px-12 py-4 bg-yellow-500 text-black font-bold text-xl clip-corner hover:bg-white transition">PLAY
+                NOW</a>
         </div>
     </section>
 
     <!-- SUBSCRIPTION -->
-    <section class="py-32 px-4 relative overflow-hidden">
-        <div class="absolute inset-0 bg-gradient-to-b from-cyber-dark via-cyber-purple/10 to-cyber-dark z-0"></div>
-
-        <div class="relative z-10 max-w-4xl mx-auto text-center space-y-12">
-            <h2 class="text-5xl md:text-7xl font-display font-black text-white tracking-tighter">UNLOCK THE <span
-                    class="text-transparent bg-clip-text bg-gradient-to-r from-cyber-cyan to-cyber-pink">UNIVERSE</span>
-            </h2>
-
-            <div
-                class="glass-panel p-12 rounded-2xl border-t border-cyber-pink/50 shadow-[0_0_50px_rgba(188,19,254,0.15)] relative overflow-hidden group hover:shadow-[0_0_80px_rgba(188,19,254,0.3)] transition duration-500">
-                <div
-                    class="absolute top-0 right-0 bg-gradient-to-bl from-cyber-pink to-purple-600 text-white text-xs font-bold px-4 py-2 uppercase tracking-widest clip-corner">
-                    Best Value</div>
-
-                <div class="text-gray-400 uppercase tracking-[0.2em] text-sm mb-6 font-display">All-Access Pass</div>
-                <div class="flex justify-center items-baseline gap-2 mb-2">
-                    <div class="text-7xl font-display font-bold text-white">$9.99</div>
-                    <div class="text-xl text-gray-500">/ month</div>
-                </div>
-
-                <div class="w-full h-[1px] bg-gradient-to-r from-transparent via-white/20 to-transparent my-8"></div>
-
-                <ul class="space-y-4 text-left max-w-md mx-auto mb-12 text-gray-300 font-light">
-                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> Unlimited Novel Chapters
-                    </li>
-                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> All Comic Episodes</li>
-                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> Ad-Free Drama Streaming
-                    </li>
-                    <li class="flex items-center gap-3"><span class="text-cyber-cyan">❖</span> VIP Game Access & Items
-                    </li>
-                </ul>
-
-                <a href="#"
-                    class="block w-full py-5 bg-white text-black hover:bg-cyber-cyan hover:text-black font-display font-bold text-xl clip-corner transition-all duration-300 shadow-lg hover:shadow-neon-cyan">
-                    SUBSCRIBE NOW
-                </a>
-            </div>
-
-            <div class="pt-8">
-                <a href="#"
-                    class="text-gray-500 hover:text-white text-xs uppercase tracking-[0.2em] transition border-b border-transparent hover:border-white pb-1">Business
-                    Inquiry / Licensing</a>
-            </div>
+    <section class="py-32 px-4 relative overflow-hidden text-center">
+        <div class="glass-panel max-w-3xl mx-auto p-12 rounded-2xl border-t border-cyber-cyan/50">
+            <h2 class="text-4xl font-display font-bold mb-6">UNLOCK EVERYTHING</h2>
+            <div class="text-6xl font-bold text-white mb-2">$9.99</div>
+            <div class="text-gray-400 mb-8">/ month</div>
+            <button
+                class="px-12 py-4 bg-white text-black font-bold text-xl clip-corner hover:bg-cyber-cyan transition shadow-lg hover:shadow-neon-cyan">SUBSCRIBE</button>
         </div>
     </section>
 
-    <!-- FOOTER -->
-    <footer class="py-12 border-t border-white/5 bg-black text-center relative">
-        <div
-            class="absolute top-0 left-1/2 -translate-x-1/2 w-1/2 h-[1px] bg-gradient-to-r from-transparent via-cyber-cyan/50 to-transparent">
+    <footer class="py-12 border-t border-white/10 bg-black text-center">
+        <div class="text-gray-600 text-xs uppercase tracking-[0.3em] font-display">Powered by IP Mother Factory V3.0
         </div>
-        <div class="text-gray-600 text-xs uppercase tracking-[0.3em] font-display">Powered by IP Mother Factory</div>
-        <div class="text-gray-800 text-[10px] mt-4 font-mono">© 2025 All Rights Reserved.</div>
     </footer>
 
 </body>

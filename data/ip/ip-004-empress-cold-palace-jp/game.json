@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-004-empress-cold-palace-jp-vn-jp",
+      "ipId": "ip-004-empress-cold-palace-jp",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[jp] 现代女特工穿越成被打入冷宫的废后，看她如何逆风翻盘，登顶帝位。",
+      "genre": "[jp] historical_palace",
+      "language": "jp",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:02.172Z"
+    },
+    {
+      "gameId": "ip-004-empress-cold-palace-jp-if-jp",
+      "ipId": "ip-004-empress-cold-palace-jp",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[jp] 现代女特工穿越成被打入冷宫的废后，看她如何逆风翻盘，登顶帝位。",
+      "genre": "[jp] historical_palace",
+      "language": "jp",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:02.172Z"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "metadata": {
+    "id": "sample-ip-comic",
+    "title": "Comic: Novel: A poor girl time-tra...",
+    "author": "AI Artist",
+    "genre": "romance_revenge",
+    "description": "Adapted from novel: A poor girl time-travels and becomes the CEO's wife, planning revenge.",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T02:34:25.284Z",
+    "sourceNovelId": "sample-ip-novel"
+  },
+  "thumbnails": [
+    {
+      "id": 1,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+1"
+    },
+    {
+      "id": 2,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+2"
+    },
+    {
+      "id": 3,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+3"
+    },
+    {
+      "id": 4,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+4"
+    },
+    {
+      "id": 5,
+      "src": "https://via.placeholder.com/300x450?text=Comic+Panel+5"
+    }
+  ]
+}

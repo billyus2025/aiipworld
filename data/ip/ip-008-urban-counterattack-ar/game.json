@@ -1,0 +1,30 @@
+{
+  "games": [
+    {
+      "gameId": "ip-008-urban-counterattack-ar-vn-ar",
+      "ipId": "ip-008-urban-counterattack-ar",
+      "mode": "vn",
+      "title": "undefined - VN Game",
+      "logline": "[ar] 职场失意，情场失意，获得未来黑科技系统，开启完美人生。",
+      "genre": "[ar] urban_system",
+      "language": "ar",
+      "estimated_playtime_minutes": 30,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:14.171Z"
+    },
+    {
+      "gameId": "ip-008-urban-counterattack-ar-if-ar",
+      "ipId": "ip-008-urban-counterattack-ar",
+      "mode": "if",
+      "title": "undefined - IF Game",
+      "logline": "[ar] 职场失意，情场失意，获得未来黑科技系统，开启完美人生。",
+      "genre": "[ar] urban_system",
+      "language": "ar",
+      "estimated_playtime_minutes": 60,
+      "subscription_required": true,
+      "vip_only": true,
+      "createdAt": "2025-11-28T02:34:14.172Z"
+    }
+  ]
+}
