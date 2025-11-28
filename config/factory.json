@@ -1,0 +1,25 @@
+{
+    "text_model": "gpt-4o",
+    "image_provider": "flux",
+    "tts_provider": "elevenlabs",
+    "supported_languages": [
+        "zh",
+        "en",
+        "jp",
+        "kr",
+        "es",
+        "fr",
+        "de",
+        "it",
+        "hi",
+        "ar"
+    ],
+    "game": {
+        "default_modes": [
+            "if",
+            "vn"
+        ],
+        "vn_max_scenes": 30,
+        "if_max_nodes": 50
+    }
+}

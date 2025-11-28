@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Operations Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-gray-800 border-r border-gray-700 p-6 flex flex-col">
+            <h1 class="text-2xl font-bold text-yellow-500 mb-8">IP Factory <span
+                    class="text-xs text-gray-400 block">Game Ops</span></h1>
+            <nav class="flex-1 space-y-4">
+                <a href="../index.html" class="block text-gray-400 hover:text-white">← Global Home</a>
+                <a href="#" class="block text-white font-bold bg-gray-700 p-2 rounded">Game Dashboard</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto p-8">
+            <header class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Game Monetization Engine</h2>
+                <div class="text-sm text-gray-400">Last Updated: {{latestReport.generatedAt}}</div>
+            </header>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Total Games</h3>
+                    <div class="text-3xl font-bold text-white">{{games.length}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Exports Today</h3>
+                    <div class="text-3xl font-bold text-green-500">{{latestReport.exported_games.length}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">VIP Gated</h3>
+                    <div class="text-3xl font-bold text-yellow-500">{{vipCount}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">HTML5 Ready</h3>
+                    <div class="text-3xl font-bold text-blue-500">{{html5Count}}</div>
+                </div>
+            </div>
+
+            <!-- Game List -->
+            <div class="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                <div class="p-6 border-b border-gray-700">
+                    <h3 class="text-xl font-bold">Active Game Assets</h3>
+                </div>
+                <table class="w-full text-left">
+                    <thead class="bg-gray-700 text-gray-400 uppercase text-xs">
+                        <tr>
+                            <th class="p-4">Game ID</th>
+                            <th class="p-4">Mode</th>
+                            <th class="p-4">Lang</th>
+                            <th class="p-4">VIP</th>
+                            <th class="p-4">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700">
+                        {{#games}}
+                        <tr class="hover:bg-gray-750">
+                            <td class="p-4 font-mono text-sm">{{gameId}}</td>
+                            <td class="p-4"><span
+                                    class="bg-gray-700 px-2 py-1 rounded text-xs uppercase">{{mode}}</span></td>
+                            <td class="p-4">{{language}}</td>
+                            <td class="p-4">
+                                {{#vip_only}}<span class="text-yellow-500">🔒 Yes</span>{{/vip_only}}
+                                {{^vip_only}}<span class="text-green-500">Free</span>{{/vip_only}}
+                            </td>
+                            <td class="p-4 space-x-2">
+                                <a href="../../game-site/{{gameId}}/index.html" target="_blank"
+                                    class="text-blue-400 hover:text-white text-sm">Play</a>
+                                <a href="../../game-export/{{gameId}}/index.html" target="_blank"
+                                    class="text-green-400 hover:text-white text-sm">HTML5</a>
+                            </td>
+                        </tr>
+                        {{/games}}
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Distribution Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <div class="flex h-screen">
+        <aside class="w-64 bg-gray-800 border-r border-gray-700 p-6 flex flex-col">
+            <h1 class="text-2xl font-bold text-purple-500 mb-8">IP Factory <span
+                    class="text-xs text-gray-400 block">Distribution</span></h1>
+            <nav class="flex-1 space-y-4">
+                <a href="../index.html" class="block text-gray-400 hover:text-white">← Global Home</a>
+                <a href="#" class="block text-white font-bold bg-gray-700 p-2 rounded">Global Dashboard</a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 overflow-y-auto p-8">
+            <header class="flex justify-between items-center mb-8">
+                <h2 class="text-3xl font-bold">Global Distribution Engine</h2>
+                <div class="text-sm text-gray-400">Last Updated: {{generatedAt}}</div>
+            </header>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Video Uploads</h3>
+                    <div class="text-3xl font-bold text-purple-500">{{videoCount}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Game Exports</h3>
+                    <div class="text-3xl font-bold text-blue-500">{{gameCount}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Content Exports</h3>
+                    <div class="text-3xl font-bold text-green-500">{{contentCount}}</div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 rounded-lg border border-gray-700 p-6">
+                <h3 class="text-xl font-bold mb-4">Recent Distribution Logs</h3>
+                <pre class="bg-black p-4 rounded text-xs text-green-400 overflow-x-auto">{{logs}}</pre>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{
+    "type": "drama-narration",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "scene_transition": "fade",
+    "subtitle_style": {
+        "font": "Bold",
+        "size": 50,
+        "color": "white",
+        "stroke": "black"
+    },
+    "audio": {
+        "tts_enabled": true,
+        "bgm": "dramatic_tension.mp3"
+    }
+}

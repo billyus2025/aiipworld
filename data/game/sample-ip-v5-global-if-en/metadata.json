@@ -1,0 +1,11 @@
+{
+  "gameId": "sample-ip-v5-global-if-en",
+  "ipId": "sample-ip-v5-global",
+  "mode": "if",
+  "title": "undefined - IF Game",
+  "logline": "A story about a global trade empire connecting cultures.",
+  "genre": "romance_revenge",
+  "language": "en",
+  "estimated_playtime_minutes": 60,
+  "createdAt": "2025-11-27T22:38:34.910Z"
+}

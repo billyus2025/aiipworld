@@ -1,0 +1,69 @@
+{
+  "ipId": "daily-ip-1764284411865",
+  "idea": "[jp] A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+  "genre": "[jp] romance_revenge",
+  "language": "jp",
+  "novelId": "daily-ip-1764284411865-novel-jp",
+  "dramaId": "daily-ip-1764284411865-drama-jp",
+  "comicId": "daily-ip-1764284411865-comic-jp",
+  "createdAt": "2025-11-27T23:00:12.617Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764284411865-novel",
+    "title": "小説: A new daily IP conce...",
+    "author": "[jp] AI Factory",
+    "genre": "[jp] romance_revenge",
+    "tags": [
+      "[jp] Cultivation",
+      "[jp] Immortality",
+      "[jp] System",
+      "[jp] romance_revenge"
+    ],
+    "description": "[jp] A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+    "characters": [
+      "[jp] Li Wei",
+      "[jp] Fairy Chen",
+      "[jp] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T23:00:11.922Z",
+    "status": "[jp] completed",
+    "language": "[jp] zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764284411865-drama",
+    "title": "ドラマ: 小説: A new daily IP conce...",
+    "author": "[jp] AI Factory",
+    "tags": [
+      "[jp] Cultivation",
+      "[jp] Immortality",
+      "[jp] System",
+      "[jp] romance_revenge",
+      "ドラマ Adaptation"
+    ],
+    "description": "[jp] Adapted from novel: A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+    "createdAt": "2025-11-27T23:00:12.273Z",
+    "status": "[jp] completed",
+    "sourceNovelId": "[jp] daily-ip-1764284411865-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764284411865-comic",
+    "title": "漫画: 小説: A new daily IP conce...",
+    "author": "[jp] AI Artist",
+    "genre": "[jp] romance_revenge",
+    "description": "[jp] Adapted from novel: A new daily IP concept generated at 2025-11-27T23:00:11.865Z",
+    "status": "[jp] ongoing",
+    "createdAt": "2025-11-27T23:00:12.454Z",
+    "sourceNovelId": "[jp] daily-ip-1764284411865-novel"
+  },
+  "games": [
+    {
+      "gameId": "daily-ip-1764284411865-jp-if-jp",
+      "mode": "if",
+      "language": "jp"
+    },
+    {
+      "gameId": "daily-ip-1764284411865-jp-vn-jp",
+      "mode": "vn",
+      "language": "jp"
+    }
+  ]
+}

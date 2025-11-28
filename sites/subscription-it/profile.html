@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - IP Factory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <nav class="bg-gray-800 p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="/" class="text-xl font-bold">IP Factory</a>
+            <div>
+                <button id="logoutBtn" class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">Logout</button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-10 p-4">
+        <div class="bg-gray-800 p-8 rounded-lg shadow-lg max-w-2xl mx-auto">
+            <h1 class="text-3xl font-bold mb-6">User Profile</h1>
+            <div class="space-y-4">
+                <div class="flex justify-between border-b border-gray-700 pb-2">
+                    <span class="text-gray-400">Username:</span>
+                    <span id="username" class="font-semibold">Loading...</span>
+                </div>
+                <div class="flex justify-between border-b border-gray-700 pb-2">
+                    <span class="text-gray-400">Status:</span>
+                    <span id="status" class="font-semibold">Loading...</span>
+                </div>
+            </div>
+
+            <div id="vipSection" class="mt-8 hidden">
+                <h2 class="text-xl font-bold mb-4">Get VIP Access</h2>
+                <p class="mb-4 text-gray-300">Unlock all chapters and episodes across all languages.</p>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-gray-700 p-4 rounded border border-gray-600 text-center">
+                        <h3 class="text-lg font-bold">Monthly</h3>
+                        <p class="text-2xl font-bold text-blue-400 my-2">$9.99</p>
+                        <button onclick="purchase('monthly')"
+                            class="bg-blue-600 w-full py-2 rounded hover:bg-blue-700">Buy Now</button>
+                    </div>
+                    <div class="bg-gray-700 p-4 rounded border border-gray-600 text-center">
+                        <h3 class="text-lg font-bold">Yearly</h3>
+                        <p class="text-2xl font-bold text-blue-400 my-2">$89.99</p>
+                        <button onclick="purchase('yearly')"
+                            class="bg-blue-600 w-full py-2 rounded hover:bg-blue-700">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const token = localStorage.getItem('token');
+        if (!token) window.location.href = 'login.html';
+
+        document.getElementById('logoutBtn').addEventListener('click', () => {
+            localStorage.removeItem('token');
+            localStorage.removeItem('user');
+            window.location.href = 'login.html';
+        });
+
+        async function loadProfile() {
+            try {
+                const res = await fetch('/api/subscription/profile', {
+                    headers: { 'Authorization': token }
+                });
+                const data = await res.json();
+
+                if (data.error) {
+                    localStorage.removeItem('token');
+                    window.location.href = 'login.html';
+                    return;
+                }
+
+                document.getElementById('username').textContent = data.username;
+                const statusEl = document.getElementById('status');
+                if (data.isVip) {
+                    statusEl.textContent = 'VIP Member';
+                    statusEl.classList.add('text-green-400');
+                } else {
+                    statusEl.textContent = 'Free User';
+                    document.getElementById('vipSection').classList.remove('hidden');
+                }
+            } catch (e) {
+                console.error(e);
+            }
+        }
+
+        async function purchase(plan) {
+            if (!confirm(`Confirm purchase of ${plan} plan?`)) return;
+
+            try {
+                const res = await fetch('/api/subscription/purchase-vip', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': token
+                    },
+                    body: JSON.stringify({ plan })
+                });
+                const data = await res.json();
+                if (data.success) {
+                    alert('Purchase successful! You are now a VIP.');
+                    location.reload();
+                } else {
+                    alert('Purchase failed: ' + data.error);
+                }
+            } catch (e) {
+                alert('Error processing purchase');
+            }
+        }
+
+        loadProfile();
+    </script>
+</body>
+
+</html>

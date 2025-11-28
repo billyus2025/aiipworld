@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700">
+        <a href="../index.html" class="text-blue-400 hover:text-white">← Back to Command Center</a>
+    </nav>
+
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-8 text-blue-500">Subscription Operations</h1>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+            <div class="bg-gray-800 p-6 rounded">
+                <div class="text-gray-400 text-sm">Total Projects</div>
+                <div class="text-3xl font-bold">{{stats.total_projects}}</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <div class="text-gray-400 text-sm">Total Chapters</div>
+                <div class="text-3xl font-bold">{{stats.total_chapters}}</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <div class="text-gray-400 text-sm">Total Episodes</div>
+                <div class="text-3xl font-bold">{{stats.total_episodes}}</div>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <div class="text-gray-400 text-sm">Languages</div>
+                <div class="text-xl font-bold truncate">{{#stats.by_language_keys}}{{.}} {{/stats.by_language_keys}}
+                </div>
+            </div>
+        </div>
+
+        <!-- Active Projects -->
+        <h2 class="text-2xl font-bold mb-6">Active Projects</h2>
+        <div class="bg-gray-800 rounded-lg overflow-hidden">
+            <table class="w-full text-left">
+                <thead class="bg-gray-700 text-gray-400">
+                    <tr>
+                        <th class="p-4">Type</th>
+                        <th class="p-4">ID</th>
+                        <th class="p-4">Languages</th>
+                        <th class="p-4">Actions</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-700">
+                    {{#projects}}
+                    <tr>
+                        <td class="p-4 uppercase text-xs font-bold text-gray-400">{{type}}</td>
+                        <td class="p-4 font-bold">{{id}}</td>
+                        <td class="p-4">
+                            {{#langs}}
+                            <span class="bg-gray-700 px-2 py-1 rounded text-xs">{{.}}</span>
+                            {{/langs}}
+                        </td>
+                        <td class="p-4">
+                            <a href="../../../subscription-en/{{type}}/{{id}}/index.html"
+                                class="text-blue-400 hover:underline text-sm">View Site (EN)</a>
+                        </td>
+                    </tr>
+                    {{/projects}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

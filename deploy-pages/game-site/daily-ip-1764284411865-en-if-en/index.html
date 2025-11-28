@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undefined - IF Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body class="bg-black text-gray-200 font-mono h-screen flex flex-col">
+    <nav class="p-4 border-b border-gray-800 flex justify-between">
+        <span class="font-bold text-green-500">{{title}}</span>
+        <a href="../index.html" class="text-gray-500 hover:text-white">Exit</a>
+    </nav>
+
+    <main id="game-container" class="flex-1 p-8 max-w-3xl mx-auto w-full flex flex-col justify-center">
+        <div id="story-text" class="text-xl leading-relaxed mb-8 fade-in">
+            Loading...
+        </div>
+        <div id="choices" class="space-y-4">
+            <!-- Choices injected here -->
+        </div>
+    </main>
+
+    <div id="paywall-overlay" class="fixed inset-0 bg-black/90 z-50 flex flex-col items-center justify-center hidden">
+        <div class="text-6xl mb-4">🔒</div>
+        <h2 class="text-3xl font-bold text-yellow-500 mb-4">VIP Access Required</h2>
+        <p class="text-gray-400 mb-8 max-w-md text-center">This premium interactive fiction game is available
+            exclusively to our VIP subscribers.</p>
+        <a href="../../subscription-{{language}}/home/index.html"
+            class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+            Upgrade to VIP
+        </a>
+    </div>
+
+    <script>
+        const gameData = {{{ gameDataJson }}}; // Injected by build script
+        let currentNodeId = gameData.startNodeId;
+
+        // Access Check
+        async function checkAccess() {
+            // Mock API call since we are static
+            // In real deployment, this would hit the backend
+            // For now, we check localStorage for a mock token/vip status set by subscription site
+            const token = localStorage.getItem('authToken');
+
+            // If we are running locally/statically without backend, we might skip or mock
+            // But let's try to fetch if backend is reachable
+            try {
+                const res = await fetch(`http://localhost:3000/api/subscription/game-access?id=${gameData.gameId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const data = await res.json();
+                if (!data.access) {
+                    document.getElementById('paywall-overlay').classList.remove('hidden');
+                    document.getElementById('game-container').classList.add('blur-sm');
+                    return false;
+                }
+            } catch (e) {
+                console.log("Backend unreachable, skipping check for demo");
+            }
+            return true;
+        }
+
+        async function init() {
+            if (await checkAccess()) {
+                renderNode(currentNodeId);
+            }
+        }
+
+        function renderNode(nodeId) {
+            const node = gameData.nodes.find(n => n.id === nodeId);
+            if (!node) return;
+
+            const textEl = document.getElementById('story-text');
+            const choicesEl = document.getElementById('choices');
+
+            // Fade out
+            textEl.classList.remove('fade-in');
+            void textEl.offsetWidth; // trigger reflow
+            textEl.classList.add('fade-in');
+
+            textEl.innerText = node.text;
+            choicesEl.innerHTML = '';
+
+            node.choices.forEach(choice => {
+                const btn = document.createElement('button');
+                btn.className = "w-full text-left p-4 border border-gray-700 rounded hover:bg-gray-800 hover:border-green-500 transition text-green-400 font-bold";
+                btn.innerText = `> ${choice.label}`;
+                btn.onclick = () => renderNode(choice.target);
+                choicesEl.appendChild(btn);
+            });
+        }
+
+        init();
+    </script>
+</body>
+
+</html>

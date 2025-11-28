@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 1: Opening Part 1",
+    "summary": "[fr] This is the summary for outline item 1. It is part of the Opening arc."
+  },
+  {
+    "id": 2,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 2: Opening Part 2",
+    "summary": "[fr] This is the summary for outline item 2. It is part of the Opening arc."
+  },
+  {
+    "id": 3,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 3: Opening Part 3",
+    "summary": "[fr] This is the summary for outline item 3. It is part of the Opening arc."
+  },
+  {
+    "id": 4,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 4: Opening Part 4",
+    "summary": "[fr] This is the summary for outline item 4. It is part of the Opening arc."
+  },
+  {
+    "id": 5,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 5: Opening Part 5",
+    "summary": "[fr] This is the summary for outline item 5. It is part of the Opening arc."
+  },
+  {
+    "id": 6,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 6: Opening Part 6",
+    "summary": "[fr] This is the summary for outline item 6. It is part of the Opening arc."
+  },
+  {
+    "id": 7,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 7: Opening Part 7",
+    "summary": "[fr] This is the summary for outline item 7. It is part of the Opening arc."
+  },
+  {
+    "id": 8,
+    "arc": "[fr] Opening",
+    "title": "[fr] Outline Item 8: Opening Part 8",
+    "summary": "[fr] This is the summary for outline item 8. It is part of the Opening arc."
+  },
+  {
+    "id": 9,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 9: Rising Action Part 1",
+    "summary": "[fr] This is the summary for outline item 9. It is part of the Rising Action arc."
+  },
+  {
+    "id": 10,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 10: Rising Action Part 2",
+    "summary": "[fr] This is the summary for outline item 10. It is part of the Rising Action arc."
+  },
+  {
+    "id": 11,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 11: Rising Action Part 3",
+    "summary": "[fr] This is the summary for outline item 11. It is part of the Rising Action arc."
+  },
+  {
+    "id": 12,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 12: Rising Action Part 4",
+    "summary": "[fr] This is the summary for outline item 12. It is part of the Rising Action arc."
+  },
+  {
+    "id": 13,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 13: Rising Action Part 5",
+    "summary": "[fr] This is the summary for outline item 13. It is part of the Rising Action arc."
+  },
+  {
+    "id": 14,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 14: Rising Action Part 6",
+    "summary": "[fr] This is the summary for outline item 14. It is part of the Rising Action arc."
+  },
+  {
+    "id": 15,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 15: Rising Action Part 7",
+    "summary": "[fr] This is the summary for outline item 15. It is part of the Rising Action arc."
+  },
+  {
+    "id": 16,
+    "arc": "[fr] Rising Action",
+    "title": "[fr] Outline Item 16: Rising Action Part 8",
+    "summary": "[fr] This is the summary for outline item 16. It is part of the Rising Action arc."
+  },
+  {
+    "id": 17,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 17: Twist Part 1",
+    "summary": "[fr] This is the summary for outline item 17. It is part of the Twist arc."
+  },
+  {
+    "id": 18,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 18: Twist Part 2",
+    "summary": "[fr] This is the summary for outline item 18. It is part of the Twist arc."
+  },
+  {
+    "id": 19,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 19: Twist Part 3",
+    "summary": "[fr] This is the summary for outline item 19. It is part of the Twist arc."
+  },
+  {
+    "id": 20,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 20: Twist Part 4",
+    "summary": "[fr] This is the summary for outline item 20. It is part of the Twist arc."
+  },
+  {
+    "id": 21,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 21: Twist Part 5",
+    "summary": "[fr] This is the summary for outline item 21. It is part of the Twist arc."
+  },
+  {
+    "id": 22,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 22: Twist Part 6",
+    "summary": "[fr] This is the summary for outline item 22. It is part of the Twist arc."
+  },
+  {
+    "id": 23,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 23: Twist Part 7",
+    "summary": "[fr] This is the summary for outline item 23. It is part of the Twist arc."
+  },
+  {
+    "id": 24,
+    "arc": "[fr] Twist",
+    "title": "[fr] Outline Item 24: Twist Part 8",
+    "summary": "[fr] This is the summary for outline item 24. It is part of the Twist arc."
+  },
+  {
+    "id": 25,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 25: Climax Part 1",
+    "summary": "[fr] This is the summary for outline item 25. It is part of the Climax arc."
+  },
+  {
+    "id": 26,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 26: Climax Part 2",
+    "summary": "[fr] This is the summary for outline item 26. It is part of the Climax arc."
+  },
+  {
+    "id": 27,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 27: Climax Part 3",
+    "summary": "[fr] This is the summary for outline item 27. It is part of the Climax arc."
+  },
+  {
+    "id": 28,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 28: Climax Part 4",
+    "summary": "[fr] This is the summary for outline item 28. It is part of the Climax arc."
+  },
+  {
+    "id": 29,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 29: Climax Part 5",
+    "summary": "[fr] This is the summary for outline item 29. It is part of the Climax arc."
+  },
+  {
+    "id": 30,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 30: Climax Part 6",
+    "summary": "[fr] This is the summary for outline item 30. It is part of the Climax arc."
+  },
+  {
+    "id": 31,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 31: Climax Part 7",
+    "summary": "[fr] This is the summary for outline item 31. It is part of the Climax arc."
+  },
+  {
+    "id": 32,
+    "arc": "[fr] Climax",
+    "title": "[fr] Outline Item 32: Climax Part 8",
+    "summary": "[fr] This is the summary for outline item 32. It is part of the Climax arc."
+  },
+  {
+    "id": 33,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 33: Resolution Part 1",
+    "summary": "[fr] This is the summary for outline item 33. It is part of the Resolution arc."
+  },
+  {
+    "id": 34,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 34: Resolution Part 2",
+    "summary": "[fr] This is the summary for outline item 34. It is part of the Resolution arc."
+  },
+  {
+    "id": 35,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 35: Resolution Part 3",
+    "summary": "[fr] This is the summary for outline item 35. It is part of the Resolution arc."
+  },
+  {
+    "id": 36,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 36: Resolution Part 4",
+    "summary": "[fr] This is the summary for outline item 36. It is part of the Resolution arc."
+  },
+  {
+    "id": 37,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 37: Resolution Part 5",
+    "summary": "[fr] This is the summary for outline item 37. It is part of the Resolution arc."
+  },
+  {
+    "id": 38,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 38: Resolution Part 6",
+    "summary": "[fr] This is the summary for outline item 38. It is part of the Resolution arc."
+  },
+  {
+    "id": 39,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 39: Resolution Part 7",
+    "summary": "[fr] This is the summary for outline item 39. It is part of the Resolution arc."
+  },
+  {
+    "id": 40,
+    "arc": "[fr] Resolution",
+    "title": "[fr] Outline Item 40: Resolution Part 8",
+    "summary": "[fr] This is the summary for outline item 40. It is part of the Resolution arc."
+  }
+]

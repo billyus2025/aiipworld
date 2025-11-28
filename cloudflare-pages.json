@@ -1,0 +1,13 @@
+{
+    "name": "aiipworld",
+    "build_config": {
+        "build_command": null,
+        "destination_dir": "sites",
+        "root_dir": "ip-factory"
+    },
+    "deployment_configs": {
+        "production": {
+            "compatibility_date": "2025-11-27"
+        }
+    }
+}

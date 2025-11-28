@@ -1,0 +1,2154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Market - B2B Exchange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700 flex justify-between items-center">
+        <div class="text-2xl font-bold text-green-500">IP Market Exchange</div>
+        <a href="../network/index.html" class="text-gray-400 hover:text-white">Global Network</a>
+    </nav>
+
+    <header class="py-20 text-center bg-gradient-to-b from-gray-800 to-gray-900">
+        <h1 class="text-5xl font-bold mb-6">Premium IP Marketplace</h1>
+        <p class="text-xl text-gray-400 mb-8">Acquire rights for the next global blockbuster.</p>
+        <div class="flex justify-center gap-4">
+            <button class="bg-green-600 px-6 py-3 rounded font-bold hover:bg-green-700">Browse Catalog</button>
+            <button class="bg-gray-700 px-6 py-3 rounded font-bold hover:bg-gray-600">Sell IP</button>
+        </div>
+    </header>
+
+    <div class="container mx-auto p-8">
+        <div class="flex justify-between items-center mb-8">
+            <h2 class="text-3xl font-bold">Latest Pitches</h2>
+            <div class="flex gap-2">
+                <select class="bg-gray-800 border border-gray-700 rounded px-3 py-1">
+                    <option>All Genres</option>
+                    <option>Sci-Fi</option>
+                    <option>Romance</option>
+                </select>
+                <select class="bg-gray-800 border border-gray-700 rounded px-3 py-1">
+                    <option>Price: High to Low</option>
+                    <option>Price: Low to High</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A new daily IP concept generated at 2025-11-27T22:44:52.495Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A new daily IP concept generated at 2025-11-27T22:53:10.553Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A new daily IP concept generated at 2025-11-27T22:53:31.435Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A new daily IP concept generated at 2025-11-27T23:00:11.865Z</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A poor girl time-travels and becomes the CEO's wife, planning revenge.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A global sci-fi epic about a unified earth.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A futuristic global empire story.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[ar] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[ar] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[de] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[de] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[es] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[es] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[fr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[fr] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[hi] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[hi] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[it] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[it] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[jp] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[jp] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+            {<div class="bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+    <div class="h-48 bg-gray-700 flex items-center justify-center relative">
+        <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">Untitled IP</span>
+        <span class="absolute top-2 right-2 bg-blue-600 text-xs px-2 py-1 rounded">[kr] romance_revenge</span>
+    </div>
+    <div class="p-6">
+        <h3 class="text-xl font-bold mb-2">Untitled IP</h3>
+        <p class="text-sm text-gray-400 mb-4 line-clamp-2">[kr] A story about a global trade empire connecting cultures.</p>
+
+        <div class="flex justify-between items-center text-sm text-gray-500 mb-4">
+            <span>{{stats.novelChapters}} Chapters</span>
+            <span>{{stats.dramaEpisodes}} Episodes</span>
+        </div>
+
+        <div class="flex justify-between items-center border-t border-gray-700 pt-4">
+            <div>
+                <p class="text-xs text-gray-500">Global Rights</p>
+                <p class="text-green-400 font-bold">{{recommended_price.global}}</p>
+            </div>
+            <a href="/index.html"
+                class="bg-gray-700 hover:bg-white hover:text-black px-4 py-2 rounded transition text-sm font-bold">View
+                Pitch</a>
+        </div>
+    </div>
+</div>}
+            
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,69 @@
+{
+  "ipId": "daily-ip-1764283990553",
+  "idea": "[ar] A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+  "genre": "[ar] romance_revenge",
+  "language": "ar",
+  "novelId": "daily-ip-1764283990553-novel-ar",
+  "dramaId": "daily-ip-1764283990553-drama-ar",
+  "comicId": "daily-ip-1764283990553-comic-ar",
+  "createdAt": "2025-11-27T22:53:11.232Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764283990553-novel",
+    "title": "رواية: A new daily IP conce...",
+    "author": "[ar] AI Factory",
+    "genre": "[ar] romance_revenge",
+    "tags": [
+      "[ar] Cultivation",
+      "[ar] Immortality",
+      "[ar] System",
+      "[ar] romance_revenge"
+    ],
+    "description": "[ar] A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+    "characters": [
+      "[ar] Li Wei",
+      "[ar] Fairy Chen",
+      "[ar] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:53:10.604Z",
+    "status": "[ar] completed",
+    "language": "[ar] zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764283990553-drama",
+    "title": "دراما: رواية: A new daily IP conce...",
+    "author": "[ar] AI Factory",
+    "tags": [
+      "[ar] Cultivation",
+      "[ar] Immortality",
+      "[ar] System",
+      "[ar] romance_revenge",
+      "دراما Adaptation"
+    ],
+    "description": "[ar] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+    "createdAt": "2025-11-27T22:53:10.883Z",
+    "status": "[ar] completed",
+    "sourceNovelId": "[ar] daily-ip-1764283990553-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764283990553-comic",
+    "title": "قصة مصورة: رواية: A new daily IP conce...",
+    "author": "[ar] AI Artist",
+    "genre": "[ar] romance_revenge",
+    "description": "[ar] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:53:10.553Z",
+    "status": "[ar] ongoing",
+    "createdAt": "2025-11-27T22:53:11.048Z",
+    "sourceNovelId": "[ar] daily-ip-1764283990553-novel"
+  },
+  "games": [
+    {
+      "gameId": "daily-ip-1764283990553-ar-if-ar",
+      "mode": "if",
+      "language": "ar"
+    },
+    {
+      "gameId": "daily-ip-1764283990553-ar-vn-ar",
+      "mode": "vn",
+      "language": "ar"
+    }
+  ]
+}

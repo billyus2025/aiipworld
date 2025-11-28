@@ -1,0 +1,57 @@
+{
+  "ipId": "sample-ip-v4-global",
+  "idea": "[hi] A futuristic global empire story.",
+  "genre": "[hi] romance_revenge",
+  "language": "hi",
+  "novelId": "sample-ip-v4-global-novel-hi",
+  "dramaId": "sample-ip-v4-global-drama-hi",
+  "comicId": "sample-ip-v4-global-comic-hi",
+  "createdAt": "2025-11-27T22:05:46.851Z",
+  "novelMetadata": {
+    "id": "sample-ip-v4-global-novel",
+    "title": "उपन्यास: A futuristic global ...",
+    "author": "[hi] AI Factory",
+    "genre": "[hi] romance_revenge",
+    "tags": [
+      "[hi] Cultivation",
+      "[hi] Immortality",
+      "[hi] System",
+      "[hi] romance_revenge"
+    ],
+    "description": "[hi] A futuristic global empire story.",
+    "characters": [
+      "[hi] Li Wei",
+      "[hi] Fairy Chen",
+      "[hi] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:05:46.335Z",
+    "status": "[hi] completed",
+    "language": "[hi] zh"
+  },
+  "dramaMetadata": {
+    "id": "sample-ip-v4-global-drama",
+    "title": "नाटक: उपन्यास: A futuristic global ...",
+    "author": "[hi] AI Factory",
+    "tags": [
+      "[hi] Cultivation",
+      "[hi] Immortality",
+      "[hi] System",
+      "[hi] romance_revenge",
+      "नाटक Adaptation"
+    ],
+    "description": "[hi] Adapted from novel: A futuristic global empire story.",
+    "createdAt": "2025-11-27T22:05:46.603Z",
+    "status": "[hi] completed",
+    "sourceNovelId": "[hi] sample-ip-v4-global-novel"
+  },
+  "comicMetadata": {
+    "id": "sample-ip-v4-global-comic",
+    "title": "कॉमिक: उपन्यास: A futuristic global ...",
+    "author": "[hi] AI Artist",
+    "genre": "[hi] romance_revenge",
+    "description": "[hi] Adapted from novel: A futuristic global empire story.",
+    "status": "[hi] ongoing",
+    "createdAt": "2025-11-27T22:05:46.727Z",
+    "sourceNovelId": "[hi] sample-ip-v4-global-novel"
+  }
+}

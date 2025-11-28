@@ -1,0 +1,7 @@
+{
+    "language": "zh",
+    "chapters": 200,
+    "outline_items": 40,
+    "words_per_chapter": 800,
+    "output_path": "data/novel"
+}

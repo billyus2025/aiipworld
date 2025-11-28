@@ -1,0 +1,33 @@
+{
+    "active": [
+        {
+            "type": "novel",
+            "id": "sample-ip-v5-global-novel",
+            "langs": [
+                "en",
+                "zh"
+            ]
+        },
+        {
+            "type": "drama",
+            "id": "sample-ip-v5-global-drama",
+            "langs": [
+                "en",
+                "zh"
+            ]
+        },
+        {
+            "type": "comic",
+            "id": "sample-ip-v5-global-comic",
+            "langs": [
+                "en",
+                "zh"
+            ]
+        }
+    ],
+    "schedule": {
+        "novel_chapters_per_day": 1,
+        "drama_episodes_per_day": 1,
+        "comic_episodes_per_day": 1
+    }
+}

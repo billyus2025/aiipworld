@@ -1,0 +1,13 @@
+{
+    "daily_new_ip_count": 1,
+    "languages": [
+        "en",
+        "zh",
+        "jp"
+    ],
+    "price_base": {
+        "domestic": 3000,
+        "global": 500,
+        "exclusive": 20000
+    }
+}

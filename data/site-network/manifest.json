@@ -1,0 +1,1398 @@
+{
+  "novel": {
+    "zh": [
+      {
+        "id": "daily-ip-1764282657638-novel",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel",
+        "title": "Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-novel",
+        "title": "Novel: A poor girl time-tra..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel",
+        "title": "Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel",
+        "title": "Novel: A story about a glob..."
+      },
+      {
+        "id": "sample-novel",
+        "title": "The Legend of the Code Master"
+      }
+    ],
+    "en": [
+      {
+        "id": "daily-ip-1764282657638-novel-en",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-en",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-en",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-en",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-en",
+        "title": "Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-en",
+        "title": "Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-en",
+        "title": "Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-en",
+        "title": "Novel: A story about a glob..."
+      }
+    ],
+    "jp": [
+      {
+        "id": "daily-ip-1764282657638-novel-jp",
+        "title": "小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-jp",
+        "title": "小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-jp",
+        "title": "小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-jp",
+        "title": "小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-jp",
+        "title": "小説: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-jp",
+        "title": "小説: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-jp",
+        "title": "小説: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-jp",
+        "title": "小説: A story about a glob..."
+      }
+    ],
+    "kr": [
+      {
+        "id": "daily-ip-1764282657638-novel-kr",
+        "title": "소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-kr",
+        "title": "소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-kr",
+        "title": "소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-kr",
+        "title": "소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-kr",
+        "title": "소설: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-kr",
+        "title": "소설: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-kr",
+        "title": "소설: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-kr",
+        "title": "소설: A story about a glob..."
+      }
+    ],
+    "es": [
+      {
+        "id": "daily-ip-1764282657638-novel-es",
+        "title": "Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-es",
+        "title": "Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-es",
+        "title": "Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-es",
+        "title": "Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-es",
+        "title": "Novela: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-es",
+        "title": "Novela: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-es",
+        "title": "Novela: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-es",
+        "title": "Novela: A story about a glob..."
+      }
+    ],
+    "fr": [
+      {
+        "id": "daily-ip-1764282657638-novel-fr",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-fr",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-fr",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-fr",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-fr",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-fr",
+        "title": "Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-fr",
+        "title": "Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-fr",
+        "title": "Roman: A story about a glob..."
+      }
+    ],
+    "de": [
+      {
+        "id": "daily-ip-1764282657638-novel-de",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-de",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-de",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-de",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-de",
+        "title": "Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-de",
+        "title": "Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-de",
+        "title": "Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-de",
+        "title": "Roman: A story about a glob..."
+      }
+    ],
+    "it": [
+      {
+        "id": "daily-ip-1764282657638-novel-it",
+        "title": "Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-it",
+        "title": "Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-it",
+        "title": "Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-it",
+        "title": "Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-it",
+        "title": "Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-it",
+        "title": "Romanzo: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-it",
+        "title": "Romanzo: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-it",
+        "title": "Romanzo: A story about a glob..."
+      }
+    ],
+    "hi": [
+      {
+        "id": "daily-ip-1764282657638-novel-hi",
+        "title": "उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-hi",
+        "title": "उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-hi",
+        "title": "उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-hi",
+        "title": "उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-hi",
+        "title": "उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-hi",
+        "title": "उपन्यास: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-hi",
+        "title": "उपन्यास: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-hi",
+        "title": "उपन्यास: A story about a glob..."
+      }
+    ],
+    "ar": [
+      {
+        "id": "daily-ip-1764282657638-novel-ar",
+        "title": "رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-novel-ar",
+        "title": "رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-novel-ar",
+        "title": "رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-novel-ar",
+        "title": "رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-novel-ar",
+        "title": "رواية: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-novel-ar",
+        "title": "رواية: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-novel-ar",
+        "title": "رواية: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-novel-ar",
+        "title": "رواية: A story about a glob..."
+      }
+    ]
+  },
+  "drama": {
+    "zh": [
+      {
+        "id": "daily-ip-1764282657638-drama",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-drama",
+        "title": "Sample Drama Title"
+      },
+      {
+        "id": "sample-ip-drama",
+        "title": "Drama: Novel: A poor girl time-tra..."
+      },
+      {
+        "id": "sample-ip-global-drama",
+        "title": "Drama: Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama",
+        "title": "Drama: Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama",
+        "title": "Drama: Novel: A story about a glob..."
+      }
+    ],
+    "en": [
+      {
+        "id": "daily-ip-1764282657638-drama-en",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-en",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-en",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-en",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-en",
+        "title": "Drama: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-en",
+        "title": "Drama: Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-en",
+        "title": "Drama: Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-en",
+        "title": "Drama: Novel: A story about a glob..."
+      }
+    ],
+    "jp": [
+      {
+        "id": "daily-ip-1764282657638-drama-jp",
+        "title": "ドラマ: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-jp",
+        "title": "ドラマ: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-jp",
+        "title": "ドラマ: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-jp",
+        "title": "ドラマ: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-jp",
+        "title": "ドラマ: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-jp",
+        "title": "ドラマ: 小説: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-jp",
+        "title": "ドラマ: 小説: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-jp",
+        "title": "ドラマ: 小説: A story about a glob..."
+      }
+    ],
+    "kr": [
+      {
+        "id": "daily-ip-1764282657638-drama-kr",
+        "title": "드라마: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-kr",
+        "title": "드라마: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-kr",
+        "title": "드라마: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-kr",
+        "title": "드라마: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-kr",
+        "title": "드라마: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-kr",
+        "title": "드라마: 소설: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-kr",
+        "title": "드라마: 소설: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-kr",
+        "title": "드라마: 소설: A story about a glob..."
+      }
+    ],
+    "es": [
+      {
+        "id": "daily-ip-1764282657638-drama-es",
+        "title": "Drama: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-es",
+        "title": "Drama: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-es",
+        "title": "Drama: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-es",
+        "title": "Drama: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-es",
+        "title": "Drama: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-es",
+        "title": "Drama: Novela: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-es",
+        "title": "Drama: Novela: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-es",
+        "title": "Drama: Novela: A story about a glob..."
+      }
+    ],
+    "fr": [
+      {
+        "id": "daily-ip-1764282657638-drama-fr",
+        "title": "Drame: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-fr",
+        "title": "Drame: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-fr",
+        "title": "Drame: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-fr",
+        "title": "Drame: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-fr",
+        "title": "Drame: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-fr",
+        "title": "Drame: Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-fr",
+        "title": "Drame: Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-fr",
+        "title": "Drame: Roman: A story about a glob..."
+      }
+    ],
+    "de": [
+      {
+        "id": "daily-ip-1764282657638-drama-de",
+        "title": "Drama: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-de",
+        "title": "Drama: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-de",
+        "title": "Drama: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-de",
+        "title": "Drama: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-de",
+        "title": "Drama: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-de",
+        "title": "Drama: Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-de",
+        "title": "Drama: Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-de",
+        "title": "Drama: Roman: A story about a glob..."
+      }
+    ],
+    "it": [
+      {
+        "id": "daily-ip-1764282657638-drama-it",
+        "title": "Dramma: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-it",
+        "title": "Dramma: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-it",
+        "title": "Dramma: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-it",
+        "title": "Dramma: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-it",
+        "title": "Dramma: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-it",
+        "title": "Dramma: Romanzo: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-it",
+        "title": "Dramma: Romanzo: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-it",
+        "title": "Dramma: Romanzo: A story about a glob..."
+      }
+    ],
+    "hi": [
+      {
+        "id": "daily-ip-1764282657638-drama-hi",
+        "title": "नाटक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-hi",
+        "title": "नाटक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-hi",
+        "title": "नाटक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-hi",
+        "title": "नाटक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-hi",
+        "title": "नाटक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-hi",
+        "title": "नाटक: उपन्यास: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-hi",
+        "title": "नाटक: उपन्यास: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-hi",
+        "title": "नाटक: उपन्यास: A story about a glob..."
+      }
+    ],
+    "ar": [
+      {
+        "id": "daily-ip-1764282657638-drama-ar",
+        "title": "دراما: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-drama-ar",
+        "title": "دراما: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-drama-ar",
+        "title": "دراما: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-drama-ar",
+        "title": "دراما: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-drama-ar",
+        "title": "دراما: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-drama-ar",
+        "title": "دراما: رواية: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-drama-ar",
+        "title": "دراما: رواية: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-drama-ar",
+        "title": "دراما: رواية: A story about a glob..."
+      }
+    ]
+  },
+  "comic": {
+    "zh": [
+      {
+        "id": "daily-ip-1764282657638-comic",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-comic",
+        "title": "The Infinite Canvas"
+      },
+      {
+        "id": "sample-ip-comic",
+        "title": "Comic: Novel: A poor girl time-tra..."
+      },
+      {
+        "id": "sample-ip-global-comic",
+        "title": "Comic: Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic",
+        "title": "Comic: Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic",
+        "title": "Comic: Novel: A story about a glob..."
+      }
+    ],
+    "en": [
+      {
+        "id": "daily-ip-1764282657638-comic-en",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-en",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-en",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-en",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-en",
+        "title": "Comic: Novel: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-en",
+        "title": "Comic: Novel: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-en",
+        "title": "Comic: Novel: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-en",
+        "title": "Comic: Novel: A story about a glob..."
+      }
+    ],
+    "jp": [
+      {
+        "id": "daily-ip-1764282657638-comic-jp",
+        "title": "漫画: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-jp",
+        "title": "漫画: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-jp",
+        "title": "漫画: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-jp",
+        "title": "漫画: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-jp",
+        "title": "漫画: 小説: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-jp",
+        "title": "漫画: 小説: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-jp",
+        "title": "漫画: 小説: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-jp",
+        "title": "漫画: 小説: A story about a glob..."
+      }
+    ],
+    "kr": [
+      {
+        "id": "daily-ip-1764282657638-comic-kr",
+        "title": "만화: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-kr",
+        "title": "만화: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-kr",
+        "title": "만화: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-kr",
+        "title": "만화: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-kr",
+        "title": "만화: 소설: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-kr",
+        "title": "만화: 소설: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-kr",
+        "title": "만화: 소설: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-kr",
+        "title": "만화: 소설: A story about a glob..."
+      }
+    ],
+    "es": [
+      {
+        "id": "daily-ip-1764282657638-comic-es",
+        "title": "Cómic: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-es",
+        "title": "Cómic: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-es",
+        "title": "Cómic: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-es",
+        "title": "Cómic: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-es",
+        "title": "Cómic: Novela: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-es",
+        "title": "Cómic: Novela: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-es",
+        "title": "Cómic: Novela: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-es",
+        "title": "Cómic: Novela: A story about a glob..."
+      }
+    ],
+    "fr": [
+      {
+        "id": "daily-ip-1764282657638-comic-fr",
+        "title": "Bande Dessinée: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-fr",
+        "title": "Bande Dessinée: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-fr",
+        "title": "Bande Dessinée: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-fr",
+        "title": "Bande Dessinée: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-fr",
+        "title": "Bande Dessinée: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-fr",
+        "title": "Bande Dessinée: Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-fr",
+        "title": "Bande Dessinée: Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-fr",
+        "title": "Bande Dessinée: Roman: A story about a glob..."
+      }
+    ],
+    "de": [
+      {
+        "id": "daily-ip-1764282657638-comic-de",
+        "title": "Comic: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-de",
+        "title": "Comic: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-de",
+        "title": "Comic: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-de",
+        "title": "Comic: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-de",
+        "title": "Comic: Roman: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-de",
+        "title": "Comic: Roman: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-de",
+        "title": "Comic: Roman: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-de",
+        "title": "Comic: Roman: A story about a glob..."
+      }
+    ],
+    "it": [
+      {
+        "id": "daily-ip-1764282657638-comic-it",
+        "title": "Fumetto: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-it",
+        "title": "Fumetto: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-it",
+        "title": "Fumetto: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-it",
+        "title": "Fumetto: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-it",
+        "title": "Fumetto: Romanzo: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-it",
+        "title": "Fumetto: Romanzo: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-it",
+        "title": "Fumetto: Romanzo: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-it",
+        "title": "Fumetto: Romanzo: A story about a glob..."
+      }
+    ],
+    "hi": [
+      {
+        "id": "daily-ip-1764282657638-comic-hi",
+        "title": "कॉमिक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-hi",
+        "title": "कॉमिक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-hi",
+        "title": "कॉमिक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-hi",
+        "title": "कॉमिक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-hi",
+        "title": "कॉमिक: उपन्यास: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-hi",
+        "title": "कॉमिक: उपन्यास: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-hi",
+        "title": "कॉमिक: उपन्यास: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-hi",
+        "title": "कॉमिक: उपन्यास: A story about a glob..."
+      }
+    ],
+    "ar": [
+      {
+        "id": "daily-ip-1764282657638-comic-ar",
+        "title": "قصة مصورة: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283492495-comic-ar",
+        "title": "قصة مصورة: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764283990553-comic-ar",
+        "title": "قصة مصورة: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284011435-comic-ar",
+        "title": "قصة مصورة: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "daily-ip-1764284411865-comic-ar",
+        "title": "قصة مصورة: رواية: A new daily IP conce..."
+      },
+      {
+        "id": "sample-ip-global-comic-ar",
+        "title": "قصة مصورة: رواية: A global sci-fi epic..."
+      },
+      {
+        "id": "sample-ip-v4-global-comic-ar",
+        "title": "قصة مصورة: رواية: A futuristic global ..."
+      },
+      {
+        "id": "sample-ip-v5-global-comic-ar",
+        "title": "قصة مصورة: رواية: A story about a glob..."
+      }
+    ]
+  },
+  "ip": {
+    "zh": [
+      {
+        "id": "daily-ip-1764282657638",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip",
+        "title": "sample-ip"
+      },
+      {
+        "id": "sample-ip-global",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "en": [
+      {
+        "id": "daily-ip-1764282657638-en",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-en",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-en",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-en",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-en",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-en",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-en",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-en",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "jp": [
+      {
+        "id": "daily-ip-1764282657638-jp",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-jp",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-jp",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-jp",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-jp",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-jp",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-jp",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-jp",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "kr": [
+      {
+        "id": "daily-ip-1764282657638-kr",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-kr",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-kr",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-kr",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-kr",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-kr",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-kr",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-kr",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "es": [
+      {
+        "id": "daily-ip-1764282657638-es",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-es",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-es",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-es",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-es",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-es",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-es",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-es",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "fr": [
+      {
+        "id": "daily-ip-1764282657638-fr",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-fr",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-fr",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-fr",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-fr",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-fr",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-fr",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-fr",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "de": [
+      {
+        "id": "daily-ip-1764282657638-de",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-de",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-de",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-de",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-de",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-de",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-de",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-de",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "it": [
+      {
+        "id": "daily-ip-1764282657638-it",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-it",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-it",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-it",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-it",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-it",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-it",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-it",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "hi": [
+      {
+        "id": "daily-ip-1764282657638-hi",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-hi",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-hi",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-hi",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-hi",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-hi",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-hi",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-hi",
+        "title": "sample-ip-v5-global"
+      }
+    ],
+    "ar": [
+      {
+        "id": "daily-ip-1764282657638-ar",
+        "title": "daily-ip-1764282657638"
+      },
+      {
+        "id": "daily-ip-1764283492495-ar",
+        "title": "daily-ip-1764283492495"
+      },
+      {
+        "id": "daily-ip-1764283990553-ar",
+        "title": "daily-ip-1764283990553"
+      },
+      {
+        "id": "daily-ip-1764284011435-ar",
+        "title": "daily-ip-1764284011435"
+      },
+      {
+        "id": "daily-ip-1764284411865-ar",
+        "title": "daily-ip-1764284411865"
+      },
+      {
+        "id": "sample-ip-global-ar",
+        "title": "sample-ip-global"
+      },
+      {
+        "id": "sample-ip-v4-global-ar",
+        "title": "sample-ip-v4-global"
+      },
+      {
+        "id": "sample-ip-v5-global-ar",
+        "title": "sample-ip-v5-global"
+      }
+    ]
+  }
+}

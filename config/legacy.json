@@ -1,0 +1,117 @@
+{
+  "products": [
+    {
+      "id": "cover-letter",
+      "name": "YourCover AI",
+      "description": "Smart Cover Letter Generator",
+      "prompt": "You are an expert career coach. Write a professional cover letter based on the following job description and user details. Keep it engaging, professional, and tailored to the role.",
+      "inputs": [
+        { "id": "jobDescription", "type": "textarea", "label": "Job Description", "placeholder": "Paste the job description here..." }
+      ],
+      "icon": "document-text",
+      "slug": "cover-letter"
+    },
+    {
+      "id": "resume-craft",
+      "name": "ResumeCraft AI",
+      "description": "Smart Resume Builder",
+      "prompt": "You are an expert resume writer. Rewrite the following resume content to be more impactful, using action verbs and quantifying achievements where possible. Format it clearly.",
+      "inputs": [
+        { "id": "currentResume", "type": "textarea", "label": "Current Resume / Experience", "placeholder": "Paste your current resume or work history here..." }
+      ],
+      "icon": "briefcase",
+      "slug": "resume-craft"
+    },
+    {
+      "id": "interview-coach",
+      "name": "InterviewCoach AI",
+      "description": "Mock Interview Q&A",
+      "prompt": "You are a hiring manager. Based on the job description provided, generate 5 likely interview questions and suggest ideal answers for them.",
+      "inputs": [
+        { "id": "jobDescription", "type": "textarea", "label": "Job Description", "placeholder": "Paste the job description here..." }
+      ],
+      "icon": "chat-bubble-left-right",
+      "slug": "interview-coach"
+    },
+    {
+      "id": "dating-reply",
+      "name": "DatingReply AI",
+      "description": "Dating Message Assistant",
+      "prompt": "You are a charming and witty dating coach. Generate 3 distinct reply options (Funny, Charming, Direct) to the following message received on a dating app.",
+      "inputs": [
+        { "id": "receivedMessage", "type": "textarea", "label": "Received Message", "placeholder": "Paste the message you received..." },
+        { "id": "context", "type": "text", "label": "Context (Optional)", "placeholder": "e.g. We met at a coffee shop..." }
+      ],
+      "icon": "heart",
+      "slug": "dating-reply"
+    },
+    {
+      "id": "tarot-oracle",
+      "name": "TarotOracle AI",
+      "description": "AI Tarot Readings",
+      "prompt": "You are a mystical tarot reader. Draw 3 random cards (simulate this) and provide a reading based on the user's question. Be enigmatic but helpful.",
+      "inputs": [
+        { "id": "question", "type": "textarea", "label": "Your Question", "placeholder": "Ask the oracle anything..." }
+      ],
+      "icon": "sparkles",
+      "slug": "tarot-oracle"
+    },
+    {
+      "id": "excel-wizard",
+      "name": "ExcelWizard AI",
+      "description": "Excel Formula Helper",
+      "prompt": "You are an Excel expert. Explain how to achieve the following task in Excel, providing the exact formula and a brief explanation.",
+      "inputs": [
+        { "id": "task", "type": "textarea", "label": "What do you want to do?", "placeholder": "e.g. Sum column A if column B is \"Yes\"..." }
+      ],
+      "icon": "table",
+      "slug": "excel-wizard"
+    },
+    {
+      "id": "mail-reply",
+      "name": "MailReply AI",
+      "description": "Email Reply Generator",
+      "prompt": "You are a professional communication assistant. Draft a polite and professional reply to the following email. Tone should be: {tone}.",
+      "inputs": [
+        { "id": "emailContent", "type": "textarea", "label": "Email Content", "placeholder": "Paste the email you received..." },
+        { "id": "tone", "type": "select", "label": "Tone", "options": ["Professional", "Friendly", "Firm", "Apologetic"], "default": "Professional" }
+      ],
+      "icon": "mail",
+      "slug": "mail-reply"
+    },
+    {
+      "id": "social-caption",
+      "name": "SocialCaption AI",
+      "description": "Social Media Captions",
+      "prompt": "You are a social media manager. Generate 5 engaging captions for an Instagram/TikTok post about the following topic. Include relevant hashtags.",
+      "inputs": [
+        { "id": "topic", "type": "textarea", "label": "Post Topic / Image Description", "placeholder": "Describe your photo or video..." }
+      ],
+      "icon": "camera",
+      "slug": "social-caption"
+    },
+    {
+      "id": "contract-simplifier",
+      "name": "ContractSimplifier AI",
+      "description": "Legal Plain-Language Explainer",
+      "prompt": "You are a legal expert who explains things in plain English. Summarize the following contract clause or legal text in simple terms a 10-year-old could understand. Highlight any red flags.",
+      "inputs": [
+        { "id": "legalText", "type": "textarea", "label": "Legal Text", "placeholder": "Paste the contract text here..." }
+      ],
+      "icon": "scale",
+      "slug": "contract-simplifier"
+    },
+    {
+      "id": "trip-planner",
+      "name": "TripPlanner AI",
+      "description": "Travel Itinerary Planner",
+      "prompt": "You are a travel agent. Create a {days}-day itinerary for a trip to {destination}. Include must-see sights and food recommendations.",
+      "inputs": [
+        { "id": "destination", "type": "text", "label": "Destination", "placeholder": "e.g. Tokyo, Japan" },
+        { "id": "days", "type": "number", "label": "Number of Days", "placeholder": "e.g. 5" }
+      ],
+      "icon": "map",
+      "slug": "trip-planner"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2025-11-27",
+  "videos_generated_count": 0,
+  "generated_projects": [],
+  "generatedAt": "2025-11-27T23:00:13.017Z",
+  "platform_distribution": [
+    {
+      "platform": "tiktok",
+      "status": "success",
+      "platformId": "tt-1764284413019",
+      "url": "https://tiktok.com/@ipfactory/video/1764284413019",
+      "timestamp": "2025-11-27T23:00:13.019Z"
+    },
+    {
+      "platform": "youtube",
+      "status": "success",
+      "platformId": "yt-1764284413019",
+      "url": "https://youtube.com/shorts/1764284413019",
+      "timestamp": "2025-11-27T23:00:13.019Z"
+    },
+    {
+      "platform": "instagram",
+      "status": "success",
+      "platformId": "ig-1764284413019",
+      "url": "https://instagram.com/reel/1764284413019",
+      "timestamp": "2025-11-27T23:00:13.019Z"
+    }
+  ]
+}

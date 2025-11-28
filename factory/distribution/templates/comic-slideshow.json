@@ -1,0 +1,12 @@
+{
+    "type": "comic-slideshow",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "panel_duration": 3,
+    "transition": "slide_left",
+    "zoom_effect": "ken_burns",
+    "audio": {
+        "tts_enabled": true,
+        "bgm": "upbeat_action.mp3"
+    }
+}

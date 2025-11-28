@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribution Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700">
+        <a href="../index.html" class="text-purple-400 hover:text-white">← Back to Command Center</a>
+    </nav>
+
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-8 text-purple-500">Distribution Operations</h1>
+
+        <!-- Daily Report Summary -->
+        <div class="bg-gray-800 p-6 rounded mb-12 border-l-4 border-purple-500">
+            <h2 class="text-xl font-bold mb-2">Latest Daily Report ({{latestReport.date}})</h2>
+            <p class="text-gray-400">Videos Generated Today: <span
+                    class="text-white font-bold">{{latestReport.videos_generated_count}}</span></p>
+        </div>
+
+        <!-- Manifest Summary -->
+        <h2 class="text-2xl font-bold mb-6">Active Distribution Manifest</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-xl font-bold mb-4 text-blue-400">Novel Videos</h3>
+                <div class="text-4xl font-bold">{{manifestCounts.novel}}</div>
+                <p class="text-sm text-gray-500">Projects with video assets</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-xl font-bold mb-4 text-purple-400">Drama Videos</h3>
+                <div class="text-4xl font-bold">{{manifestCounts.drama}}</div>
+                <p class="text-sm text-gray-500">Projects with video assets</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded">
+                <h3 class="text-xl font-bold mb-4 text-green-400">Comic Videos</h3>
+                <div class="text-4xl font-bold">{{manifestCounts.comic}}</div>
+                <p class="text-sm text-gray-500">Projects with video assets</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

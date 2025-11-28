@@ -1,0 +1,7 @@
+{
+    "episodes": 40,
+    "panels_per_episode": 12,
+    "output_path": "data/comic",
+    "image_provider": "flux",
+    "aspect_ratio": "2:3"
+}

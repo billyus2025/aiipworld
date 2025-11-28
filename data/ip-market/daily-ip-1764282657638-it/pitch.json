@@ -1,0 +1,26 @@
+{
+  "ipId": "daily-ip-1764282657638-it",
+  "title": "Untitled IP",
+  "logline": "[it] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+  "genre": "[it] romance_revenge",
+  "score": 1000,
+  "analysis": {
+    "market_potential": "High",
+    "audience_fit": "Young Adult / General",
+    "comparables": [
+      "Example A",
+      "Example B"
+    ]
+  },
+  "assets": {
+    "novel": "daily-ip-1764282657638-novel-it",
+    "drama": "daily-ip-1764282657638-drama-it",
+    "comic": "daily-ip-1764282657638-comic-it"
+  },
+  "recommended_price": {
+    "domestic": "¥10,000",
+    "global": "$5,000",
+    "exclusive": "¥50,000"
+  },
+  "generatedAt": "2025-11-27T23:03:40.857Z"
+}

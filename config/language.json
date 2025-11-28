@@ -1,0 +1,15 @@
+{
+    "languages": [
+        "zh",
+        "en",
+        "jp",
+        "kr",
+        "es",
+        "fr",
+        "de",
+        "it",
+        "hi",
+        "ar"
+    ],
+    "default": "zh"
+}

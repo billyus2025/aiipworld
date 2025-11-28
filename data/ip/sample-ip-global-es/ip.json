@@ -1,0 +1,57 @@
+{
+  "ipId": "sample-ip-global",
+  "idea": "[es] A global sci-fi epic about a unified earth.",
+  "genre": "[es] romance_revenge",
+  "language": "es",
+  "novelId": "sample-ip-global-novel-es",
+  "dramaId": "sample-ip-global-drama-es",
+  "comicId": "sample-ip-global-comic-es",
+  "createdAt": "2025-11-27T21:46:10.485Z",
+  "novelMetadata": {
+    "id": "sample-ip-global-novel",
+    "title": "Novela: A global sci-fi epic...",
+    "author": "[es] AI Factory",
+    "genre": "[es] romance_revenge",
+    "tags": [
+      "[es] Cultivation",
+      "[es] Immortality",
+      "[es] System",
+      "[es] romance_revenge"
+    ],
+    "description": "[es] A global sci-fi epic about a unified earth.",
+    "characters": [
+      "[es] Li Wei",
+      "[es] Fairy Chen",
+      "[es] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T21:46:09.954Z",
+    "status": "[es] completed",
+    "language": "[es] zh"
+  },
+  "dramaMetadata": {
+    "id": "sample-ip-global-drama",
+    "title": "Drama: Novela: A global sci-fi epic...",
+    "author": "[es] AI Factory",
+    "tags": [
+      "[es] Cultivation",
+      "[es] Immortality",
+      "[es] System",
+      "[es] romance_revenge",
+      "[es] Drama Adaptation"
+    ],
+    "description": "[es] Adapted from novel: A global sci-fi epic about a unified earth.",
+    "createdAt": "2025-11-27T21:46:10.206Z",
+    "status": "[es] completed",
+    "sourceNovelId": "[es] sample-ip-global-novel"
+  },
+  "comicMetadata": {
+    "id": "sample-ip-global-comic",
+    "title": "Cómic: Novela: A global sci-fi epic...",
+    "author": "[es] AI Artist",
+    "genre": "[es] romance_revenge",
+    "description": "[es] Adapted from novel: A global sci-fi epic about a unified earth.",
+    "status": "[es] ongoing",
+    "createdAt": "2025-11-27T21:46:10.362Z",
+    "sourceNovelId": "[es] sample-ip-global-novel"
+  }
+}

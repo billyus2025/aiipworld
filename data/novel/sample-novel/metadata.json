@@ -1,0 +1,19 @@
+{
+  "id": "sample-novel",
+  "title": "The Legend of the Code Master",
+  "author": "AI Factory",
+  "genre": "Xianxia",
+  "tags": [
+    "Cultivation",
+    "Immortality",
+    "System"
+  ],
+  "description": "A young programmer transmigrates into a cultivation world with a coding system.",
+  "characters": [
+    "Li Wei",
+    "Fairy Chen",
+    "Elder Zhang"
+  ],
+  "createdAt": "2025-11-27T21:25:34.460Z",
+  "status": "completed"
+}

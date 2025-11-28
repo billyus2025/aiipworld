@@ -1,0 +1,57 @@
+{
+  "ipId": "sample-ip",
+  "idea": "A poor girl time-travels and becomes the CEO's wife, planning revenge.",
+  "genre": "romance_revenge",
+  "language": "zh",
+  "novelId": "sample-ip-novel",
+  "dramaId": "sample-ip-drama",
+  "comicId": "sample-ip-comic",
+  "createdAt": "2025-11-27T21:35:26.808Z",
+  "novelMetadata": {
+    "id": "sample-ip-novel",
+    "title": "Novel: A poor girl time-tra...",
+    "author": "AI Factory",
+    "genre": "romance_revenge",
+    "tags": [
+      "Cultivation",
+      "Immortality",
+      "System",
+      "romance_revenge"
+    ],
+    "description": "A poor girl time-travels and becomes the CEO's wife, planning revenge.",
+    "characters": [
+      "Li Wei",
+      "Fairy Chen",
+      "Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T21:35:26.685Z",
+    "status": "completed",
+    "language": "zh"
+  },
+  "dramaMetadata": {
+    "id": "sample-ip-drama",
+    "title": "Drama: Novel: A poor girl time-tra...",
+    "author": "AI Factory",
+    "tags": [
+      "Cultivation",
+      "Immortality",
+      "System",
+      "romance_revenge",
+      "Drama Adaptation"
+    ],
+    "description": "Adapted from novel: A poor girl time-travels and becomes the CEO's wife, planning revenge.",
+    "createdAt": "2025-11-27T21:35:26.719Z",
+    "status": "completed",
+    "sourceNovelId": "sample-ip-novel"
+  },
+  "comicMetadata": {
+    "id": "sample-ip-comic",
+    "title": "Comic: Novel: A poor girl time-tra...",
+    "author": "AI Artist",
+    "genre": "romance_revenge",
+    "description": "Adapted from novel: A poor girl time-travels and becomes the CEO's wife, planning revenge.",
+    "status": "ongoing",
+    "createdAt": "2025-11-27T21:35:26.733Z",
+    "sourceNovelId": "sample-ip-novel"
+  }
+}

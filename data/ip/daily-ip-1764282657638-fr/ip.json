@@ -1,0 +1,57 @@
+{
+  "ipId": "daily-ip-1764282657638",
+  "idea": "[fr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+  "genre": "[fr] romance_revenge",
+  "language": "fr",
+  "novelId": "daily-ip-1764282657638-novel-fr",
+  "dramaId": "daily-ip-1764282657638-drama-fr",
+  "comicId": "daily-ip-1764282657638-comic-fr",
+  "createdAt": "2025-11-27T22:30:58.258Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764282657638-novel",
+    "title": "Roman: A new daily IP conce...",
+    "author": "[fr] AI Factory",
+    "genre": "[fr] romance_revenge",
+    "tags": [
+      "[fr] Cultivation",
+      "[fr] Immortality",
+      "[fr] System",
+      "[fr] romance_revenge"
+    ],
+    "description": "[fr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "characters": [
+      "[fr] Li Wei",
+      "[fr] Fairy Chen",
+      "[fr] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:30:57.691Z",
+    "status": "[fr] completed",
+    "language": "[fr] zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764282657638-drama",
+    "title": "Drame: Roman: A new daily IP conce...",
+    "author": "[fr] AI Factory",
+    "tags": [
+      "[fr] Cultivation",
+      "[fr] Immortality",
+      "[fr] System",
+      "[fr] romance_revenge",
+      "Drame Adaptation"
+    ],
+    "description": "[fr] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "createdAt": "2025-11-27T22:30:57.966Z",
+    "status": "[fr] completed",
+    "sourceNovelId": "[fr] daily-ip-1764282657638-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764282657638-comic",
+    "title": "Bande Dessinée: Roman: A new daily IP conce...",
+    "author": "[fr] AI Artist",
+    "genre": "[fr] romance_revenge",
+    "description": "[fr] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "status": "[fr] ongoing",
+    "createdAt": "2025-11-27T22:30:58.114Z",
+    "sourceNovelId": "[fr] daily-ip-1764282657638-novel"
+  }
+}

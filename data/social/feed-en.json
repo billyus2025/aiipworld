@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "type": "video",
+    "content": "New TikTok video out!"
+  },
+  {
+    "id": 2,
+    "type": "image",
+    "content": "Check out this character art."
+  }
+]

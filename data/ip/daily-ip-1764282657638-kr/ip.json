@@ -1,0 +1,57 @@
+{
+  "ipId": "daily-ip-1764282657638",
+  "idea": "[kr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+  "genre": "[kr] romance_revenge",
+  "language": "kr",
+  "novelId": "daily-ip-1764282657638-novel-kr",
+  "dramaId": "daily-ip-1764282657638-drama-kr",
+  "comicId": "daily-ip-1764282657638-comic-kr",
+  "createdAt": "2025-11-27T22:30:58.258Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764282657638-novel",
+    "title": "소설: A new daily IP conce...",
+    "author": "[kr] AI Factory",
+    "genre": "[kr] romance_revenge",
+    "tags": [
+      "[kr] Cultivation",
+      "[kr] Immortality",
+      "[kr] System",
+      "[kr] romance_revenge"
+    ],
+    "description": "[kr] A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "characters": [
+      "[kr] Li Wei",
+      "[kr] Fairy Chen",
+      "[kr] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:30:57.691Z",
+    "status": "[kr] completed",
+    "language": "[kr] zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764282657638-drama",
+    "title": "드라마: 소설: A new daily IP conce...",
+    "author": "[kr] AI Factory",
+    "tags": [
+      "[kr] Cultivation",
+      "[kr] Immortality",
+      "[kr] System",
+      "[kr] romance_revenge",
+      "드라마 Adaptation"
+    ],
+    "description": "[kr] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "createdAt": "2025-11-27T22:30:57.966Z",
+    "status": "[kr] completed",
+    "sourceNovelId": "[kr] daily-ip-1764282657638-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764282657638-comic",
+    "title": "만화: 소설: A new daily IP conce...",
+    "author": "[kr] AI Artist",
+    "genre": "[kr] romance_revenge",
+    "description": "[kr] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "status": "[kr] ongoing",
+    "createdAt": "2025-11-27T22:30:58.114Z",
+    "sourceNovelId": "[kr] daily-ip-1764282657638-novel"
+  }
+}

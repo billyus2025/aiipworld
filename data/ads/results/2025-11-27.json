@@ -1,0 +1,45 @@
+{
+  "date": "2025-11-27",
+  "campaigns": [
+    {
+      "videoId": "sample-video-1",
+      "platform": "tiktok",
+      "spend_usd": 3.33,
+      "revenue_usd": 5.56,
+      "roas": 1.67,
+      "clicks": 5,
+      "impressions": 121,
+      "cpc": 0.62
+    },
+    {
+      "videoId": "sample-video-1",
+      "platform": "meta",
+      "spend_usd": 3.33,
+      "revenue_usd": 9.67,
+      "roas": 2.9,
+      "clicks": 3,
+      "impressions": 74,
+      "cpc": 0.86
+    },
+    {
+      "videoId": "sample-video-2",
+      "platform": "meta",
+      "spend_usd": 3.33,
+      "revenue_usd": 8.69,
+      "roas": 2.61,
+      "clicks": 5,
+      "impressions": 116,
+      "cpc": 0.61
+    },
+    {
+      "videoId": "sample-video-2",
+      "platform": "google",
+      "spend_usd": 3.33,
+      "revenue_usd": 3.66,
+      "roas": 1.1,
+      "clicks": 4,
+      "impressions": 177,
+      "cpc": 0.76
+    }
+  ]
+}

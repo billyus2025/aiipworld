@@ -1,0 +1,26 @@
+{
+  "ipId": "sample-ip-global-fr",
+  "title": "Untitled IP",
+  "logline": "[fr] A global sci-fi epic about a unified earth.",
+  "genre": "[fr] romance_revenge",
+  "score": 1000,
+  "analysis": {
+    "market_potential": "High",
+    "audience_fit": "Young Adult / General",
+    "comparables": [
+      "Example A",
+      "Example B"
+    ]
+  },
+  "assets": {
+    "novel": "sample-ip-global-novel-fr",
+    "drama": "sample-ip-global-drama-fr",
+    "comic": "sample-ip-global-comic-fr"
+  },
+  "recommended_price": {
+    "domestic": "¥10,000",
+    "global": "$5,000",
+    "exclusive": "¥50,000"
+  },
+  "generatedAt": "2025-11-27T23:03:40.981Z"
+}

@@ -1,0 +1,69 @@
+{
+  "ipId": "daily-ip-1764284011435",
+  "idea": "[de] A new daily IP concept generated at 2025-11-27T22:53:31.435Z",
+  "genre": "[de] romance_revenge",
+  "language": "de",
+  "novelId": "daily-ip-1764284011435-novel-de",
+  "dramaId": "daily-ip-1764284011435-drama-de",
+  "comicId": "daily-ip-1764284011435-comic-de",
+  "createdAt": "2025-11-27T22:53:32.166Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764284011435-novel",
+    "title": "Roman: A new daily IP conce...",
+    "author": "[de] AI Factory",
+    "genre": "[de] romance_revenge",
+    "tags": [
+      "[de] Cultivation",
+      "[de] Immortality",
+      "[de] System",
+      "[de] romance_revenge"
+    ],
+    "description": "[de] A new daily IP concept generated at 2025-11-27T22:53:31.435Z",
+    "characters": [
+      "[de] Li Wei",
+      "[de] Fairy Chen",
+      "[de] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:53:31.495Z",
+    "status": "[de] completed",
+    "language": "[de] zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764284011435-drama",
+    "title": "Drama: Roman: A new daily IP conce...",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] Cultivation",
+      "[de] Immortality",
+      "[de] System",
+      "[de] romance_revenge",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:53:31.435Z",
+    "createdAt": "2025-11-27T22:53:31.816Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] daily-ip-1764284011435-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764284011435-comic",
+    "title": "Comic: Roman: A new daily IP conce...",
+    "author": "[de] AI Artist",
+    "genre": "[de] romance_revenge",
+    "description": "[de] Adapted from novel: A new daily IP concept generated at 2025-11-27T22:53:31.435Z",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-27T22:53:31.966Z",
+    "sourceNovelId": "[de] daily-ip-1764284011435-novel"
+  },
+  "games": [
+    {
+      "gameId": "daily-ip-1764284011435-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "daily-ip-1764284011435-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

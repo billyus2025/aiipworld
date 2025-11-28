@@ -1,0 +1,86 @@
+{
+  "date": "2025-11-27",
+  "mode": "simulate",
+  "campaigns": [
+    {
+      "videoId": "sample-video-1",
+      "platform": "tiktok",
+      "budget_usd": 3.33,
+      "countries": [
+        "US",
+        "CA",
+        "UK"
+      ],
+      "age": "18-34",
+      "interests": [
+        "Drama",
+        "Entertainment",
+        "Stories"
+      ],
+      "expected_ctr": 0.04103134901466034,
+      "expected_cpc": 0.679310546046421,
+      "expected_roas_min": 1,
+      "expected_roas_max": 3
+    },
+    {
+      "videoId": "sample-video-1",
+      "platform": "meta",
+      "budget_usd": 3.33,
+      "countries": [
+        "US",
+        "CA",
+        "UK"
+      ],
+      "age": "18-34",
+      "interests": [
+        "Drama",
+        "Entertainment",
+        "Stories"
+      ],
+      "expected_ctr": 0.04034389830838142,
+      "expected_cpc": 0.9078424066608202,
+      "expected_roas_min": 1,
+      "expected_roas_max": 3
+    },
+    {
+      "videoId": "sample-video-2",
+      "platform": "meta",
+      "budget_usd": 3.33,
+      "countries": [
+        "US",
+        "CA",
+        "UK"
+      ],
+      "age": "18-34",
+      "interests": [
+        "Romance",
+        "Entertainment",
+        "Stories"
+      ],
+      "expected_ctr": 0.042879231252578726,
+      "expected_cpc": 0.5695576780579492,
+      "expected_roas_min": 1,
+      "expected_roas_max": 3
+    },
+    {
+      "videoId": "sample-video-2",
+      "platform": "google",
+      "budget_usd": 3.33,
+      "countries": [
+        "US",
+        "CA",
+        "UK"
+      ],
+      "age": "18-34",
+      "interests": [
+        "Romance",
+        "Entertainment",
+        "Stories"
+      ],
+      "expected_ctr": 0.022587469686412332,
+      "expected_cpc": 0.7615820580171764,
+      "expected_roas_min": 1,
+      "expected_roas_max": 3
+    }
+  ]
+}

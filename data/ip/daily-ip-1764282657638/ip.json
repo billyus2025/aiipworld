@@ -1,0 +1,57 @@
+{
+  "ipId": "daily-ip-1764282657638",
+  "idea": "A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+  "genre": "romance_revenge",
+  "language": "zh",
+  "novelId": "daily-ip-1764282657638-novel",
+  "dramaId": "daily-ip-1764282657638-drama",
+  "comicId": "daily-ip-1764282657638-comic",
+  "createdAt": "2025-11-27T22:30:58.258Z",
+  "novelMetadata": {
+    "id": "daily-ip-1764282657638-novel",
+    "title": "Novel: A new daily IP conce...",
+    "author": "AI Factory",
+    "genre": "romance_revenge",
+    "tags": [
+      "Cultivation",
+      "Immortality",
+      "System",
+      "romance_revenge"
+    ],
+    "description": "A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "characters": [
+      "Li Wei",
+      "Fairy Chen",
+      "Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:30:57.691Z",
+    "status": "completed",
+    "language": "zh"
+  },
+  "dramaMetadata": {
+    "id": "daily-ip-1764282657638-drama",
+    "title": "Drama: Novel: A new daily IP conce...",
+    "author": "AI Factory",
+    "tags": [
+      "Cultivation",
+      "Immortality",
+      "System",
+      "romance_revenge",
+      "Drama Adaptation"
+    ],
+    "description": "Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "createdAt": "2025-11-27T22:30:57.966Z",
+    "status": "completed",
+    "sourceNovelId": "daily-ip-1764282657638-novel"
+  },
+  "comicMetadata": {
+    "id": "daily-ip-1764282657638-comic",
+    "title": "Comic: Novel: A new daily IP conce...",
+    "author": "AI Artist",
+    "genre": "romance_revenge",
+    "description": "Adapted from novel: A new daily IP concept generated at 2025-11-27T22:30:57.638Z",
+    "status": "ongoing",
+    "createdAt": "2025-11-27T22:30:58.114Z",
+    "sourceNovelId": "daily-ip-1764282657638-novel"
+  }
+}

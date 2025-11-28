@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undefined - IF Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .fade-in { animation: fadeIn 0.5s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    </style>
+</head>
+<body class="bg-black text-gray-200 font-mono h-screen flex flex-col">
+    <!-- Ad Slot Top -->
+    <div id="ad-slot-top" class="w-full h-16 bg-gray-900 flex items-center justify-center text-gray-600 text-xs uppercase tracking-widest">
+        Ad Space
+    </div>
+
+    <main id="game-container" class="flex-1 p-8 max-w-3xl mx-auto w-full flex flex-col justify-center">
+        <div id="story-text" class="text-xl leading-relaxed mb-8 fade-in">Loading...</div>
+        <div id="choices" class="space-y-4"></div>
+    </main>
+
+    <!-- Ad Slot Bottom -->
+    <div id="ad-slot-bottom" class="w-full h-16 bg-gray-900 flex items-center justify-center text-gray-600 text-xs uppercase tracking-widest">
+        Ad Space
+    </div>
+
+    <script>
+        const gameData = {"gameId":"daily-ip-1764284411865-it-if-it","mode":"if","language":"it","startNodeId":"node-1","nodes":[{"id":"node-1","text":"[it] You are at node-1. Context: Unknown. What do you do?","choices":[{"label":"Go to node-2","target":"node-2"},{"label":"Go to node-3","target":"node-3"}]},{"id":"node-2","text":"[it] You are at node-2. Context: Unknown. What do you do?","choices":[{"label":"Go to node-3","target":"node-3"}]},{"id":"node-3","text":"[it] You are at node-3. Context: Unknown. What do you do?","choices":[{"label":"Go to node-4","target":"node-4"}]},{"id":"node-4","text":"[it] You are at node-4. Context: Unknown. What do you do?","choices":[{"label":"Go to node-5","target":"node-5"},{"label":"Go to node-6","target":"node-6"}]},{"id":"node-5","text":"[it] You are at node-5. Context: Unknown. What do you do?","choices":[{"label":"Go to node-6","target":"node-6"}]},{"id":"node-6","text":"[it] You are at node-6. Context: Unknown. What do you do?","choices":[{"label":"Go to node-7","target":"node-7"}]},{"id":"node-7","text":"[it] You are at node-7. Context: Unknown. What do you do?","choices":[{"label":"Go to node-8","target":"node-8"},{"label":"Go to node-9","target":"node-9"}]},{"id":"node-8","text":"[it] You are at node-8. Context: Unknown. What do you do?","choices":[{"label":"Go to node-9","target":"node-9"}]},{"id":"node-9","text":"[it] You are at node-9. Context: Unknown. What do you do?","choices":[{"label":"Go to node-10","target":"node-10"}]},{"id":"node-10","text":"[it] You are at node-10. Context: Unknown. What do you do?","choices":[{"label":"Go to node-11","target":"node-11"},{"label":"Go to node-12","target":"node-12"}]},{"id":"node-11","text":"[it] You are at node-11. Context: Unknown. What do you do?","choices":[{"label":"Go to node-12","target":"node-12"}]},{"id":"node-12","text":"[it] You are at node-12. Context: Unknown. What do you do?","choices":[{"label":"Go to node-13","target":"node-13"}]},{"id":"node-13","text":"[it] You are at node-13. Context: Unknown. What do you do?","choices":[{"label":"Go to node-14","target":"node-14"},{"label":"Go to node-15","target":"node-15"}]},{"id":"node-14","text":"[it] You are at node-14. Context: Unknown. What do you do?","choices":[{"label":"Go to node-15","target":"node-15"}]},{"id":"node-15","text":"[it] You are at node-15. Context: Unknown. What do you do?","choices":[{"label":"Go to node-16","target":"node-16"}]},{"id":"node-16","text":"[it] You are at node-16. Context: Unknown. What do you do?","choices":[{"label":"Go to node-17","target":"node-17"},{"label":"Go to node-18","target":"node-18"}]},{"id":"node-17","text":"[it] You are at node-17. Context: Unknown. What do you do?","choices":[{"label":"Go to node-18","target":"node-18"}]},{"id":"node-18","text":"[it] You are at node-18. Context: Unknown. What do you do?","choices":[{"label":"Go to node-19","target":"node-19"}]},{"id":"node-19","text":"[it] You are at node-19. Context: Unknown. What do you do?","choices":[{"label":"Go to node-20","target":"node-20"}]},{"id":"node-20","text":"[it] You are at node-20. Context: Unknown. What do you do?","choices":[]}]};
+        let currentNodeId = gameData.startNodeId;
+
+        function renderNode(nodeId) {
+            const node = gameData.nodes.find(n => n.id === nodeId);
+            if (!node) return;
+
+            const textEl = document.getElementById('story-text');
+            const choicesEl = document.getElementById('choices');
+
+            textEl.classList.remove('fade-in');
+            void textEl.offsetWidth;
+            textEl.classList.add('fade-in');
+
+            textEl.innerText = node.text;
+            choicesEl.innerHTML = '';
+
+            node.choices.forEach(choice => {
+                const btn = document.createElement('button');
+                btn.className = "w-full text-left p-4 border border-gray-700 rounded hover:bg-gray-800 hover:border-green-500 transition text-green-400 font-bold";
+                btn.innerText = "> " + choice.label;
+                btn.onclick = () => renderNode(choice.target);
+                choicesEl.appendChild(btn);
+            });
+        }
+
+        renderNode(currentNodeId);
+    </script>
+</body>
+</html>

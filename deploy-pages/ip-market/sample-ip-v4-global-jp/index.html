@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled IP - IP Pitch Deck</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700 flex justify-between items-center">
+        <a href="../index.html" class="text-xl font-bold text-green-400">← IP Market</a>
+        <div class="text-sm text-gray-400">Generated: 2025-11-27T23:03:41.205Z</div>
+    </nav>
+
+    <div class="container mx-auto p-8">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-5xl font-bold mb-4">Untitled IP</h1>
+            <p class="text-2xl text-gray-400 italic mb-6">"[jp] A futuristic global empire story."</p>
+            <div class="flex justify-center gap-4">
+                <span class="bg-blue-600 px-3 py-1 rounded text-sm font-bold">[jp] romance_revenge</span>
+                <span class="bg-purple-600 px-3 py-1 rounded text-sm font-bold"></span>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <!-- Left Column: Creative -->
+            <div class="lg:col-span-2 space-y-8">
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4 text-blue-400">Worldbuilding</h2>
+                    <p class="text-gray-300 leading-relaxed"></p>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4 text-purple-400">Characters</h2>
+                    <ul class="list-disc list-inside text-gray-300">
+                        
+                    </ul>
+                </div>
+
+                <div class="bg-gray-800 p-8 rounded-lg">
+                    <h2 class="text-2xl font-bold mb-4 text-green-400">Asset Inventory</h2>
+                    <div class="grid grid-cols-3 gap-4 text-center">
+                        <div class="p-4 bg-gray-700 rounded">
+                            <div class="text-3xl font-bold">{{stats.novelChapters}}</div>
+                            <div class="text-xs text-gray-400">Novel Chapters</div>
+                        </div>
+                        <div class="p-4 bg-gray-700 rounded">
+                            <div class="text-3xl font-bold">{{stats.dramaEpisodes}}</div>
+                            <div class="text-xs text-gray-400">Drama Episodes</div>
+                        </div>
+                        <div class="p-4 bg-gray-700 rounded">
+                            <div class="text-3xl font-bold">{{stats.comicPanels}}</div>
+                            <div class="text-xs text-gray-400">Comic Panels</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-3 bg-gray-800 p-6 rounded-lg mb-8 border-l-4 border-yellow-500">
+                <h2 class="text-2xl font-bold mb-4 text-yellow-500">🎮 Game Bundle Included</h2>
+                <p class="text-gray-300 mb-4">This IP Pitch Package includes fully playable Interactive Fiction and
+                    Visual Novel adaptations, ready for immediate monetization.</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    {{#assets.games}}
+                    <div class="bg-gray-700 p-4 rounded flex justify-between items-center">
+                        <div>
+                            <span class="font-bold uppercase text-sm text-gray-400"></span>
+                            <div class="text-white font-bold"> Edition</div>
+                        </div>
+                        <a href="" target="_blank"
+                            class="bg-yellow-600 hover:bg-yellow-700 text-white px-4 py-2 rounded text-sm font-bold">Play
+                            Demo</a>
+                    </div>
+                    {{/assets.games}}
+                    {{^assets.games}}
+                    <div class="text-gray-500 italic">No game assets generated for this IP yet.</div>
+                    {{/assets.games}}
+                </div>
+            </div>
+
+            <!-- Right Column: Business -->
+            <div class="space-y-8">
+                <div class="bg-gray-800 p-8 rounded-lg border border-green-500">
+                    <h2 class="text-2xl font-bold mb-6 text-center">Licensing Options</h2>
+
+                    <div class="space-y-6">
+                        <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                            <span>Domestic (CN)</span>
+                            <span class="font-bold text-xl">{{recommended_price.domestic}}</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                            <span>Global Rights</span>
+                            <span class="font-bold text-xl text-green-400">{{recommended_price.global}}</span>
+                        </div>
+                        <div class="flex justify-between items-center border-b border-gray-700 pb-2">
+                            <span>Exclusive Buyout</span>
+                            <span class="font-bold text-xl text-yellow-400">{{recommended_price.exclusive}}</span>
+                        </div>
+                    </div>
+
+                    <div class="mt-8 space-y-4">
+                        <button class="w-full bg-green-600 hover:bg-green-700 py-3 rounded font-bold transition">Contact
+                            Sales Agent</button>
+                        <a href="pitch.pdf"
+                            class="block w-full text-center bg-gray-700 hover:bg-gray-600 py-3 rounded font-bold transition">Download
+                            PDF Deck</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-800 p-6 rounded-lg">
+                    <h3 class="font-bold mb-2">Available Languages</h3>
+                    <div class="flex flex-wrap gap-2">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

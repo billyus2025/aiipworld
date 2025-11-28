@@ -1,0 +1,19 @@
+{
+    "default_free_chapters": 20,
+    "vip_price": {
+        "monthly": 9.99,
+        "yearly": 89.99
+    },
+    "supported_languages": [
+        "zh",
+        "en",
+        "jp",
+        "kr",
+        "es",
+        "fr",
+        "de",
+        "it",
+        "hi",
+        "ar"
+    ]
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Sales Operations</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700">
+        <a href="../index.html" class="text-green-400 hover:text-white">← Back to Command Center</a>
+    </nav>
+
+    <div class="container mx-auto p-8">
+        <h1 class="text-4xl font-bold mb-8 text-green-500">IP Sales Operations</h1>
+
+        <!-- Daily Report Summary -->
+        <div class="bg-gray-800 p-6 rounded mb-12 border-l-4 border-green-500">
+            <h2 class="text-xl font-bold mb-2">Latest Daily Report ({{latestReport.date}})</h2>
+            <p class="text-gray-400">New IPs Created: {{latestReport.new_ip_created.length}}</p>
+            <p class="text-gray-400">Total IPs in Market: {{latestReport.total_ip_count}}</p>
+        </div>
+
+        <!-- IP List -->
+        <h2 class="text-2xl font-bold mb-6">Global IP Inventory</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {{#ips}}
+            <div class="bg-gray-800 p-6 rounded hover:bg-gray-700 transition">
+                <div class="flex justify-between items-start mb-4">
+                    <h3 class="font-bold text-lg truncate w-2/3">{{title}}</h3>
+                    <span class="bg-gray-700 text-xs px-2 py-1 rounded">{{genre}}</span>
+                </div>
+                <div class="space-y-2 text-sm text-gray-400 mb-4">
+                    <div class="flex justify-between">
+                        <span>Global Price:</span>
+                        <span class="text-green-400 font-bold">{{price.global}}</span>
+                    </div>
+                    <div class="flex justify-between">
+                        <span>Exclusive:</span>
+                        <span class="text-yellow-400 font-bold">{{price.exclusive}}</span>
+                    </div>
+                </div>
+                <a href="../../../ip-market/{{id}}/index.html"
+                    class="block text-center bg-gray-700 hover:bg-white hover:text-black py-2 rounded font-bold transition">View
+                    Pitch Deck</a>
+            </div>
+            {{/ips}}
+        </div>
+    </div>
+</body>
+
+</html>

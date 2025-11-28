@@ -1,0 +1,14 @@
+{
+  "platform": "youtube",
+  "videoId": "sample-video-1",
+  "title": "Sample Video - Official Short",
+  "description": "Watch the full story on our site! https://example.com",
+  "hashtags": [
+    "#fyp",
+    "#story",
+    "#Drama"
+  ],
+  "videoPath": "path/to/video.mp4",
+  "coverPath": "cover.png",
+  "scheduledTime": "2025-11-28T00:00:13.019Z"
+}

@@ -1,0 +1,16 @@
+{
+    "mode": "simulate",
+    "daily_budget_usd": 20,
+    "light_max_usd": 100,
+    "scale_roas_target": 1.5,
+    "platforms": [
+        "tiktok",
+        "meta",
+        "google"
+    ],
+    "api_keys": {
+        "tiktok": "",
+        "meta": "",
+        "google": ""
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "type": "novel-scroll",
+    "resolution": "1080x1920",
+    "fps": 30,
+    "duration_per_100_words": 15,
+    "font": "Sans-Serif",
+    "font_size": 40,
+    "scroll_speed": "medium",
+    "background": "paper_texture.jpg",
+    "audio": {
+        "tts_enabled": true,
+        "bgm": "calm_reading.mp3"
+    }
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Episode 21 - Episode 21</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white">
+    <div class="max-w-4xl mx-auto min-h-screen flex flex-col">
+        <nav class="p-4 bg-gray-800 flex justify-between items-center">
+            <a href="../../profile.html" class="text-gray-300 hover:text-white">← Back</a>
+            <h1 class="font-bold">Comic: Novel: A futuristic global ... - Ep 21</h1>
+            <span></span>
+        </nav>
+
+        <div class="flex-grow bg-black flex flex-col items-center py-4 space-y-4">
+            
+            <img src="images/ep21-panel1.png" alt="Panel 1" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel2.png" alt="Panel 2" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel3.png" alt="Panel 3" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel4.png" alt="Panel 4" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel5.png" alt="Panel 5" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel6.png" alt="Panel 6" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel7.png" alt="Panel 7" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel8.png" alt="Panel 8" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel9.png" alt="Panel 9" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel10.png" alt="Panel 10" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel11.png" alt="Panel 11" class="max-w-full shadow-lg">
+            
+            <img src="images/ep21-panel12.png" alt="Panel 12" class="max-w-full shadow-lg">
+            
+        </div>
+
+        <div id="paywall-overlay"
+            class="hidden fixed inset-0 bg-gray-900 bg-opacity-95 flex items-center justify-center z-50">
+            <div class="bg-gray-800 p-8 rounded-lg max-w-md text-center border border-gray-700">
+                <h2 class="text-2xl font-bold mb-4 text-white">VIP Episode</h2>
+                <p class="mb-6 text-gray-400">This episode is locked. Subscribe to view.</p>
+                <div class="space-y-4">
+                    <a href="/subscription/login.html"
+                        class="block w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Login</a>
+                    <a href="/subscription/vip.html"
+                        class="block w-full border border-blue-600 text-blue-400 py-2 rounded hover:bg-gray-700">View
+                        Plans</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-4 bg-gray-800 flex justify-between">
+            <a href="episode-20.html"
+                class="px-6 py-2 bg-gray-700 rounded hover:bg-gray-600 ">Previous</a>
+            <a href="episode-22.html"
+                class="px-6 py-2 bg-blue-600 rounded hover:bg-blue-700 ">Next</a>
+        </div>
+    </div>
+
+    <script>
+        async function checkAccess() {
+            const episodeId = "21";
+            const pathParts = window.location.pathname.split('/');
+            const projectId = pathParts[pathParts.length - 2];
+            const lang = projectId.split('-').pop();
+            const token = localStorage.getItem('token');
+
+            try {
+                const res = await fetch(`/api/subscription/access?type=comic&id=${projectId}&lang=${lang}&num=${episodeId}`, {
+                    headers: { 'Authorization': token || '' }
+                });
+                const data = await res.json();
+
+                if (!data.access) {
+                    document.getElementById('paywall-overlay').classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                }
+            } catch (e) {
+                console.error("Access check failed", e);
+            }
+        }
+        checkAccess();
+    </script>
+</body>
+
+</html>

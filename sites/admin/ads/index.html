@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ads & Traffic Engine</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <div class="flex h-screen">
+        <aside class="w-64 bg-gray-800 border-r border-gray-700 p-6 flex flex-col">
+            <h1 class="text-2xl font-bold text-green-500 mb-8">IP Factory <span class="text-xs text-gray-400 block">Ads
+                    Engine</span></h1>
+            <nav class="flex-1 space-y-4">
+                <a href="../index.html" class="block text-gray-400 hover:text-white">← Global Home</a>
+                <a href="#" class="block text-white font-bold bg-gray-700 p-2 rounded">Ads Dashboard</a>
+            </nav>
+        </aside>
+
+        <main class="flex-1 overflow-y-auto p-8">
+            <header class="flex justify-between items-center mb-8">
+                <div>
+                    <h2 class="text-3xl font-bold">Auto Ads & Traffic Engine</h2>
+                    <div class="text-sm text-gray-400">Mode: <span
+                            class="uppercase font-bold text-yellow-500">{{config.mode}}</span></div>
+                </div>
+                <div class="text-right">
+                    <div class="text-2xl font-bold">$13.32 / $27.58</div>
+                    <div class="text-xs text-gray-400 uppercase">Simulated Spend / Revenue</div>
+                </div>
+            </header>
+
+            <!-- Stats Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Daily Budget</h3>
+                    <div class="text-3xl font-bold text-white">${{config.daily_budget_usd}}</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Target ROAS</h3>
+                    <div class="text-3xl font-bold text-green-500">{{config.scale_roas_target}}x</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Actual ROAS (Sim)</h3>
+                    <div
+                        class="text-3xl font-bold text-green-500">
+                        2.07x</div>
+                </div>
+                <div class="bg-gray-800 p-6 rounded-lg border border-gray-700">
+                    <h3 class="text-gray-400 text-sm uppercase">Active Campaigns</h3>
+                    <div class="text-3xl font-bold text-blue-500">4</div>
+                </div>
+            </div>
+
+            <!-- Campaign Performance -->
+            <div class="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden mb-8">
+                <div class="p-6 border-b border-gray-700">
+                    <h3 class="text-xl font-bold">Campaign Performance (Simulated)</h3>
+                </div>
+                <table class="w-full text-left">
+                    <thead class="bg-gray-700 text-gray-400 uppercase text-xs">
+                        <tr>
+                            <th class="p-4">Platform</th>
+                            <th class="p-4">Video ID</th>
+                            <th class="p-4">Spend</th>
+                            <th class="p-4">Revenue</th>
+                            <th class="p-4">ROAS</th>
+                            <th class="p-4">Clicks</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-700">
+                        {{#results.campaigns}}
+                        <tr class="hover:bg-gray-750">
+                            <td class="p-4 uppercase font-bold text-xs"></td>
+                            <td class="p-4 font-mono text-sm"></td>
+                            <td class="p-4 text-gray-300">$</td>
+                            <td class="p-4 text-green-400">$</td>
+                            <td class="p-4 font-bold">x</td>
+                            <td class="p-4"></td>
+                        </tr>
+                        {{/results.campaigns}}
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Decisions -->
+            
+        </main>
+    </div>
+</body>
+
+</html>

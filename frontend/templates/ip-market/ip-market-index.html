@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Market - Global Content Exchange</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-900 text-white font-sans">
+    <nav class="p-6 bg-gray-800 border-b border-gray-700">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-green-400">IP Market</h1>
+            <a href="/network/index.html" class="text-gray-400 hover:text-white">Back to Network</a>
+        </div>
+    </nav>
+
+    <div class="container mx-auto p-8">
+        <div class="text-center mb-12">
+            <h2 class="text-4xl font-bold mb-4">Premium IP Marketplace</h2>
+            <p class="text-xl text-gray-400">Discover and acquire global intellectual properties.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {{#pitches}}
+            <a href="{{id}}/index.html"
+                class="block bg-gray-800 rounded-lg overflow-hidden hover:shadow-2xl transition border border-gray-700 group">
+                <div class="h-48 bg-gray-700 flex items-center justify-center">
+                    <span class="text-4xl font-bold text-gray-500 group-hover:text-white transition">{{title}}</span>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">{{title}}</h3>
+                    <p class="text-sm text-gray-400 mb-4">{{genre}}</p>
+                    <div class="flex justify-between items-center">
+                        <span class="text-green-400 font-bold text-lg">${{price.global}}</span>
+                        <span class="text-xs bg-gray-700 px-2 py-1 rounded">Global Rights</span>
+                    </div>
+                </div>
+            </a>
+            {{/pitches}}
+        </div>
+    </div>
+</body>
+
+</html>

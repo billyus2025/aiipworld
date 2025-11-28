@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undefined - VN Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black h-screen overflow-hidden select-none flex flex-col">
+    
+    <!-- Ad Slot Top -->
+    <div id="ad-slot-top" class="w-full h-12 bg-gray-900 z-50 flex items-center justify-center text-gray-600 text-xs uppercase tracking-widest">
+        Ad Space
+    </div>
+
+    <div class="relative flex-1 w-full h-full overflow-hidden">
+        <!-- Background Layer -->
+        <div id="bg-layer" class="absolute inset-0 bg-cover bg-center transition-all duration-1000" style="background-image: url('https://via.placeholder.com/1920x1080/1a1a1a/333333?text=Loading...');"></div>
+
+        <!-- UI Layer -->
+        <div class="absolute inset-0 flex flex-col justify-end p-8 pb-12 bg-gradient-to-t from-black via-transparent to-transparent">
+            <div class="max-w-4xl mx-auto w-full bg-gray-900/90 border border-gray-700 p-6 rounded-lg shadow-2xl cursor-pointer" onclick="nextStep()">
+                <div id="speaker-name" class="text-yellow-500 font-bold text-xl mb-2">...</div>
+                <div id="dialogue-text" class="text-white text-2xl leading-relaxed">Loading...</div>
+                <div class="text-right text-xs text-gray-500 mt-2">Click to continue ▼</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Ad Slot Bottom -->
+    <div id="ad-slot-bottom" class="w-full h-12 bg-gray-900 z-50 flex items-center justify-center text-gray-600 text-xs uppercase tracking-widest">
+        Ad Space
+    </div>
+
+    <script>
+        const gameData = {"gameId":"daily-ip-1764283492495-de-vn-de","mode":"vn","language":"de","scenes":[{"id":"scene-1","background":"bg_location_1","characters":["Protagonist","Rival"],"dialogues":[{"speaker":"Protagonist","text":"[de] Scene 1 begins. We are in the [de] romance_revenge world."},{"speaker":"Rival","text":"[de] Indeed. The plot thickens."},{"speaker":"Protagonist","text":"[de] Let's move on."}]},{"id":"scene-2","background":"bg_location_2","characters":["Protagonist","Rival"],"dialogues":[{"speaker":"Protagonist","text":"[de] Scene 2 begins. We are in the [de] romance_revenge world."},{"speaker":"Rival","text":"[de] Indeed. The plot thickens."},{"speaker":"Protagonist","text":"[de] Let's move on."}]},{"id":"scene-3","background":"bg_location_3","characters":["Protagonist","Rival"],"dialogues":[{"speaker":"Protagonist","text":"[de] Scene 3 begins. We are in the [de] romance_revenge world."},{"speaker":"Rival","text":"[de] Indeed. The plot thickens."},{"speaker":"Protagonist","text":"[de] Let's move on."}]},{"id":"scene-4","background":"bg_location_4","characters":["Protagonist","Rival"],"dialogues":[{"speaker":"Protagonist","text":"[de] Scene 4 begins. We are in the [de] romance_revenge world."},{"speaker":"Rival","text":"[de] Indeed. The plot thickens."},{"speaker":"Protagonist","text":"[de] Let's move on."}]},{"id":"scene-5","background":"bg_location_5","characters":["Protagonist","Rival"],"dialogues":[{"speaker":"Protagonist","text":"[de] Scene 5 begins. We are in the [de] romance_revenge world."},{"speaker":"Rival","text":"[de] Indeed. The plot thickens."},{"speaker":"Protagonist","text":"[de] Let's move on."}]}],"assets":{"backgrounds":{"bg_location_1":{"prompt":"Anime style background, bg_location_1, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_2":{"prompt":"Anime style background, bg_location_2, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_3":{"prompt":"Anime style background, bg_location_3, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_4":{"prompt":"Anime style background, bg_location_4, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_5":{"prompt":"Anime style background, bg_location_5, [de] romance_revenge","src":"placeholder_bg.jpg"}},"characters":{"Protagonist":{"prompt":"Anime character, Protagonist, [de] romance_revenge","src":"placeholder_char.png"},"Rival":{"prompt":"Anime character, Rival, [de] romance_revenge","src":"placeholder_char.png"}}}};
+        const assets = {"backgrounds":{"bg_location_1":{"prompt":"Anime style background, bg_location_1, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_2":{"prompt":"Anime style background, bg_location_2, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_3":{"prompt":"Anime style background, bg_location_3, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_4":{"prompt":"Anime style background, bg_location_4, [de] romance_revenge","src":"placeholder_bg.jpg"},"bg_location_5":{"prompt":"Anime style background, bg_location_5, [de] romance_revenge","src":"placeholder_bg.jpg"}},"characters":{"Protagonist":{"prompt":"Anime character, Protagonist, [de] romance_revenge","src":"placeholder_char.png"},"Rival":{"prompt":"Anime character, Rival, [de] romance_revenge","src":"placeholder_char.png"}}};
+        
+        let currentSceneIndex = 0;
+        let currentDialogueIndex = 0;
+
+        function renderScene() {
+            if (currentSceneIndex >= gameData.scenes.length) {
+                alert("End of Demo");
+                return;
+            }
+
+            const scene = gameData.scenes[currentSceneIndex];
+            const bgUrl = assets.backgrounds[scene.background]?.src || 'https://via.placeholder.com/1920x1080/2a2a2a/555555?text=Background';
+            document.getElementById('bg-layer').style.backgroundImage = "url('" + bgUrl + "')";
+            
+            renderDialogue();
+        }
+
+        function renderDialogue() {
+            const scene = gameData.scenes[currentSceneIndex];
+            if (currentDialogueIndex >= scene.dialogues.length) {
+                currentSceneIndex++;
+                currentDialogueIndex = 0;
+                renderScene();
+                return;
+            }
+
+            const dialogue = scene.dialogues[currentDialogueIndex];
+            document.getElementById('speaker-name').innerText = dialogue.speaker;
+            document.getElementById('dialogue-text').innerText = dialogue.text;
+        }
+
+        function nextStep() {
+            currentDialogueIndex++;
+            renderDialogue();
+        }
+
+        renderScene();
+    </script>
+</body>
+</html>

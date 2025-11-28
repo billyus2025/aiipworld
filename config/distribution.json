@@ -1,0 +1,9 @@
+{
+    "video_aspect_ratio": "9:16",
+    "default_tts_voice": "female_1",
+    "target_platforms": [
+        "tiktok",
+        "instagram",
+        "youtube"
+    ]
+}

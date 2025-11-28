@@ -1,0 +1,27 @@
+[
+    {
+        "id": "user_123",
+        "username": "demo_user",
+        "password": "password",
+        "email": "demo@example.com",
+        "langs": [
+            "en",
+            "zh"
+        ],
+        "vip": false,
+        "history": {}
+    },
+    {
+        "id": "vip_user_456",
+        "username": "vip_user",
+        "password": "password",
+        "email": "vip@example.com",
+        "langs": [
+            "en",
+            "jp",
+            "kr"
+        ],
+        "vip": true,
+        "history": {}
+    }
+]

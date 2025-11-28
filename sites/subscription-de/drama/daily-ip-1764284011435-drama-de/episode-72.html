@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[de] Episode 72 - Episode 72</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black text-white">
+    <div class="max-w-2xl mx-auto min-h-screen flex flex-col">
+        <nav class="p-4 flex justify-between items-center bg-gray-900">
+            <a href="../../profile.html" class="text-gray-400 hover:text-white">← Back</a>
+            <h1 class="font-bold">Drama: Roman: A new daily IP conce...</h1>
+        </nav>
+
+        <div class="flex-grow p-6 space-y-6">
+            <h2 class="text-2xl font-bold text-center mb-8">[de] Episode 72</h2>
+
+            <div class="space-y-6 text-lg leading-relaxed text-gray-300">
+                
+            </div>
+        </div>
+
+        <div id="paywall-overlay"
+            class="hidden fixed inset-0 bg-black bg-opacity-95 flex items-center justify-center z-50">
+            <div class="bg-gray-900 p-8 rounded-lg max-w-md text-center border border-gray-800">
+                <h2 class="text-2xl font-bold mb-4 text-white">VIP Episode</h2>
+                <p class="mb-6 text-gray-400">Unlock this drama episode with a subscription.</p>
+                <div class="space-y-4">
+                    <a href="/subscription/login.html"
+                        class="block w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">Login</a>
+                    <a href="/subscription/vip.html"
+                        class="block w-full border border-blue-600 text-blue-400 py-2 rounded hover:bg-gray-800">View
+                        Plans</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-4 bg-gray-900 flex justify-between mt-8">
+            <a href="episode-71.html"
+                class="px-6 py-2 bg-gray-800 rounded hover:bg-gray-700 ">Previous</a>
+            <a href="episode-73.html"
+                class="px-6 py-2 bg-blue-600 rounded hover:bg-blue-700 ">Next</a>
+        </div>
+    </div>
+
+    <script>
+        async function checkAccess() {
+            const episodeId = "72";
+            const pathParts = window.location.pathname.split('/');
+            const projectId = pathParts[pathParts.length - 2];
+            const lang = projectId.split('-').pop();
+            const token = localStorage.getItem('token');
+
+            try {
+                const res = await fetch(`/api/subscription/access?type=drama&id=${projectId}&lang=${lang}&num=${episodeId}`, {
+                    headers: { 'Authorization': token || '' }
+                });
+                const data = await res.json();
+
+                if (!data.access) {
+                    document.getElementById('paywall-overlay').classList.remove('hidden');
+                    document.body.style.overflow = 'hidden';
+                }
+            } catch (e) {
+                console.error("Access check failed", e);
+            }
+        }
+        checkAccess();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+{
+  "title": "Sample Drama",
+  "episodes": [
+    {
+      "title": "Episode 1",
+      "content": "This is a sample episode."
+    }
+  ]
+}

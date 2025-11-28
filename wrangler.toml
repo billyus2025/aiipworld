@@ -1,0 +1,11 @@
+name = "ip-factory-backend"
+main = "backend/worker.js"
+compatibility_date = "2025-11-27"
+
+[[routes]]
+pattern = "https://aiipworld.com/api/*"
+zone_name = "aiipworld.com"
+
+[site]
+bucket = "./sites"
+entry-point = "workers-site"

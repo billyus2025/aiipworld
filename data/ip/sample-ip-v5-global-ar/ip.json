@@ -1,0 +1,57 @@
+{
+  "ipId": "sample-ip-v5-global",
+  "idea": "[ar] A story about a global trade empire connecting cultures.",
+  "genre": "[ar] romance_revenge",
+  "language": "ar",
+  "novelId": "sample-ip-v5-global-novel-ar",
+  "dramaId": "sample-ip-v5-global-drama-ar",
+  "comicId": "sample-ip-v5-global-comic-ar",
+  "createdAt": "2025-11-27T22:18:47.148Z",
+  "novelMetadata": {
+    "id": "sample-ip-v5-global-novel",
+    "title": "رواية: A story about a glob...",
+    "author": "[ar] AI Factory",
+    "genre": "[ar] romance_revenge",
+    "tags": [
+      "[ar] Cultivation",
+      "[ar] Immortality",
+      "[ar] System",
+      "[ar] romance_revenge"
+    ],
+    "description": "[ar] A story about a global trade empire connecting cultures.",
+    "characters": [
+      "[ar] Li Wei",
+      "[ar] Fairy Chen",
+      "[ar] Elder Zhang"
+    ],
+    "createdAt": "2025-11-27T22:18:46.646Z",
+    "status": "[ar] completed",
+    "language": "[ar] zh"
+  },
+  "dramaMetadata": {
+    "id": "sample-ip-v5-global-drama",
+    "title": "دراما: رواية: A story about a glob...",
+    "author": "[ar] AI Factory",
+    "tags": [
+      "[ar] Cultivation",
+      "[ar] Immortality",
+      "[ar] System",
+      "[ar] romance_revenge",
+      "دراما Adaptation"
+    ],
+    "description": "[ar] Adapted from novel: A story about a global trade empire connecting cultures.",
+    "createdAt": "2025-11-27T22:18:46.881Z",
+    "status": "[ar] completed",
+    "sourceNovelId": "[ar] sample-ip-v5-global-novel"
+  },
+  "comicMetadata": {
+    "id": "sample-ip-v5-global-comic",
+    "title": "قصة مصورة: رواية: A story about a glob...",
+    "author": "[ar] AI Artist",
+    "genre": "[ar] romance_revenge",
+    "description": "[ar] Adapted from novel: A story about a global trade empire connecting cultures.",
+    "status": "[ar] ongoing",
+    "createdAt": "2025-11-27T22:18:47.000Z",
+    "sourceNovelId": "[ar] sample-ip-v5-global-novel"
+  }
+}

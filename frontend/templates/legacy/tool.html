@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <meta name="description" content="{{description}}">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: { extend: { colors: { brand: { 50: '#f0f9ff', 100: '#e0f2fe', 400: '#38bdf8', 500: '#0ea5e9', 600: '#0284c7', 900: '#0c4a6e' } }, fontFamily: { sans: ['Inter', 'sans-serif'] } } }
+        }
+    </script>
+    <style>
+        .glass {
+            background: rgba(15, 23, 42, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+
+<body class="bg-slate-900 text-white min-h-screen font-sans">
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 glass border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-2">
+                    <div
+                        class="w-8 h-8 bg-gradient-to-br from-brand-400 to-purple-500 rounded-lg flex items-center justify-center font-bold text-white">
+                        AI</div>
+                    <span class="font-bold text-xl tracking-tight">{{productName}}</span>
+                </div>
+                <div class="flex items-center gap-4">
+                    <a href="/{{lang}}/" class="text-sm text-slate-400 hover:text-white">Home</a>
+                    <button id="loginBtn"
+                        class="text-sm font-medium text-white bg-brand-600 px-4 py-2 rounded-lg hover:bg-brand-500 transition-colors">Login</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <main class="pt-28 pb-20 px-4 max-w-5xl mx-auto">
+        <div class="text-center mb-12">
+            <h1
+                class="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
+                {{productName}}</h1>
+            <p class="text-lg text-slate-400 max-w-2xl mx-auto">{{productDesc}}</p>
+        </div>
+
+        <div class="grid lg:grid-cols-2 gap-8">
+            <!-- Input -->
+            <div class="glass rounded-2xl p-6">
+                <div id="inputsContainer" class="space-y-4">
+                    <!-- Dynamic Inputs Injected Here -->
+                </div>
+                <button id="generateBtn"
+                    class="w-full mt-6 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-500 hover:to-brand-400 text-white font-bold py-3 rounded-lg transition-all shadow-lg shadow-brand-500/20">
+                    Generate
+                </button>
+            </div>
+
+            <!-- Output -->
+            <div class="glass rounded-2xl p-6 min-h-[400px] flex flex-col">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="font-semibold text-slate-200">Result</h3>
+                    <button id="copyBtn"
+                        class="text-xs bg-white/10 px-2 py-1 rounded hover:bg-white/20 transition">Copy</button>
+                </div>
+                <div id="outputContainer"
+                    class="flex-1 bg-slate-800/50 rounded-lg p-4 text-slate-300 text-sm leading-relaxed whitespace-pre-wrap">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        const API_BASE_URL = 'https://yourcoverai.com';
+        const productSlug = "{{productSlug}}";
+        const inputsConfig = {{ inputsConfig }};
+
+        // Render Inputs
+        const container = document.getElementById('inputsContainer');
+        inputsConfig.forEach(input => {
+            const wrapper = document.createElement('div');
+            const label = document.createElement('label');
+            label.className = "block text-sm font-medium text-slate-300 mb-1";
+            label.textContent = input.label;
+            wrapper.appendChild(label);
+
+            let field;
+            if (input.type === 'textarea') {
+                field = document.createElement('textarea');
+                field.className = "w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-brand-500 outline-none h-32 resize-none";
+            } else {
+                field = document.createElement('input');
+                field.type = input.type;
+                field.className = "w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-brand-500 outline-none";
+            }
+            field.id = input.id;
+            field.placeholder = input.placeholder;
+            if (input.default) field.value = input.default;
+
+            if (input.type === 'select' && input.options) {
+                field = document.createElement('select');
+                field.className = "w-full bg-slate-800 border border-slate-700 rounded-lg p-3 text-white focus:ring-2 focus:ring-brand-500 outline-none";
+                input.options.forEach(opt => {
+                    const option = document.createElement('option');
+                    option.value = opt;
+                    option.textContent = opt;
+                    field.appendChild(option);
+                });
+                field.id = input.id;
+            }
+
+            wrapper.appendChild(field);
+            container.appendChild(wrapper);
+        });
+
+        // Generate Logic
+        document.getElementById('generateBtn').addEventListener('click', async () => {
+            const btn = document.getElementById('generateBtn');
+            const outputDiv = document.getElementById('outputContainer');
+
+            btn.disabled = true;
+            btn.textContent = "Generating...";
+            outputDiv.textContent = "";
+
+            // Collect Data
+            const data = {};
+            inputsConfig.forEach(input => {
+                data[input.id] = document.getElementById(input.id).value;
+            });
+
+            try {
+                const res = await fetch(\`\${API_BASE_URL}/api/generate\`, {
+                    method: 'POST',
+                    headers: { 
+                        'Content-Type': 'application/json',
+                        'Authorization': localStorage.getItem('yc_session') ? 'Bearer ' + localStorage.getItem('yc_session') : ''
+                    },
+                    body: JSON.stringify({
+                        productSlug,
+                        input: data,
+                        target_language: "{{lang}}"
+                    })
+                });
+                const json = await res.json();
+                
+                if (json.error) {
+                    alert(json.message || json.error);
+                } else {
+                    outputDiv.textContent = json.output;
+                }
+            } catch (e) {
+                alert("Error: " + e.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = "Generate";
+            }
+        });
+    </script>
+</body>
+
+</html>
