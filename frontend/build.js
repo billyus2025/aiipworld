@@ -130,9 +130,10 @@ async function buildStandardSites() {
                 if (!data) continue;
 
                 const siteDir = path.join(CONFIG.paths.sites, `novel-site${suffix}`, id);
+                const homeUrl = `/novel-site${suffix}/${id}/index.html`;
                 const indexTemplate = readFile(path.join(CONFIG.paths.templates, 'novel/novel-index.html'));
                 if (indexTemplate) {
-                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, year: 2025 }));
+                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, year: 2025, homeUrl }));
                 }
 
                 // Chapters
@@ -146,7 +147,8 @@ async function buildStandardSites() {
                                 ...chData,
                                 novelTitle: data.title,
                                 contentParagraphs: chData.content.split('\n'),
-                                indexLink: 'index.html'
+                                indexLink: homeUrl,
+                                homeUrl: homeUrl
                             }));
                         }
                     });
@@ -163,9 +165,10 @@ async function buildStandardSites() {
                 if (!data) continue;
 
                 const siteDir = path.join(CONFIG.paths.sites, `comic-site${suffix}`, id);
+                const homeUrl = `/comic-site${suffix}/${id}/index.html`;
                 const indexTemplate = readFile(path.join(CONFIG.paths.templates, 'comic/comic-index.html'));
                 if (indexTemplate) {
-                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, year: 2025 }));
+                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, year: 2025, homeUrl }));
                 }
 
                 // Episodes
@@ -177,7 +180,8 @@ async function buildStandardSites() {
                             ...ep,
                             comicTitle: data.title,
                             images: (ep.panels || []).map(p => ({ src: `images/ep${ep.id}-panel${p.panelId}.png` })),
-                            indexLink: 'index.html'
+                            indexLink: homeUrl,
+                            homeUrl: homeUrl
                         }));
                     });
                 }
@@ -193,6 +197,7 @@ async function buildStandardSites() {
                 if (!data) continue;
 
                 const siteDir = path.join(CONFIG.paths.sites, `drama-site${suffix}`, id);
+                const homeUrl = `/drama-site${suffix}/${id}/index.html`;
                 const indexTemplate = readFile(path.join(CONFIG.paths.templates, 'drama/drama-index.html'));
 
                 // Episodes
@@ -203,7 +208,7 @@ async function buildStandardSites() {
                 }
 
                 if (indexTemplate) {
-                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, episodes, year: 2025 }));
+                    writeFile(path.join(siteDir, 'index.html'), render(indexTemplate, { ...data, episodes, year: 2025, homeUrl }));
                 }
 
                 const epTemplate = readFile(path.join(CONFIG.paths.templates, 'drama/drama-episode.html'));
@@ -211,7 +216,9 @@ async function buildStandardSites() {
                     episodes.forEach(ep => {
                         writeFile(path.join(siteDir, `episode-${ep.id}.html`), render(epTemplate, {
                             ...ep,
-                            dramaTitle: data.title
+                            dramaTitle: data.title,
+                            indexLink: homeUrl,
+                            homeUrl: homeUrl
                         }));
                     });
                 }
