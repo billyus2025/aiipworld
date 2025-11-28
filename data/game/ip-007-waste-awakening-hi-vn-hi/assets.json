@@ -1,0 +1,34 @@
+{
+  "backgrounds": {
+    "bg_location_1": {
+      "prompt": "Anime style background, bg_location_1, [hi] fantasy_revenge",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_2": {
+      "prompt": "Anime style background, bg_location_2, [hi] fantasy_revenge",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_3": {
+      "prompt": "Anime style background, bg_location_3, [hi] fantasy_revenge",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_4": {
+      "prompt": "Anime style background, bg_location_4, [hi] fantasy_revenge",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_5": {
+      "prompt": "Anime style background, bg_location_5, [hi] fantasy_revenge",
+      "src": "placeholder_bg.jpg"
+    }
+  },
+  "characters": {
+    "Protagonist": {
+      "prompt": "Anime character, Protagonist, [hi] fantasy_revenge",
+      "src": "placeholder_char.png"
+    },
+    "Rival": {
+      "prompt": "Anime character, Rival, [hi] fantasy_revenge",
+      "src": "placeholder_char.png"
+    }
+  }
+}

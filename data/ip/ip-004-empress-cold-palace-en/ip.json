@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-004-empress-cold-palace",
+  "idea": "现代女特工穿越成被打入冷宫的废后，看她如何逆风翻盘，登顶帝位。",
+  "genre": "historical_palace",
+  "language": "en",
+  "novelId": "ip-004-empress-cold-palace-novel-en",
+  "dramaId": "ip-004-empress-cold-palace-drama-en",
+  "comicId": "ip-004-empress-cold-palace-comic-en",
+  "createdAt": "2025-11-28T01:52:05.907Z",
+  "novelMetadata": {
+    "id": "ip-004-empress-cold-palace-novel",
+    "title": "穿越后我成了冷宫女帝",
+    "author": "AI Factory",
+    "genre": "historical_palace",
+    "tags": [
+      "穿越",
+      "宫斗",
+      "女强",
+      "权谋"
+    ],
+    "description": "王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "characters": [
+      "凤九歌",
+      "萧君临"
+    ],
+    "createdAt": "2025-11-28T01:52:05.583Z",
+    "status": "completed",
+    "language": "zh",
+    "world_setting": "架空古代王朝，宫廷与江湖并存",
+    "core_theme": "权力与爱情的博弈",
+    "short_drama_style": "古装权谋，反转打脸，服化道精美",
+    "comic_style": "古风唯美，国漫风格",
+    "game_mode": "vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-004-empress-cold-palace-drama",
+    "title": "Drama: 穿越后我成了冷宫女帝",
+    "author": "AI Factory",
+    "tags": [
+      "穿越",
+      "宫斗",
+      "女强",
+      "权谋",
+      "Drama Adaptation"
+    ],
+    "description": "Adapted from novel: 王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "createdAt": "2025-11-28T01:52:05.607Z",
+    "status": "completed",
+    "sourceNovelId": "ip-004-empress-cold-palace-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-004-empress-cold-palace-comic",
+    "title": "Comic: 穿越后我成了冷宫女帝",
+    "author": "AI Artist",
+    "genre": "historical_palace",
+    "description": "Adapted from novel: 王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T01:52:05.755Z",
+    "sourceNovelId": "ip-004-empress-cold-palace-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-004-empress-cold-palace-en-if-en",
+      "mode": "if",
+      "language": "en"
+    },
+    {
+      "gameId": "ip-004-empress-cold-palace-en-vn-en",
+      "mode": "vn",
+      "language": "en"
+    }
+  ]
+}

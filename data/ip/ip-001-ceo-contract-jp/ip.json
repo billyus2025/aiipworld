@@ -1,0 +1,74 @@
+{
+  "ipId": "ip-001-ceo-contract",
+  "idea": "[jp] 为了支付母亲的医药费，她被迫嫁给传说中冷酷无情的亿万总裁，却意外收获了真爱。",
+  "genre": "[jp] romance_ceo",
+  "language": "jp",
+  "novelId": "ip-001-ceo-contract-novel-jp",
+  "dramaId": "ip-001-ceo-contract-drama-jp",
+  "comicId": "ip-001-ceo-contract-comic-jp",
+  "createdAt": "2025-11-28T01:52:04.478Z",
+  "novelMetadata": {
+    "id": "ip-001-ceo-contract-novel",
+    "title": "[jp] 亿万总裁的契约娇妻",
+    "author": "[jp] AI Factory",
+    "genre": "[jp] romance_ceo",
+    "tags": [
+      "[jp] 霸总",
+      "[jp] 契约婚姻",
+      "[jp] 先婚后爱",
+      "[jp] 豪门"
+    ],
+    "description": "[jp] 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "characters": [
+      "[jp] 林浅浅",
+      "[jp] 顾墨寒",
+      "[jp] 苏婉莹"
+    ],
+    "createdAt": "2025-11-28T01:52:04.161Z",
+    "status": "[jp] completed",
+    "language": "[jp] zh",
+    "world_setting": "[jp] 现代都市，顶级豪门圈层",
+    "core_theme": "[jp] 真爱战胜金钱与偏见",
+    "short_drama_style": "[jp] 快节奏，高甜高虐，反转不断",
+    "comic_style": "[jp] 精致唯美，韩漫风格",
+    "game_mode": "[jp] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-001-ceo-contract-drama",
+    "title": "ドラマ: 亿万总裁的契约娇妻",
+    "author": "[jp] AI Factory",
+    "tags": [
+      "[jp] 霸总",
+      "[jp] 契约婚姻",
+      "[jp] 先婚后爱",
+      "[jp] 豪门",
+      "ドラマ Adaptation"
+    ],
+    "description": "[jp] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "createdAt": "2025-11-28T01:52:04.196Z",
+    "status": "[jp] completed",
+    "sourceNovelId": "[jp] ip-001-ceo-contract-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-001-ceo-contract-comic",
+    "title": "漫画: 亿万总裁的契约娇妻",
+    "author": "[jp] AI Artist",
+    "genre": "[jp] romance_ceo",
+    "description": "[jp] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "status": "[jp] ongoing",
+    "createdAt": "2025-11-28T01:52:04.350Z",
+    "sourceNovelId": "[jp] ip-001-ceo-contract-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-001-ceo-contract-jp-if-jp",
+      "mode": "if",
+      "language": "jp"
+    },
+    {
+      "gameId": "ip-001-ceo-contract-jp-vn-jp",
+      "mode": "vn",
+      "language": "jp"
+    }
+  ]
+}

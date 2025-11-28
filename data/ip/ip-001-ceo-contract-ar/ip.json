@@ -1,0 +1,74 @@
+{
+  "ipId": "ip-001-ceo-contract",
+  "idea": "[ar] 为了支付母亲的医药费，她被迫嫁给传说中冷酷无情的亿万总裁，却意外收获了真爱。",
+  "genre": "[ar] romance_ceo",
+  "language": "ar",
+  "novelId": "ip-001-ceo-contract-novel-ar",
+  "dramaId": "ip-001-ceo-contract-drama-ar",
+  "comicId": "ip-001-ceo-contract-comic-ar",
+  "createdAt": "2025-11-28T01:52:04.478Z",
+  "novelMetadata": {
+    "id": "ip-001-ceo-contract-novel",
+    "title": "[ar] 亿万总裁的契约娇妻",
+    "author": "[ar] AI Factory",
+    "genre": "[ar] romance_ceo",
+    "tags": [
+      "[ar] 霸总",
+      "[ar] 契约婚姻",
+      "[ar] 先婚后爱",
+      "[ar] 豪门"
+    ],
+    "description": "[ar] 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "characters": [
+      "[ar] 林浅浅",
+      "[ar] 顾墨寒",
+      "[ar] 苏婉莹"
+    ],
+    "createdAt": "2025-11-28T01:52:04.161Z",
+    "status": "[ar] completed",
+    "language": "[ar] zh",
+    "world_setting": "[ar] 现代都市，顶级豪门圈层",
+    "core_theme": "[ar] 真爱战胜金钱与偏见",
+    "short_drama_style": "[ar] 快节奏，高甜高虐，反转不断",
+    "comic_style": "[ar] 精致唯美，韩漫风格",
+    "game_mode": "[ar] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-001-ceo-contract-drama",
+    "title": "دراما: 亿万总裁的契约娇妻",
+    "author": "[ar] AI Factory",
+    "tags": [
+      "[ar] 霸总",
+      "[ar] 契约婚姻",
+      "[ar] 先婚后爱",
+      "[ar] 豪门",
+      "دراما Adaptation"
+    ],
+    "description": "[ar] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "createdAt": "2025-11-28T01:52:04.196Z",
+    "status": "[ar] completed",
+    "sourceNovelId": "[ar] ip-001-ceo-contract-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-001-ceo-contract-comic",
+    "title": "قصة مصورة: 亿万总裁的契约娇妻",
+    "author": "[ar] AI Artist",
+    "genre": "[ar] romance_ceo",
+    "description": "[ar] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "status": "[ar] ongoing",
+    "createdAt": "2025-11-28T01:52:04.350Z",
+    "sourceNovelId": "[ar] ip-001-ceo-contract-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-001-ceo-contract-ar-if-ar",
+      "mode": "if",
+      "language": "ar"
+    },
+    {
+      "gameId": "ip-001-ceo-contract-ar-vn-ar",
+      "mode": "vn",
+      "language": "ar"
+    }
+  ]
+}

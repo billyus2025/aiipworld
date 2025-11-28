@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-003-revenge-queen",
+  "idea": "[it] 前世被渣男恶女害死，重生归来，我要让他们血债血偿。",
+  "genre": "[it] romance_revenge",
+  "language": "it",
+  "novelId": "ip-003-revenge-queen-novel-it",
+  "dramaId": "ip-003-revenge-queen-drama-it",
+  "comicId": "ip-003-revenge-queen-comic-it",
+  "createdAt": "2025-11-28T01:52:05.567Z",
+  "novelMetadata": {
+    "id": "ip-003-revenge-queen-novel",
+    "title": "[it] 重生之我为复仇女王",
+    "author": "[it] AI Factory",
+    "genre": "[it] romance_revenge",
+    "tags": [
+      "[it] 重生",
+      "[it] 复仇",
+      "[it] 大女主",
+      "[it] 爽文"
+    ],
+    "description": "[it] 苏红叶本是豪门千金，却被丈夫和闺蜜联手陷害，家破人亡。重生回到二十岁，她发誓要夺回属于自己的一切。利用前世的信息差，她步步为营，手撕渣男，脚踩恶女，最终站在商业巅峰，成为真正的女王。",
+    "characters": [
+      "[it] 苏红叶",
+      "[it] 陆景深"
+    ],
+    "createdAt": "2025-11-28T01:52:05.301Z",
+    "status": "[it] completed",
+    "language": "[it] zh",
+    "world_setting": "[it] 现代都市，商战背景",
+    "core_theme": "[it] 女性独立与自我救赎",
+    "short_drama_style": "[it] 大女主爽剧，手撕绿茶，金句频出",
+    "comic_style": "[it] 华丽时尚，职场风格",
+    "game_mode": "[it] if"
+  },
+  "dramaMetadata": {
+    "id": "ip-003-revenge-queen-drama",
+    "title": "Dramma: 重生之我为复仇女王",
+    "author": "[it] AI Factory",
+    "tags": [
+      "[it] 重生",
+      "[it] 复仇",
+      "[it] 大女主",
+      "[it] 爽文",
+      "Dramma Adaptation"
+    ],
+    "description": "[it] Adapted from novel: 苏红叶本是豪门千金，却被丈夫和闺蜜联手陷害，家破人亡。重生回到二十岁，她发誓要夺回属于自己的一切。利用前世的信息差，她步步为营，手撕渣男，脚踩恶女，最终站在商业巅峰，成为真正的女王。",
+    "createdAt": "2025-11-28T01:52:05.315Z",
+    "status": "[it] completed",
+    "sourceNovelId": "[it] ip-003-revenge-queen-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-003-revenge-queen-comic",
+    "title": "Fumetto: 重生之我为复仇女王",
+    "author": "[it] AI Artist",
+    "genre": "[it] romance_revenge",
+    "description": "[it] Adapted from novel: 苏红叶本是豪门千金，却被丈夫和闺蜜联手陷害，家破人亡。重生回到二十岁，她发誓要夺回属于自己的一切。利用前世的信息差，她步步为营，手撕渣男，脚踩恶女，最终站在商业巅峰，成为真正的女王。",
+    "status": "[it] ongoing",
+    "createdAt": "2025-11-28T01:52:05.407Z",
+    "sourceNovelId": "[it] ip-003-revenge-queen-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-003-revenge-queen-it-if-it",
+      "mode": "if",
+      "language": "it"
+    },
+    {
+      "gameId": "ip-003-revenge-queen-it-vn-it",
+      "mode": "vn",
+      "language": "it"
+    }
+  ]
+}

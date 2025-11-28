@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-002-doomsday-diary",
+  "idea": "重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+  "genre": "sci-fi_doomsday",
+  "language": "en",
+  "novelId": "ip-002-doomsday-diary-novel-en",
+  "dramaId": "ip-002-doomsday-diary-drama-en",
+  "comicId": "ip-002-doomsday-diary-comic-en",
+  "createdAt": "2025-11-28T01:52:05.289Z",
+  "novelMetadata": {
+    "id": "ip-002-doomsday-diary-novel",
+    "title": "末日百日计划：人类最后的生存日志",
+    "author": "AI Factory",
+    "genre": "sci-fi_doomsday",
+    "tags": [
+      "末日",
+      "重生",
+      "囤货",
+      "系统"
+    ],
+    "description": "陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "characters": [
+      "陈峰",
+      "林晓雪"
+    ],
+    "createdAt": "2025-11-28T01:52:04.490Z",
+    "status": "completed",
+    "language": "zh",
+    "world_setting": "丧尸病毒爆发的现代世界，秩序崩塌",
+    "core_theme": "生存与人性的考验",
+    "short_drama_style": "紧张刺激，爽感十足，特效逼真",
+    "comic_style": "暗黑写实，美漫风格",
+    "game_mode": "rpg"
+  },
+  "dramaMetadata": {
+    "id": "ip-002-doomsday-diary-drama",
+    "title": "Drama: 末日百日计划：人类最后的生存日志",
+    "author": "AI Factory",
+    "tags": [
+      "末日",
+      "重生",
+      "囤货",
+      "系统",
+      "Drama Adaptation"
+    ],
+    "description": "Adapted from novel: 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "createdAt": "2025-11-28T01:52:04.503Z",
+    "status": "completed",
+    "sourceNovelId": "ip-002-doomsday-diary-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-002-doomsday-diary-comic",
+    "title": "Comic: 末日百日计划：人类最后的生存日志",
+    "author": "AI Artist",
+    "genre": "sci-fi_doomsday",
+    "description": "Adapted from novel: 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "status": "ongoing",
+    "createdAt": "2025-11-28T01:52:04.655Z",
+    "sourceNovelId": "ip-002-doomsday-diary-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-002-doomsday-diary-en-if-en",
+      "mode": "if",
+      "language": "en"
+    },
+    {
+      "gameId": "ip-002-doomsday-diary-en-vn-en",
+      "mode": "vn",
+      "language": "en"
+    }
+  ]
+}

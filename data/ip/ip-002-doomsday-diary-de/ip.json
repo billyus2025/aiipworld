@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-002-doomsday-diary",
+  "idea": "[de] 重生回末日爆发前一百天，我疯狂囤积物资，打造最强避难所。",
+  "genre": "[de] sci-fi_doomsday",
+  "language": "de",
+  "novelId": "ip-002-doomsday-diary-novel-de",
+  "dramaId": "ip-002-doomsday-diary-drama-de",
+  "comicId": "ip-002-doomsday-diary-comic-de",
+  "createdAt": "2025-11-28T01:52:05.289Z",
+  "novelMetadata": {
+    "id": "ip-002-doomsday-diary-novel",
+    "title": "[de] 末日百日计划：人类最后的生存日志",
+    "author": "[de] AI Factory",
+    "genre": "[de] sci-fi_doomsday",
+    "tags": [
+      "[de] 末日",
+      "[de] 重生",
+      "[de] 囤货",
+      "[de] 系统"
+    ],
+    "description": "[de] 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "characters": [
+      "[de] 陈峰",
+      "[de] 林晓雪"
+    ],
+    "createdAt": "2025-11-28T01:52:04.490Z",
+    "status": "[de] completed",
+    "language": "[de] zh",
+    "world_setting": "[de] 丧尸病毒爆发的现代世界，秩序崩塌",
+    "core_theme": "[de] 生存与人性的考验",
+    "short_drama_style": "[de] 紧张刺激，爽感十足，特效逼真",
+    "comic_style": "[de] 暗黑写实，美漫风格",
+    "game_mode": "[de] rpg"
+  },
+  "dramaMetadata": {
+    "id": "ip-002-doomsday-diary-drama",
+    "title": "[de] Drama: 末日百日计划：人类最后的生存日志",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] 末日",
+      "[de] 重生",
+      "[de] 囤货",
+      "[de] 系统",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "createdAt": "2025-11-28T01:52:04.503Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] ip-002-doomsday-diary-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-002-doomsday-diary-comic",
+    "title": "[de] Comic: 末日百日计划：人类最后的生存日志",
+    "author": "[de] AI Artist",
+    "genre": "[de] sci-fi_doomsday",
+    "description": "[de] Adapted from novel: 陈峰在末世挣扎求生十年，最终惨死。醒来后发现自己回到了末日爆发前的一百天。带着前世的记忆和觉醒的空间系统，他开始疯狂筹集资金，囤积物资，加固房屋。当末日降临，别人在丧尸口中求生，他在避难所里吃火锅。",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-28T01:52:04.655Z",
+    "sourceNovelId": "[de] ip-002-doomsday-diary-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-002-doomsday-diary-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "ip-002-doomsday-diary-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

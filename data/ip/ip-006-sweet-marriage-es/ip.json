@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-006-sweet-marriage",
+  "idea": "[es] 相亲闪婚嫁给普通职员，没想到老公竟然是全球首富。",
+  "genre": "[es] romance_sweet",
+  "language": "es",
+  "novelId": "ip-006-sweet-marriage-novel-es",
+  "dramaId": "ip-006-sweet-marriage-drama-es",
+  "comicId": "ip-006-sweet-marriage-comic-es",
+  "createdAt": "2025-11-28T01:52:06.608Z",
+  "novelMetadata": {
+    "id": "ip-006-sweet-marriage-novel",
+    "title": "[es] 闪婚后大佬每天都在甜我",
+    "author": "[es] AI Factory",
+    "genre": "[es] romance_sweet",
+    "tags": [
+      "[es] 甜宠",
+      "[es] 闪婚",
+      "[es] 马甲",
+      "[es] 轻松"
+    ],
+    "description": "[es] 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "characters": [
+      "[es] 温软软",
+      "[es] 傅擎深"
+    ],
+    "createdAt": "2025-11-28T01:52:06.290Z",
+    "status": "[es] completed",
+    "language": "[es] zh",
+    "world_setting": "[es] 现代都市，温馨治愈",
+    "core_theme": "[es] 平凡生活中的不平凡爱情",
+    "short_drama_style": "[es] 高甜无虐，撒糖不断，姨母笑",
+    "comic_style": "[es] 清新可爱，少女漫风格",
+    "game_mode": "[es] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-006-sweet-marriage-drama",
+    "title": "[es] Drama: 闪婚后大佬每天都在甜我",
+    "author": "[es] AI Factory",
+    "tags": [
+      "[es] 甜宠",
+      "[es] 闪婚",
+      "[es] 马甲",
+      "[es] 轻松",
+      "[es] Drama Adaptation"
+    ],
+    "description": "[es] Adapted from novel: 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "createdAt": "2025-11-28T01:52:06.313Z",
+    "status": "[es] completed",
+    "sourceNovelId": "[es] ip-006-sweet-marriage-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-006-sweet-marriage-comic",
+    "title": "Cómic: 闪婚后大佬每天都在甜我",
+    "author": "[es] AI Artist",
+    "genre": "[es] romance_sweet",
+    "description": "[es] Adapted from novel: 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "status": "[es] ongoing",
+    "createdAt": "2025-11-28T01:52:06.465Z",
+    "sourceNovelId": "[es] ip-006-sweet-marriage-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-006-sweet-marriage-es-if-es",
+      "mode": "if",
+      "language": "es"
+    },
+    {
+      "gameId": "ip-006-sweet-marriage-es-vn-es",
+      "mode": "vn",
+      "language": "es"
+    }
+  ]
+}

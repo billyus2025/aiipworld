@@ -1,0 +1,151 @@
+{
+  "gameId": "ip-009-night-boarding-fr-vn-fr",
+  "mode": "vn",
+  "language": "fr",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "background": "bg_location_1",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Scene 1 begins. We are in the [fr] suspense_romance world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[fr] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "background": "bg_location_2",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Scene 2 begins. We are in the [fr] suspense_romance world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[fr] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "background": "bg_location_3",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Scene 3 begins. We are in the [fr] suspense_romance world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[fr] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "background": "bg_location_4",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Scene 4 begins. We are in the [fr] suspense_romance world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[fr] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "background": "bg_location_5",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Scene 5 begins. We are in the [fr] suspense_romance world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[fr] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[fr] Let's move on."
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "backgrounds": {
+      "bg_location_1": {
+        "prompt": "Anime style background, bg_location_1, [fr] suspense_romance",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_2": {
+        "prompt": "Anime style background, bg_location_2, [fr] suspense_romance",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_3": {
+        "prompt": "Anime style background, bg_location_3, [fr] suspense_romance",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_4": {
+        "prompt": "Anime style background, bg_location_4, [fr] suspense_romance",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_5": {
+        "prompt": "Anime style background, bg_location_5, [fr] suspense_romance",
+        "src": "placeholder_bg.jpg"
+      }
+    },
+    "characters": {
+      "Protagonist": {
+        "prompt": "Anime character, Protagonist, [fr] suspense_romance",
+        "src": "placeholder_char.png"
+      },
+      "Rival": {
+        "prompt": "Anime character, Rival, [fr] suspense_romance",
+        "src": "placeholder_char.png"
+      }
+    }
+  }
+}

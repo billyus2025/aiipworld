@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-008-urban-counterattack",
+  "idea": "[jp] 职场失意，情场失意，获得未来黑科技系统，开启完美人生。",
+  "genre": "[jp] urban_system",
+  "language": "jp",
+  "novelId": "ip-008-urban-counterattack-novel-jp",
+  "dramaId": "ip-008-urban-counterattack-drama-jp",
+  "comicId": "ip-008-urban-counterattack-comic-jp",
+  "createdAt": "2025-11-28T01:52:07.119Z",
+  "novelMetadata": {
+    "id": "ip-008-urban-counterattack-novel",
+    "title": "[jp] 我的人生从逆袭开始",
+    "author": "[jp] AI Factory",
+    "genre": "[jp] urban_system",
+    "tags": [
+      "[jp] 都市",
+      "[jp] 系统",
+      "[jp] 神豪",
+      "[jp] 职场"
+    ],
+    "description": "[jp] 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "characters": [
+      "[jp] 张伟",
+      "[jp] 李梦瑶"
+    ],
+    "createdAt": "2025-11-28T01:52:06.865Z",
+    "status": "[jp] completed",
+    "language": "[jp] zh",
+    "world_setting": "[jp] 平行世界的现代都市",
+    "core_theme": "[jp] 屌丝逆袭，改变命运",
+    "short_drama_style": "[jp] 都市爽剧，豪车美女，装逼打脸",
+    "comic_style": "[jp] 现代写实，都市风格",
+    "game_mode": "[jp] if"
+  },
+  "dramaMetadata": {
+    "id": "ip-008-urban-counterattack-drama",
+    "title": "ドラマ: 我的人生从逆袭开始",
+    "author": "[jp] AI Factory",
+    "tags": [
+      "[jp] 都市",
+      "[jp] 系统",
+      "[jp] 神豪",
+      "[jp] 职场",
+      "ドラマ Adaptation"
+    ],
+    "description": "[jp] Adapted from novel: 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "createdAt": "2025-11-28T01:52:06.882Z",
+    "status": "[jp] completed",
+    "sourceNovelId": "[jp] ip-008-urban-counterattack-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-008-urban-counterattack-comic",
+    "title": "漫画: 我的人生从逆袭开始",
+    "author": "[jp] AI Artist",
+    "genre": "[jp] urban_system",
+    "description": "[jp] Adapted from novel: 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "status": "[jp] ongoing",
+    "createdAt": "2025-11-28T01:52:06.997Z",
+    "sourceNovelId": "[jp] ip-008-urban-counterattack-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-008-urban-counterattack-jp-if-jp",
+      "mode": "if",
+      "language": "jp"
+    },
+    {
+      "gameId": "ip-008-urban-counterattack-jp-vn-jp",
+      "mode": "vn",
+      "language": "jp"
+    }
+  ]
+}

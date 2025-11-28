@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-009-night-boarding",
+  "idea": "[de] 借住在神秘的古堡，英俊的房东似乎隐藏着惊天的秘密。",
+  "genre": "[de] suspense_romance",
+  "language": "de",
+  "novelId": "ip-009-night-boarding-novel-de",
+  "dramaId": "ip-009-night-boarding-drama-de",
+  "comicId": "ip-009-night-boarding-comic-de",
+  "createdAt": "2025-11-28T01:52:07.445Z",
+  "novelMetadata": {
+    "id": "ip-009-night-boarding-novel",
+    "title": "[de] 暗夜寄宿：当爱情遇上真相",
+    "author": "[de] AI Factory",
+    "genre": "[de] suspense_romance",
+    "tags": [
+      "[de] 悬疑",
+      "[de] 言情",
+      "[de] 惊悚",
+      "[de] 推理"
+    ],
+    "description": "[de] 女大学生夏沫为了省钱，租住了一间廉价的古堡民宿。房东顾夜白英俊而神秘，对她有着致命的吸引力。然而，古堡里怪事连连，午夜的哭声，消失的租客……夏沫在探寻真相的过程中，发现顾夜白似乎与一桩连环杀人案有关。",
+    "characters": [
+      "[de] 夏沫",
+      "[de] 顾夜白"
+    ],
+    "createdAt": "2025-11-28T01:52:07.133Z",
+    "status": "[de] completed",
+    "language": "[de] zh",
+    "world_setting": "[de] 现代背景下的哥特式悬疑氛围",
+    "core_theme": "[de] 爱与信任的边界",
+    "short_drama_style": "[de] 悬疑烧脑，惊悚反转，极致拉扯",
+    "comic_style": "[de] 暗黑唯美，哥特风格",
+    "game_mode": "[de] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-009-night-boarding-drama",
+    "title": "[de] Drama: 暗夜寄宿：当爱情遇上真相",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] 悬疑",
+      "[de] 言情",
+      "[de] 惊悚",
+      "[de] 推理",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: 女大学生夏沫为了省钱，租住了一间廉价的古堡民宿。房东顾夜白英俊而神秘，对她有着致命的吸引力。然而，古堡里怪事连连，午夜的哭声，消失的租客……夏沫在探寻真相的过程中，发现顾夜白似乎与一桩连环杀人案有关。",
+    "createdAt": "2025-11-28T01:52:07.152Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] ip-009-night-boarding-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-009-night-boarding-comic",
+    "title": "[de] Comic: 暗夜寄宿：当爱情遇上真相",
+    "author": "[de] AI Artist",
+    "genre": "[de] suspense_romance",
+    "description": "[de] Adapted from novel: 女大学生夏沫为了省钱，租住了一间廉价的古堡民宿。房东顾夜白英俊而神秘，对她有着致命的吸引力。然而，古堡里怪事连连，午夜的哭声，消失的租客……夏沫在探寻真相的过程中，发现顾夜白似乎与一桩连环杀人案有关。",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-28T01:52:07.317Z",
+    "sourceNovelId": "[de] ip-009-night-boarding-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-009-night-boarding-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "ip-009-night-boarding-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

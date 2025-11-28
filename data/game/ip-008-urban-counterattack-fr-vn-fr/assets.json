@@ -1,0 +1,34 @@
+{
+  "backgrounds": {
+    "bg_location_1": {
+      "prompt": "Anime style background, bg_location_1, [fr] urban_system",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_2": {
+      "prompt": "Anime style background, bg_location_2, [fr] urban_system",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_3": {
+      "prompt": "Anime style background, bg_location_3, [fr] urban_system",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_4": {
+      "prompt": "Anime style background, bg_location_4, [fr] urban_system",
+      "src": "placeholder_bg.jpg"
+    },
+    "bg_location_5": {
+      "prompt": "Anime style background, bg_location_5, [fr] urban_system",
+      "src": "placeholder_bg.jpg"
+    }
+  },
+  "characters": {
+    "Protagonist": {
+      "prompt": "Anime character, Protagonist, [fr] urban_system",
+      "src": "placeholder_char.png"
+    },
+    "Rival": {
+      "prompt": "Anime character, Rival, [fr] urban_system",
+      "src": "placeholder_char.png"
+    }
+  }
+}

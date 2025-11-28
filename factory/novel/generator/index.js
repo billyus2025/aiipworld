@@ -25,7 +25,7 @@ export async function createNovel(projectId, context = {}) {
     console.log("Metadata generated.");
 
     // 2. Generate Outline
-    const outline = await generateOutline(config);
+    const outline = await generateOutline(config, context);
     console.log("Outline generated.");
 
     // 3. Generate Chapters

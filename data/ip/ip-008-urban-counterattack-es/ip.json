@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-008-urban-counterattack",
+  "idea": "[es] 职场失意，情场失意，获得未来黑科技系统，开启完美人生。",
+  "genre": "[es] urban_system",
+  "language": "es",
+  "novelId": "ip-008-urban-counterattack-novel-es",
+  "dramaId": "ip-008-urban-counterattack-drama-es",
+  "comicId": "ip-008-urban-counterattack-comic-es",
+  "createdAt": "2025-11-28T01:52:07.119Z",
+  "novelMetadata": {
+    "id": "ip-008-urban-counterattack-novel",
+    "title": "[es] 我的人生从逆袭开始",
+    "author": "[es] AI Factory",
+    "genre": "[es] urban_system",
+    "tags": [
+      "[es] 都市",
+      "[es] 系统",
+      "[es] 神豪",
+      "[es] 职场"
+    ],
+    "description": "[es] 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "characters": [
+      "[es] 张伟",
+      "[es] 李梦瑶"
+    ],
+    "createdAt": "2025-11-28T01:52:06.865Z",
+    "status": "[es] completed",
+    "language": "[es] zh",
+    "world_setting": "[es] 平行世界的现代都市",
+    "core_theme": "[es] 屌丝逆袭，改变命运",
+    "short_drama_style": "[es] 都市爽剧，豪车美女，装逼打脸",
+    "comic_style": "[es] 现代写实，都市风格",
+    "game_mode": "[es] if"
+  },
+  "dramaMetadata": {
+    "id": "ip-008-urban-counterattack-drama",
+    "title": "[es] Drama: 我的人生从逆袭开始",
+    "author": "[es] AI Factory",
+    "tags": [
+      "[es] 都市",
+      "[es] 系统",
+      "[es] 神豪",
+      "[es] 职场",
+      "[es] Drama Adaptation"
+    ],
+    "description": "[es] Adapted from novel: 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "createdAt": "2025-11-28T01:52:06.882Z",
+    "status": "[es] completed",
+    "sourceNovelId": "[es] ip-008-urban-counterattack-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-008-urban-counterattack-comic",
+    "title": "Cómic: 我的人生从逆袭开始",
+    "author": "[es] AI Artist",
+    "genre": "[es] urban_system",
+    "description": "[es] Adapted from novel: 张伟是一个普通的社畜，被上司压榨，被女友抛弃。绝望之际，他获得了一款来自未来的“完美人生系统”。系统不仅给他无穷的财富，还赋予他各种超能力。他开始在商界、娱乐圈、科技界大展拳脚，走上人生巅峰。",
+    "status": "[es] ongoing",
+    "createdAt": "2025-11-28T01:52:06.997Z",
+    "sourceNovelId": "[es] ip-008-urban-counterattack-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-008-urban-counterattack-es-if-es",
+      "mode": "if",
+      "language": "es"
+    },
+    {
+      "gameId": "ip-008-urban-counterattack-es-vn-es",
+      "mode": "vn",
+      "language": "es"
+    }
+  ]
+}

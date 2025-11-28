@@ -1,0 +1,151 @@
+{
+  "gameId": "ip-010-skyseed-it-vn-it",
+  "mode": "vn",
+  "language": "it",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "background": "bg_location_1",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Scene 1 begins. We are in the [it] sci-fi_ai world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[it] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-2",
+      "background": "bg_location_2",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Scene 2 begins. We are in the [it] sci-fi_ai world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[it] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-3",
+      "background": "bg_location_3",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Scene 3 begins. We are in the [it] sci-fi_ai world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[it] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-4",
+      "background": "bg_location_4",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Scene 4 begins. We are in the [it] sci-fi_ai world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[it] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Let's move on."
+        }
+      ]
+    },
+    {
+      "id": "scene-5",
+      "background": "bg_location_5",
+      "characters": [
+        "Protagonist",
+        "Rival"
+      ],
+      "dialogues": [
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Scene 5 begins. We are in the [it] sci-fi_ai world."
+        },
+        {
+          "speaker": "Rival",
+          "text": "[it] Indeed. The plot thickens."
+        },
+        {
+          "speaker": "Protagonist",
+          "text": "[it] Let's move on."
+        }
+      ]
+    }
+  ],
+  "assets": {
+    "backgrounds": {
+      "bg_location_1": {
+        "prompt": "Anime style background, bg_location_1, [it] sci-fi_ai",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_2": {
+        "prompt": "Anime style background, bg_location_2, [it] sci-fi_ai",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_3": {
+        "prompt": "Anime style background, bg_location_3, [it] sci-fi_ai",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_4": {
+        "prompt": "Anime style background, bg_location_4, [it] sci-fi_ai",
+        "src": "placeholder_bg.jpg"
+      },
+      "bg_location_5": {
+        "prompt": "Anime style background, bg_location_5, [it] sci-fi_ai",
+        "src": "placeholder_bg.jpg"
+      }
+    },
+    "characters": {
+      "Protagonist": {
+        "prompt": "Anime character, Protagonist, [it] sci-fi_ai",
+        "src": "placeholder_char.png"
+      },
+      "Rival": {
+        "prompt": "Anime character, Rival, [it] sci-fi_ai",
+        "src": "placeholder_char.png"
+      }
+    }
+  }
+}

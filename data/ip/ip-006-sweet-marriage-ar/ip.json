@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-006-sweet-marriage",
+  "idea": "[ar] 相亲闪婚嫁给普通职员，没想到老公竟然是全球首富。",
+  "genre": "[ar] romance_sweet",
+  "language": "ar",
+  "novelId": "ip-006-sweet-marriage-novel-ar",
+  "dramaId": "ip-006-sweet-marriage-drama-ar",
+  "comicId": "ip-006-sweet-marriage-comic-ar",
+  "createdAt": "2025-11-28T01:52:06.608Z",
+  "novelMetadata": {
+    "id": "ip-006-sweet-marriage-novel",
+    "title": "[ar] 闪婚后大佬每天都在甜我",
+    "author": "[ar] AI Factory",
+    "genre": "[ar] romance_sweet",
+    "tags": [
+      "[ar] 甜宠",
+      "[ar] 闪婚",
+      "[ar] 马甲",
+      "[ar] 轻松"
+    ],
+    "description": "[ar] 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "characters": [
+      "[ar] 温软软",
+      "[ar] 傅擎深"
+    ],
+    "createdAt": "2025-11-28T01:52:06.290Z",
+    "status": "[ar] completed",
+    "language": "[ar] zh",
+    "world_setting": "[ar] 现代都市，温馨治愈",
+    "core_theme": "[ar] 平凡生活中的不平凡爱情",
+    "short_drama_style": "[ar] 高甜无虐，撒糖不断，姨母笑",
+    "comic_style": "[ar] 清新可爱，少女漫风格",
+    "game_mode": "[ar] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-006-sweet-marriage-drama",
+    "title": "دراما: 闪婚后大佬每天都在甜我",
+    "author": "[ar] AI Factory",
+    "tags": [
+      "[ar] 甜宠",
+      "[ar] 闪婚",
+      "[ar] 马甲",
+      "[ar] 轻松",
+      "دراما Adaptation"
+    ],
+    "description": "[ar] Adapted from novel: 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "createdAt": "2025-11-28T01:52:06.313Z",
+    "status": "[ar] completed",
+    "sourceNovelId": "[ar] ip-006-sweet-marriage-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-006-sweet-marriage-comic",
+    "title": "قصة مصورة: 闪婚后大佬每天都在甜我",
+    "author": "[ar] AI Artist",
+    "genre": "[ar] romance_sweet",
+    "description": "[ar] Adapted from novel: 温软软为了应付催婚，和相亲认识的“普通程序员”傅擎深闪婚了。婚后生活平淡温馨，老公虽然没钱但很贴心。直到有一天，她在财经新闻上看到了和自家老公长得一模一样的首富……",
+    "status": "[ar] ongoing",
+    "createdAt": "2025-11-28T01:52:06.465Z",
+    "sourceNovelId": "[ar] ip-006-sweet-marriage-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-006-sweet-marriage-ar-if-ar",
+      "mode": "if",
+      "language": "ar"
+    },
+    {
+      "gameId": "ip-006-sweet-marriage-ar-vn-ar",
+      "mode": "vn",
+      "language": "ar"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "ipId": "ip-001-ceo-contract",
+  "idea": "[de] 为了支付母亲的医药费，她被迫嫁给传说中冷酷无情的亿万总裁，却意外收获了真爱。",
+  "genre": "[de] romance_ceo",
+  "language": "de",
+  "novelId": "ip-001-ceo-contract-novel-de",
+  "dramaId": "ip-001-ceo-contract-drama-de",
+  "comicId": "ip-001-ceo-contract-comic-de",
+  "createdAt": "2025-11-28T01:52:04.478Z",
+  "novelMetadata": {
+    "id": "ip-001-ceo-contract-novel",
+    "title": "[de] 亿万总裁的契约娇妻",
+    "author": "[de] AI Factory",
+    "genre": "[de] romance_ceo",
+    "tags": [
+      "[de] 霸总",
+      "[de] 契约婚姻",
+      "[de] 先婚后爱",
+      "[de] 豪门"
+    ],
+    "description": "[de] 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "characters": [
+      "[de] 林浅浅",
+      "[de] 顾墨寒",
+      "[de] 苏婉莹"
+    ],
+    "createdAt": "2025-11-28T01:52:04.161Z",
+    "status": "[de] completed",
+    "language": "[de] zh",
+    "world_setting": "[de] 现代都市，顶级豪门圈层",
+    "core_theme": "[de] 真爱战胜金钱与偏见",
+    "short_drama_style": "[de] 快节奏，高甜高虐，反转不断",
+    "comic_style": "[de] 精致唯美，韩漫风格",
+    "game_mode": "[de] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-001-ceo-contract-drama",
+    "title": "[de] Drama: 亿万总裁的契约娇妻",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] 霸总",
+      "[de] 契约婚姻",
+      "[de] 先婚后爱",
+      "[de] 豪门",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "createdAt": "2025-11-28T01:52:04.196Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] ip-001-ceo-contract-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-001-ceo-contract-comic",
+    "title": "[de] Comic: 亿万总裁的契约娇妻",
+    "author": "[de] AI Artist",
+    "genre": "[de] romance_ceo",
+    "description": "[de] Adapted from novel: 林浅浅走投无路之下，与顾氏集团总裁顾墨寒签订了一纸契约婚姻。本以为是一场钱货两讫的交易，谁知婚后顾墨寒对她宠爱有加。然而，豪门的恩怨情仇接踵而至，前女友的回归，家族的阻挠，让两人的感情备受考验。",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-28T01:52:04.350Z",
+    "sourceNovelId": "[de] ip-001-ceo-contract-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-001-ceo-contract-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "ip-001-ceo-contract-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

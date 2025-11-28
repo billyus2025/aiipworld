@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-004-empress-cold-palace",
+  "idea": "[de] 现代女特工穿越成被打入冷宫的废后，看她如何逆风翻盘，登顶帝位。",
+  "genre": "[de] historical_palace",
+  "language": "de",
+  "novelId": "ip-004-empress-cold-palace-novel-de",
+  "dramaId": "ip-004-empress-cold-palace-drama-de",
+  "comicId": "ip-004-empress-cold-palace-comic-de",
+  "createdAt": "2025-11-28T01:52:05.907Z",
+  "novelMetadata": {
+    "id": "ip-004-empress-cold-palace-novel",
+    "title": "[de] 穿越后我成了冷宫女帝",
+    "author": "[de] AI Factory",
+    "genre": "[de] historical_palace",
+    "tags": [
+      "[de] 穿越",
+      "[de] 宫斗",
+      "[de] 女强",
+      "[de] 权谋"
+    ],
+    "description": "[de] 王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "characters": [
+      "[de] 凤九歌",
+      "[de] 萧君临"
+    ],
+    "createdAt": "2025-11-28T01:52:05.583Z",
+    "status": "[de] completed",
+    "language": "[de] zh",
+    "world_setting": "[de] 架空古代王朝，宫廷与江湖并存",
+    "core_theme": "[de] 权力与爱情的博弈",
+    "short_drama_style": "[de] 古装权谋，反转打脸，服化道精美",
+    "comic_style": "[de] 古风唯美，国漫风格",
+    "game_mode": "[de] vn"
+  },
+  "dramaMetadata": {
+    "id": "ip-004-empress-cold-palace-drama",
+    "title": "[de] Drama: 穿越后我成了冷宫女帝",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] 穿越",
+      "[de] 宫斗",
+      "[de] 女强",
+      "[de] 权谋",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: 王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "createdAt": "2025-11-28T01:52:05.607Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] ip-004-empress-cold-palace-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-004-empress-cold-palace-comic",
+    "title": "[de] Comic: 穿越后我成了冷宫女帝",
+    "author": "[de] AI Artist",
+    "genre": "[de] historical_palace",
+    "description": "[de] Adapted from novel: 王牌特工穿越大楚王朝，成了刚被打入冷宫的皇后。面对皇帝的厌弃，妃嫔的刁难，她冷笑一声，凭借过人的身手和智慧，在后宫中杀出一条血路。既然皇帝无眼，那这江山，不如换我来坐！",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-28T01:52:05.755Z",
+    "sourceNovelId": "[de] ip-004-empress-cold-palace-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-004-empress-cold-palace-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "ip-004-empress-cold-palace-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

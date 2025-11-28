@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-005-infinite-upgrade",
+  "idea": "[ar] 穿越异界获得无限升级系统，杀怪升级，装备全靠爆，从此横推无敌。",
+  "genre": "[ar] fantasy_system",
+  "language": "ar",
+  "novelId": "ip-005-infinite-upgrade-novel-ar",
+  "dramaId": "ip-005-infinite-upgrade-drama-ar",
+  "comicId": "ip-005-infinite-upgrade-comic-ar",
+  "createdAt": "2025-11-28T01:52:06.273Z",
+  "novelMetadata": {
+    "id": "ip-005-infinite-upgrade-novel",
+    "title": "[ar] 无限升级系统：开局无敌",
+    "author": "[ar] AI Factory",
+    "genre": "[ar] fantasy_system",
+    "tags": [
+      "[ar] 玄幻",
+      "[ar] 系统",
+      "[ar] 无敌流",
+      "[ar] 热血"
+    ],
+    "description": "[ar] 叶天穿越到以武为尊的玄幻世界，觉醒了无限升级系统。只要击杀敌人或妖兽，就能获得经验值和神级装备。从此，他一路高歌猛进，拳打天才，脚踢老怪，探秘境，夺异火，成就无上武帝。",
+    "characters": [
+      "[ar] 叶天",
+      "[ar] 慕容雪"
+    ],
+    "createdAt": "2025-11-28T01:52:05.922Z",
+    "status": "[ar] completed",
+    "language": "[ar] zh",
+    "world_setting": "[ar] 宏大的玄幻世界，宗门林立，强者为尊",
+    "core_theme": "[ar] 莫欺少年穷，我命由我不由天",
+    "short_drama_style": "[ar] 特效炸裂，打斗精彩，节奏超快",
+    "comic_style": "[ar] 热血少年漫，日漫风格",
+    "game_mode": "[ar] rpg"
+  },
+  "dramaMetadata": {
+    "id": "ip-005-infinite-upgrade-drama",
+    "title": "دراما: 无限升级系统：开局无敌",
+    "author": "[ar] AI Factory",
+    "tags": [
+      "[ar] 玄幻",
+      "[ar] 系统",
+      "[ar] 无敌流",
+      "[ar] 热血",
+      "دراما Adaptation"
+    ],
+    "description": "[ar] Adapted from novel: 叶天穿越到以武为尊的玄幻世界，觉醒了无限升级系统。只要击杀敌人或妖兽，就能获得经验值和神级装备。从此，他一路高歌猛进，拳打天才，脚踢老怪，探秘境，夺异火，成就无上武帝。",
+    "createdAt": "2025-11-28T01:52:05.940Z",
+    "status": "[ar] completed",
+    "sourceNovelId": "[ar] ip-005-infinite-upgrade-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-005-infinite-upgrade-comic",
+    "title": "قصة مصورة: 无限升级系统：开局无敌",
+    "author": "[ar] AI Artist",
+    "genre": "[ar] fantasy_system",
+    "description": "[ar] Adapted from novel: 叶天穿越到以武为尊的玄幻世界，觉醒了无限升级系统。只要击杀敌人或妖兽，就能获得经验值和神级装备。从此，他一路高歌猛进，拳打天才，脚踢老怪，探秘境，夺异火，成就无上武帝。",
+    "status": "[ar] ongoing",
+    "createdAt": "2025-11-28T01:52:06.100Z",
+    "sourceNovelId": "[ar] ip-005-infinite-upgrade-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-005-infinite-upgrade-ar-if-ar",
+      "mode": "if",
+      "language": "ar"
+    },
+    {
+      "gameId": "ip-005-infinite-upgrade-ar-vn-ar",
+      "mode": "vn",
+      "language": "ar"
+    }
+  ]
+}

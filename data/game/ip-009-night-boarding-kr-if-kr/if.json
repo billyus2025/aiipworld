@@ -1,0 +1,227 @@
+{
+  "gameId": "ip-009-night-boarding-kr-if-kr",
+  "mode": "if",
+  "language": "kr",
+  "startNodeId": "node-1",
+  "nodes": [
+    {
+      "id": "node-1",
+      "text": "[kr] You are at node-1. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-2",
+          "target": "node-2"
+        },
+        {
+          "label": "Go to node-3",
+          "target": "node-3"
+        }
+      ]
+    },
+    {
+      "id": "node-2",
+      "text": "[kr] You are at node-2. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-3",
+          "target": "node-3"
+        }
+      ]
+    },
+    {
+      "id": "node-3",
+      "text": "[kr] You are at node-3. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-4",
+          "target": "node-4"
+        }
+      ]
+    },
+    {
+      "id": "node-4",
+      "text": "[kr] You are at node-4. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-5",
+          "target": "node-5"
+        },
+        {
+          "label": "Go to node-6",
+          "target": "node-6"
+        }
+      ]
+    },
+    {
+      "id": "node-5",
+      "text": "[kr] You are at node-5. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-6",
+          "target": "node-6"
+        }
+      ]
+    },
+    {
+      "id": "node-6",
+      "text": "[kr] You are at node-6. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-7",
+          "target": "node-7"
+        }
+      ]
+    },
+    {
+      "id": "node-7",
+      "text": "[kr] You are at node-7. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-8",
+          "target": "node-8"
+        },
+        {
+          "label": "Go to node-9",
+          "target": "node-9"
+        }
+      ]
+    },
+    {
+      "id": "node-8",
+      "text": "[kr] You are at node-8. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-9",
+          "target": "node-9"
+        }
+      ]
+    },
+    {
+      "id": "node-9",
+      "text": "[kr] You are at node-9. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-10",
+          "target": "node-10"
+        }
+      ]
+    },
+    {
+      "id": "node-10",
+      "text": "[kr] You are at node-10. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-11",
+          "target": "node-11"
+        },
+        {
+          "label": "Go to node-12",
+          "target": "node-12"
+        }
+      ]
+    },
+    {
+      "id": "node-11",
+      "text": "[kr] You are at node-11. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-12",
+          "target": "node-12"
+        }
+      ]
+    },
+    {
+      "id": "node-12",
+      "text": "[kr] You are at node-12. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-13",
+          "target": "node-13"
+        }
+      ]
+    },
+    {
+      "id": "node-13",
+      "text": "[kr] You are at node-13. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-14",
+          "target": "node-14"
+        },
+        {
+          "label": "Go to node-15",
+          "target": "node-15"
+        }
+      ]
+    },
+    {
+      "id": "node-14",
+      "text": "[kr] You are at node-14. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-15",
+          "target": "node-15"
+        }
+      ]
+    },
+    {
+      "id": "node-15",
+      "text": "[kr] You are at node-15. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-16",
+          "target": "node-16"
+        }
+      ]
+    },
+    {
+      "id": "node-16",
+      "text": "[kr] You are at node-16. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-17",
+          "target": "node-17"
+        },
+        {
+          "label": "Go to node-18",
+          "target": "node-18"
+        }
+      ]
+    },
+    {
+      "id": "node-17",
+      "text": "[kr] You are at node-17. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-18",
+          "target": "node-18"
+        }
+      ]
+    },
+    {
+      "id": "node-18",
+      "text": "[kr] You are at node-18. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-19",
+          "target": "node-19"
+        }
+      ]
+    },
+    {
+      "id": "node-19",
+      "text": "[kr] You are at node-19. Context: Unknown. What do you do?",
+      "choices": [
+        {
+          "label": "Go to node-20",
+          "target": "node-20"
+        }
+      ]
+    },
+    {
+      "id": "node-20",
+      "text": "[kr] You are at node-20. Context: Unknown. What do you do?",
+      "choices": []
+    }
+  ]
+}

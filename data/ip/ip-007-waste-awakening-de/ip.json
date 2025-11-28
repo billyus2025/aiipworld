@@ -1,0 +1,73 @@
+{
+  "ipId": "ip-007-waste-awakening",
+  "idea": "[de] 家族弃子觉醒上古至尊血脉，三十年河东三十年河西，莫欺少年穷！",
+  "genre": "[de] fantasy_revenge",
+  "language": "de",
+  "novelId": "ip-007-waste-awakening-novel-de",
+  "dramaId": "ip-007-waste-awakening-drama-de",
+  "comicId": "ip-007-waste-awakening-comic-de",
+  "createdAt": "2025-11-28T01:52:06.856Z",
+  "novelMetadata": {
+    "id": "ip-007-waste-awakening-novel",
+    "title": "[de] 废物少爷觉醒至尊血脉",
+    "author": "[de] AI Factory",
+    "genre": "[de] fantasy_revenge",
+    "tags": [
+      "[de] 玄幻",
+      "[de] 废柴流",
+      "[de] 打脸",
+      "[de] 热血"
+    ],
+    "description": "[de] 秦云本是秦家少主，却因无法修炼被视为废物，受尽屈辱，最终被逐出家族。生死存亡之际，他觉醒了体内的至尊龙血。从此，修炼速度一日千里，炼丹炼器无所不通。昔日羞辱他的人，终将匍匐在他脚下。",
+    "characters": [
+      "[de] 秦云",
+      "[de] 苏灵儿"
+    ],
+    "createdAt": "2025-11-28T01:52:06.621Z",
+    "status": "[de] completed",
+    "language": "[de] zh",
+    "world_setting": "[de] 东方玄幻世界，万族林立",
+    "core_theme": "[de] 逆境崛起，强者之心",
+    "short_drama_style": "[de] 热血逆袭，极致爽感，特效拉满",
+    "comic_style": "[de] 硬朗霸气，港漫风格",
+    "game_mode": "[de] rpg"
+  },
+  "dramaMetadata": {
+    "id": "ip-007-waste-awakening-drama",
+    "title": "[de] Drama: 废物少爷觉醒至尊血脉",
+    "author": "[de] AI Factory",
+    "tags": [
+      "[de] 玄幻",
+      "[de] 废柴流",
+      "[de] 打脸",
+      "[de] 热血",
+      "[de] Drama Adaptation"
+    ],
+    "description": "[de] Adapted from novel: 秦云本是秦家少主，却因无法修炼被视为废物，受尽屈辱，最终被逐出家族。生死存亡之际，他觉醒了体内的至尊龙血。从此，修炼速度一日千里，炼丹炼器无所不通。昔日羞辱他的人，终将匍匐在他脚下。",
+    "createdAt": "2025-11-28T01:52:06.636Z",
+    "status": "[de] completed",
+    "sourceNovelId": "[de] ip-007-waste-awakening-novel"
+  },
+  "comicMetadata": {
+    "id": "ip-007-waste-awakening-comic",
+    "title": "[de] Comic: 废物少爷觉醒至尊血脉",
+    "author": "[de] AI Artist",
+    "genre": "[de] fantasy_revenge",
+    "description": "[de] Adapted from novel: 秦云本是秦家少主，却因无法修炼被视为废物，受尽屈辱，最终被逐出家族。生死存亡之际，他觉醒了体内的至尊龙血。从此，修炼速度一日千里，炼丹炼器无所不通。昔日羞辱他的人，终将匍匐在他脚下。",
+    "status": "[de] ongoing",
+    "createdAt": "2025-11-28T01:52:06.746Z",
+    "sourceNovelId": "[de] ip-007-waste-awakening-novel"
+  },
+  "games": [
+    {
+      "gameId": "ip-007-waste-awakening-de-if-de",
+      "mode": "if",
+      "language": "de"
+    },
+    {
+      "gameId": "ip-007-waste-awakening-de-vn-de",
+      "mode": "vn",
+      "language": "de"
+    }
+  ]
+}

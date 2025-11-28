@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="hi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>undefined - VN Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-black h-screen overflow-hidden select-none">
+
+    <!-- Background Layer -->
+    <div id="bg-layer" class="absolute inset-0 bg-cover bg-center transition-all duration-1000"
+        style="background-image: url('https://via.placeholder.com/1920x1080/1a1a1a/333333?text=Loading...');"></div>
+
+    <!-- Character Layer -->
+    <div id="char-layer" class="absolute inset-0 flex justify-center items-end pb-0 pointer-events-none">
+        <!-- Characters injected here -->
+    </div>
+
+    <!-- UI Layer -->
+    <div
+        class="absolute inset-0 flex flex-col justify-end p-8 pb-12 bg-gradient-to-t from-black via-transparent to-transparent">
+        <div class="max-w-4xl mx-auto w-full bg-gray-900/90 border border-gray-700 p-6 rounded-lg shadow-2xl cursor-pointer"
+            onclick="nextStep()">
+            <div id="speaker-name" class="text-yellow-500 font-bold text-xl mb-2">...</div>
+            <div id="dialogue-text" class="text-white text-2xl leading-relaxed">Loading...</div>
+            <div class="text-right text-xs text-gray-500 mt-2">Click to continue ▼</div>
+        </div>
+    </div>
+
+    <a href="../index.html" class="absolute top-4 right-4 text-gray-500 hover:text-white z-50">Exit</a>
+
+    <div id="paywall-overlay" class="fixed inset-0 bg-black/90 z-50 flex flex-col items-center justify-center hidden">
+        <div class="text-6xl mb-4">🔒</div>
+        <h2 class="text-3xl font-bold text-yellow-500 mb-4">VIP Access Required</h2>
+        <p class="text-gray-400 mb-8 max-w-md text-center">This premium visual novel is available exclusively to our VIP
+            subscribers.</p>
+        <a href="../../subscription-{{language}}/home/index.html"
+            class="bg-yellow-600 hover:bg-yellow-700 text-white font-bold py-3 px-8 rounded-full transition transform hover:scale-105">
+            Upgrade to VIP
+        </a>
+    </div>
+
+    <script>
+        const gameData = {{{ gameDataJson }}};
+        const assets = {{{ assetsJson }}};
+
+        let currentSceneIndex = 0;
+        let currentDialogueIndex = 0;
+
+        // Access Check
+        async function checkAccess() {
+            const token = localStorage.getItem('authToken');
+            try {
+                const res = await fetch(`http://localhost:3000/api/subscription/game-access?id=${gameData.gameId}`, {
+                    headers: { 'Authorization': `Bearer ${token}` }
+                });
+                const data = await res.json();
+                if (!data.access) {
+                    document.getElementById('paywall-overlay').classList.remove('hidden');
+                    return false;
+                }
+            } catch (e) {
+                console.log("Backend unreachable, skipping check for demo");
+            }
+            return true;
+        }
+
+        async function init() {
+            if (await checkAccess()) {
+                renderScene();
+            }
+        }
+
+        function renderScene() {
+            if (currentSceneIndex >= gameData.scenes.length) {
+                alert("End of Demo");
+                window.location.href = "../index.html";
+                return;
+            }
+
+            const scene = gameData.scenes[currentSceneIndex];
+
+            // Update BG
+            const bgUrl = assets.backgrounds[scene.background]?.src || 'https://via.placeholder.com/1920x1080/2a2a2a/555555?text=Background';
+            document.getElementById('bg-layer').style.backgroundImage = `url('${bgUrl}')`;
+
+            // Update Characters (Mock)
+            // In real app, position them based on scene.characters
+
+            renderDialogue();
+        }
+
+        function renderDialogue() {
+            const scene = gameData.scenes[currentSceneIndex];
+            if (currentDialogueIndex >= scene.dialogues.length) {
+                // Next Scene
+                currentSceneIndex++;
+                currentDialogueIndex = 0;
+                renderScene();
+                return;
+            }
+
+            const dialogue = scene.dialogues[currentDialogueIndex];
+            document.getElementById('speaker-name').innerText = dialogue.speaker;
+            document.getElementById('dialogue-text').innerText = dialogue.text;
+        }
+
+        function nextStep() {
+            currentDialogueIndex++;
+            renderDialogue();
+        }
+
+        // Start
+        init();
+    </script>
+</body>
+
+</html>
